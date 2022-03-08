@@ -1,4 +1,4 @@
-# Zelda-OoT-Tracker
+# Zelda-OoT-Item-Tracker
 Devlog:
 
 2022-03-08:<br>
