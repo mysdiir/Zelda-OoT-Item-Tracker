@@ -11,16 +11,719 @@
     </properties>
     <border type="none"/>
     <children>
-      <grid id="e59b1" binding="itemPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+      <grid id="e59b1" binding="coreItemsPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
         <constraints/>
         <properties>
-          <maximumSize width="580" height="300"/>
-          <minimumSize width="580" height="300"/>
-          <preferredSize width="580" height="300"/>
+          <maximumSize width="580" height="210"/>
+          <minimumSize width="580" height="210"/>
+          <preferredSize width="580" height="210"/>
         </properties>
         <border type="none"/>
         <children>
-          <grid id="749bc" layout-manager="GridBagLayout">
+          <grid id="749bc" binding="kokiriSwordPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="5fbe0" class="javax.swing.JLabel" binding="kokiriSwordPic">
+                <constraints/>
+                <properties>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <maximumSize width="35" height="35"/>
+                  <minimumSize width="35" height="35"/>
+                  <preferredSize width="35" height="35"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="57682" binding="masterSwordPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="f735b" binding="kokiriShieldPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="460a5" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="48795" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="31b98" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="94dc6" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="7aa25" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="55234" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="f6022" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="a815f" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="cfe6a" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="dcfda" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="14e27" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="8f35b" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="59cc8" binding="brknBiggoronSwordPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="1631a" binding="hylianShieldPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="ed2f4" binding="goronTunicPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="68027" binding="ironBootsPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="d4627" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="bf754" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="559fb" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="496d" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="5028" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="a4fd3" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="c4802" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="e2f4e" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="3acaf" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="4afca" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="d42f6" binding="biggoronSwordPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="ab0e2" binding="mirrorShieldPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="2588" binding="zoraTunicPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="f9d42" binding="hoverBootsPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="fa4a8" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="8aada" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="5be87" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="6d86a" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="c6367" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="31909" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="31f2f" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="30509" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="a9851" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="49a81" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="b97bc" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="58855" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="41bda" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="7346" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="604ce" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="4a1ac" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="dd6fc" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="ac3b3" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="c5a2" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="ca778" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="5d681" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="2562e" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="adcf8" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="a5d6f" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="9ea88" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="62a30" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="388ba" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="fdd37" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="cc05c" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="2a7da" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="30093" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="f8eaa" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="308ce" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="8ab21" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="8ef8e" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="f30b9" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="66123" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
               <maximumSize width="35" height="35"/>

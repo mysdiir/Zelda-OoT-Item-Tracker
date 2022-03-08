@@ -1,12 +1,10 @@
 import controller.ItemController;
-import view.MainGUI;
-
-import java.awt.*;
 
 public class Application extends MainGUI {
     public static void main(String[] args) {
 
-        MainGUI GUI = new MainGUI();
+        /*
+        GUI GUI = new GUI();
         GUI.setGUI();
 
 
@@ -112,6 +110,7 @@ public class Application extends MainGUI {
             // Light Panel
             // Forest Temple
             // Holy Items
+
 
 
 

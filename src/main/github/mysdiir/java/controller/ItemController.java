@@ -1,8 +1,6 @@
 package controller;
 
 
-import view.MainGUI;
-
 import javax.swing.*;
 import javax.swing.border.LineBorder;
 import java.awt.*;
