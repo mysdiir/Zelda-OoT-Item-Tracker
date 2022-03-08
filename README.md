@@ -4,5 +4,6 @@ Devlog:
 2022-03-08:<br>
 - Migrating to GitGHub <br>
 - Redoing GUI due to XML Code Problems <br>
-- Adding 	
-			swords,shields, tunics, boots, item bags, strength items, swimm items, godess items, magic meter, upgraded great fairy abilities, wallet, shard of agony and gerudo token
+- Adding items
+- changing file structrure to following basics: <br>
+			differentiate controller classes in frontend and backend controller and focus on less dependencies in between those two classes as possible
