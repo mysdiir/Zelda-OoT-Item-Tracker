@@ -1,0 +1,16 @@
+
+D
+java:S1656"/Remove or correct this useless self-assignment.(ªƒ©
+X	java:S125""<This block of commented-out lines of code should be removed.(É¨ÜÅ8¡ƒÈö/
+X	java:S125%"<This block of commented-out lines of code should be removed.(âùÓ¢8¡ƒÈö/
+]	java:S125,"<This block of commented-out lines of code should be removed.(âª÷‚øÿÿÿÿ8•âÙö/
+]	java:S125/"<This block of commented-out lines of code should be removed.(âª÷‚øÿÿÿÿ8³úÛö/
+T	java:S106?"9Replace this use of System.out or System.err by a logger.(æƒ­8¥ƒÈö/
+K
+java:S1656C"/Remove or correct this useless self-assignment.(ªƒ©8¥ƒÈö/
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷Ô¬áýÿÿÿÿ
+r	java:S117B"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ýŒƒ¦ÿÿÿÿÿ8¦ƒÈö/
+ƒ
+java:S4165"gRemove this useless assignment; "PanelName" already holds the assigned value along all execution paths.(ªƒ©8¯ƒÈö/
+|
+java:S4165C"gRemove this useless assignment; "PanelName" already holds the assigned value along all execution paths.(ªƒ©

@@ -1,0 +1,330 @@
+
+h	java:S116f"SRename this field "empty1_2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔĞ«
+m	java:S116g"SRename this field "empty1_3" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™”èªüÿÿÿÿ
+
+java:S1186¸"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(šÉïÿÿÿÿÿ
+t
+java:S1104"^Make scarScrowTextPanel a static final constant or non-public and provide accessors if needed.(™ó®‹
+q
+java:S1104"VMake mainWindow a static final constant or non-public and provide accessors if needed.(ëû¤¾ùÿÿÿÿ
+p
+java:S1104"ZMake coreItemsPanel a static final constant or non-public and provide accessors if needed.(ú¾Ó´
+r
+java:S1104"\Make kokiriSwordPanel a static final constant or non-public and provide accessors if needed.(„Ìç©
+m
+java:S1104"XMake dugeonPanels a static final constant or non-public and provide accessors if needed.(£¸…O
+x
+java:S1104"]Make collectiblesPanel a static final constant or non-public and provide accessors if needed.(¶îÃ÷ÿÿÿÿÿ
+p
+java:S1104"ZMake grottoOverview a static final constant or non-public and provide accessors if needed.(çøä£
+z
+java:S1104"_Make scareScrowTextPanel a static final constant or non-public and provide accessors if needed.(ö¬ ûıÿÿÿÿ
+v
+java:S1104"`Make forestMedallionPanel a static final constant or non-public and provide accessors if needed.(ˆ‚¡
+r
+java:S1104"]Make forestMedalionPic a static final constant or non-public and provide accessors if needed.(ùŒ‹	
+v
+java:S1104"[Make forestSongPanel a static final constant or non-public and provide accessors if needed.(óª–íúÿÿÿÿ
+y
+java:S1104"^Make fireMedallionPanel a static final constant or non-public and provide accessors if needed.(í²Ç¹ıÿÿÿÿ
+r
+java:S1104"\Make fireMedallionPic a static final constant or non-public and provide accessors if needed.(éÃª‚
+x
+java:S1104"]Make waterMedallionPic a static final constant or non-public and provide accessors if needed.(ƒı»§ÿÿÿÿÿ
+z
+java:S1104"_Make waterMedallionPanel a static final constant or non-public and provide accessors if needed.(ÛÆÈûÿÿÿÿ
+t
+java:S1104"^Make shadowMedallionPic a static final constant or non-public and provide accessors if needed.(…ëÅ¦
+{
+java:S1104"`Make shadowMedallionLabel a static final constant or non-public and provide accessors if needed.(¾Öï›ÿÿÿÿÿ
+y
+java:S1104"^Make spiritMedallionPic a static final constant or non-public and provide accessors if needed.(ª‡¾íüÿÿÿÿ
+v
+java:S1104"`Make spiritMedallionPanel a static final constant or non-public and provide accessors if needed.(ñ´î—
+x
+java:S1104"]Make lightMedallionPic a static final constant or non-public and provide accessors if needed.(¶³Ğÿÿÿÿÿ
+z
+java:S1104"_Make lightMedallionPanel a static final constant or non-public and provide accessors if needed.(‚Ú¬Ãıÿÿÿÿ
+t
+java:S1104 "^Make kokiriEmeraldPanel a static final constant or non-public and provide accessors if needed.(ÃÖ¢×
+w
+java:S1104!"\Make kokiriEmeraldPic a static final constant or non-public and provide accessors if needed.(½…Ú©ùÿÿÿÿ
+u
+java:S1104""ZMake goronRubyPanel a static final constant or non-public and provide accessors if needed.(½Îä“üÿÿÿÿ
+n
+java:S1104#"XMake goronRubyPic a static final constant or non-public and provide accessors if needed.(š‘É½
+x
+java:S1104$"]Make zoraSapphirePanel a static final constant or non-public and provide accessors if needed.(ãÏšÀşÿÿÿÿ
+v
+java:S1104%"[Make zoraSapphirePic a static final constant or non-public and provide accessors if needed.(“ÀŞ°ÿÿÿÿÿ
+q
+java:S1104&"[Make songOfTimePanel a static final constant or non-public and provide accessors if needed.(†‹Ô©
+q
+java:S1104'"[Make scarescrowPanel a static final constant or non-public and provide accessors if needed.(§¹·‹
+o
+java:S1104("YMake scarescrowPic a static final constant or non-public and provide accessors if needed.(Û‹–š
+x
+java:S1104)"bMake forestTempleHeartPanel a static final constant or non-public and provide accessors if needed.(èé²…
+{
+java:S1104*"`Make forestTempleHeartPic a static final constant or non-public and provide accessors if needed.(Ã‚—ÿÿÿÿÿ
+w
+java:S1104+"aMake waterTempleHeartPanel a static final constant or non-public and provide accessors if needed.(¬¹²ÿ
+z
+java:S1104,"_Make waterTempleHeartPic a static final constant or non-public and provide accessors if needed.(Øöñûüÿÿÿÿ
+}
+java:S1104-"bMake spiritTempleHeartPanel a static final constant or non-public and provide accessors if needed.(æÚ™ şÿÿÿÿ
+{
+java:S1104."`Make spiritTempleHeartPic a static final constant or non-public and provide accessors if needed.(Åáè¿ÿÿÿÿÿ
+v
+java:S1104/"`Make fireTempleHeartPanel a static final constant or non-public and provide accessors if needed.(€’ˆÏ
+y
+java:S11040"^Make fireTempleHeartPic a static final constant or non-public and provide accessors if needed.(öíú»üÿÿÿÿ
+x
+java:S11041"bMake shadowTempleHeartPanel a static final constant or non-public and provide accessors if needed.(•¬¿Ã
+{
+java:S11042"`Make shadowTempleHeartPic a static final constant or non-public and provide accessors if needed.(à™ƒ’øÿÿÿÿ
+
+java:S11043"fMake forestTempleMasterKeyPanel a static final constant or non-public and provide accessors if needed.(ù“™šÿÿÿÿÿ
+~
+java:S11044"cMake forestTempleMasteKeyPic a static final constant or non-public and provide accessors if needed.(ëşÓÂıÿÿÿÿ
+{
+java:S11045"eMake waterTempleMasterKeyPanel a static final constant or non-public and provide accessors if needed.(—üÛÄ
+x
+java:S11046"cMake waterTempleMasterKeyPic a static final constant or non-public and provide accessors if needed.(ï”ı`
+|
+java:S11047"fMake spiritTempleMasterKeyPanel a static final constant or non-public and provide accessors if needed.(¤ˆèˆ
+
+java:S11048"dMake spiritTempleMasterKeyPic a static final constant or non-public and provide accessors if needed.(³²Çäûÿÿÿÿ
+z
+java:S11049"dMake fireTempleMasterKeyPanel a static final constant or non-public and provide accessors if needed.(†ÜÉ
+}
+java:S1104:"bMake fireTempleMasterKeyPic a static final constant or non-public and provide accessors if needed.(†ø˜üûÿÿÿÿ
+
+java:S1104;"fMake shadowTempleMasterKeyPanel a static final constant or non-public and provide accessors if needed.(ıÈ·ªıÿÿÿÿ
+€
+java:S1104<"eMake shadowTempleMasterKeyPicl a static final constant or non-public and provide accessors if needed.(æ°Øîüÿÿÿÿ
+{
+java:S1104="`Make forestTempleKeyPanel a static final constant or non-public and provide accessors if needed.(ÖŞç»ûÿÿÿÿ
+y
+java:S1104>"^Make forestTempleKeyPic a static final constant or non-public and provide accessors if needed.(²¸­£ùÿÿÿÿ
+u
+java:S1104?"_Make waterTempleKeyPanel a static final constant or non-public and provide accessors if needed.(²ğÈË
+x
+java:S1104@"]Make waterTempleKeyPic a static final constant or non-public and provide accessors if needed.(À³‘ìùÿÿÿÿ
+{
+java:S1104A"`Make spiritTempleKeyPanel a static final constant or non-public and provide accessors if needed.(‰º²¨üÿÿÿÿ
+y
+java:S1104B"^Make spiritTempleKeyPic a static final constant or non-public and provide accessors if needed.(ƒ½Ù»ûÿÿÿÿ
+y
+java:S1104C"^Make fireTempleKeyPanel a static final constant or non-public and provide accessors if needed.(ËõÕ×ÿÿÿÿÿ
+w
+java:S1104D"\Make fireTempleKeyPic a static final constant or non-public and provide accessors if needed.(¾â†½ùÿÿÿÿ
+t
+java:S1104E"^Make shadowTempleKeyPic a static final constant or non-public and provide accessors if needed.(«¾é
+v
+java:S1104F"`Make shadowTempleKeyPanel a static final constant or non-public and provide accessors if needed.(ò¼“¿
+t
+java:S1104G"YMake fireSongPanel a static final constant or non-public and provide accessors if needed.(¹õ¹şÿÿÿÿ
+u
+java:S1104H"ZMake waterSongPanel a static final constant or non-public and provide accessors if needed.(å×ıÛıÿÿÿÿ
+v
+java:S1104I"[Make shadowSongPanel a static final constant or non-public and provide accessors if needed.(œ³œåûÿÿÿÿ
+v
+java:S1104J"[Make spiritSongPanel a static final constant or non-public and provide accessors if needed.(ªØîËûÿÿÿÿ
+u
+java:S1104K"ZMake lightSongPanel a static final constant or non-public and provide accessors if needed.(ššŠ÷şÿÿÿÿ
+t
+java:S1104L"YMake forestSongPic a static final constant or non-public and provide accessors if needed.(Éü¤şøÿÿÿÿ
+r
+java:S1104M"WMake fireSongPic a static final constant or non-public and provide accessors if needed.(ÆóùĞûÿÿÿÿ
+n
+java:S1104N"XMake waterSongPic a static final constant or non-public and provide accessors if needed.(å£ë“
+o
+java:S1104O"YMake shadowSongPic a static final constant or non-public and provide accessors if needed.(É€òÕ
+t
+java:S1104P"YMake spiritSongPic a static final constant or non-public and provide accessors if needed.(á¢Ø¯ıÿÿÿÿ
+s
+java:S1104Q"XMake lightSongPic a static final constant or non-public and provide accessors if needed.(ÅÖºùÿÿÿÿ
+u
+java:S1104R"ZMake zeldaSongPanel a static final constant or non-public and provide accessors if needed.(»óú°şÿÿÿÿ
+q
+java:S1104S"\Make songOfStromPanel a static final constant or non-public and provide accessors if needed.(Ô—Å
+q
+java:S1104T"[Make eponasSongPanel a static final constant or non-public and provide accessors if needed.(Ú¶ü˜
+t
+java:S1104U"YMake eponasSongPic a static final constant or non-public and provide accessors if needed.(ß‹ö¼úÿÿÿÿ
+p
+java:S1104V"[Make sariasSongPanel a static final constant or non-public and provide accessors if needed.(‚°
+o
+java:S1104W"YMake sariasSongPic a static final constant or non-public and provide accessors if needed.(Ş›ïŠ
+s
+java:S1104X"XMake sunSongPanel a static final constant or non-public and provide accessors if needed.(±ùºÅûÿÿÿÿ
+k
+java:S1104Y"VMake sunSongPic a static final constant or non-public and provide accessors if needed.(«ÓÎ
+
+x
+java:S1104Z"]Make skullKidGamePanel a static final constant or non-public and provide accessors if needed.(şŒ¿òÿÿÿÿÿ
+v
+java:S1104["[Make skullKidGamePic a static final constant or non-public and provide accessors if needed.(×ÎÇôşÿÿÿÿ
+v
+java:S1104\"[Make skulltullaPanel a static final constant or non-public and provide accessors if needed.(Òî¾ˆøÿÿÿÿ
+p
+java:S1104]"ZMake songOfStormPic a static final constant or non-public and provide accessors if needed.(ğè¦ö
+n
+java:S1104^"XMake zeldaSongPic a static final constant or non-public and provide accessors if needed.(–®ƒ˜
+u
+java:S1104_"ZMake kokiriSwordPic a static final constant or non-public and provide accessors if needed.(Ù¢áËüÿÿÿÿ
+w
+java:S1104`"\Make masterSwordPanel a static final constant or non-public and provide accessors if needed.(îù‹üøÿÿÿÿ
+o
+java:S1104a"ZMake masterSwordPic a static final constant or non-public and provide accessors if needed.(ÍÉÛ
+x
+java:S1104b"bMake brknBiggoronSwordPanel a static final constant or non-public and provide accessors if needed.(óŒ³İ
+v
+java:S1104c"`Make brknBiggoronSwordPic a static final constant or non-public and provide accessors if needed.(àÕóİ
+y
+java:S1104d"^Make biggoronSwordPanel a static final constant or non-public and provide accessors if needed.(Ì£şÿÿÿÿ
+w
+java:S1104e"\Make biggoronSwordPic a static final constant or non-public and provide accessors if needed.(åİ´ˆıÿÿÿÿ
+j
+java:S1104f"TMake empty1_2 a static final constant or non-public and provide accessors if needed.(ÔĞ«
+o
+java:S1104g"TMake empty1_3 a static final constant or non-public and provide accessors if needed.(™”èªüÿÿÿÿ
+x
+java:S1104h"]Make kokiriShieldPanel a static final constant or non-public and provide accessors if needed.(”Ìœºúÿÿÿÿ
+p
+java:S1104i"[Make kokiriShieldPic a static final constant or non-public and provide accessors if needed.(“¨ó#
+s
+java:S1104j"]Make hylianShieldPanel a static final constant or non-public and provide accessors if needed.(ĞúÃ•
+v
+java:S1104k"[Make hylianShieldPic a static final constant or non-public and provide accessors if needed.(Î×¨ûıÿÿÿÿ
+x
+java:S1104l"]Make mirrorShieldPanel a static final constant or non-public and provide accessors if needed.(ï˜ÜÇùÿÿÿÿ
+v
+java:S1104m"[Make mirrorShieldPic a static final constant or non-public and provide accessors if needed.(óÔö’ùÿÿÿÿ
+o
+java:S1104n"ZMake kokiriTunicPic a static final constant or non-public and provide accessors if needed.(ğƒÜ^
+q
+java:S1104o"\Make kokiriTunicPanel a static final constant or non-public and provide accessors if needed.(¼ÜêG
+o
+java:S1104p"YMake goronTunicPic a static final constant or non-public and provide accessors if needed.(³‘ö
+v
+java:S1104q"[Make goronTunicPanel a static final constant or non-public and provide accessors if needed.(—û¡¥øÿÿÿÿ
+p
+java:S1104r"ZMake zoraTunicPanel a static final constant or non-public and provide accessors if needed.(Îƒå·
+m
+java:S1104s"XMake zoraTunicPic a static final constant or non-public and provide accessors if needed.(«ÔŞ|
+r
+java:S1104t"\Make kokiriBootsPanel a static final constant or non-public and provide accessors if needed.(°ªÆÊ
+u
+java:S1104u"ZMake kokiriBootsPic a static final constant or non-public and provide accessors if needed.(Àøì€ûÿÿÿÿ
+p
+java:S1104v"ZMake ironBootsPanel a static final constant or non-public and provide accessors if needed.(”×ú­
+n
+java:S1104w"XMake ironBootsPic a static final constant or non-public and provide accessors if needed.(Öÿùø
+q
+java:S1104x"[Make hoverBootsPanel a static final constant or non-public and provide accessors if needed.(ƒ€¨ò
+t
+java:S1104y"YMake hoverBootsPic a static final constant or non-public and provide accessors if needed.(ÊçéÔùÿÿÿÿ
+n
+java:S1104z"XMake bulletBagPic a static final constant or non-public and provide accessors if needed.(ŠËÖÙ
+u
+java:S1104{"ZMake bulletBagPanel a static final constant or non-public and provide accessors if needed.(£ÛÖÒúÿÿÿÿ
+s
+java:S1104|"]Make bigBulletBagPanel a static final constant or non-public and provide accessors if needed.(îÚ¡ë
+n
+java:S1104}"XMake bigBulletPic a static final constant or non-public and provide accessors if needed.(±ñê 
+w
+java:S1104~"aMake biggestBulletBagPanel a static final constant or non-public and provide accessors if needed.(½şÃÔ
+z
+java:S1104"_Make biggestBulletBagPic a static final constant or non-public and provide accessors if needed.(ë¢”„ÿÿÿÿÿ
+n
+java:S1104€"WMake quiverPanel a static final constant or non-public and provide accessors if needed.(‚µìµ
+q
+java:S1104"UMake quiverPic a static final constant or non-public and provide accessors if needed.(™È•ùÿÿÿÿ
+v
+java:S1104‚"ZMake bigQuiverPanel a static final constant or non-public and provide accessors if needed.(ºÜ§ƒÿÿÿÿÿ
+t
+java:S1104ƒ"XMake bigQuiverPic a static final constant or non-public and provide accessors if needed.(¦¨â¼øÿÿÿÿ
+x
+java:S1104„"\Make biggestQuiverPic a static final constant or non-public and provide accessors if needed.(ıŒ’°şÿÿÿÿ
+z
+java:S1104…"^Make biggestQuiverPanel a static final constant or non-public and provide accessors if needed.(ğüÉûÿÿÿÿ
+o
+java:S1104†"XMake bombBagPanel a static final constant or non-public and provide accessors if needed.(ÈË±Ï
+r
+java:S1104‡"VMake bombBagPic a static final constant or non-public and provide accessors if needed.(¼òô¯ûÿÿÿÿ
+p
+java:S1104ˆ"YMake bigBombBagPic a static final constant or non-public and provide accessors if needed.(’ÔŠ
+w
+java:S1104‰"[Make bigBombBagPanel a static final constant or non-public and provide accessors if needed.(Ó¼Å´ûÿÿÿÿ
+t
+java:S1104Š"]Make biggestBombBagPic a static final constant or non-public and provide accessors if needed.(‘Ç†İ
+{
+java:S1104‹"_Make biggestBombBagPanel a static final constant or non-public and provide accessors if needed.(ÖÕ„·üÿÿÿÿ
+z
+java:S1104Œ"^Make silverGauntletsPic a static final constant or non-public and provide accessors if needed.(˜†Í½şÿÿÿÿ
+|
+java:S1104"`Make silverGauntletsPanel a static final constant or non-public and provide accessors if needed.(¿Ïêøÿÿÿÿ
+z
+java:S1104"^Make goldenGauntletsPic a static final constant or non-public and provide accessors if needed.(¼èò´øÿÿÿÿ
+|
+java:S1104"`Make goldenGauntletsPanel a static final constant or non-public and provide accessors if needed.(˜¶îİøÿÿÿÿ
+v
+java:S1104"ZMake silverScalePic a static final constant or non-public and provide accessors if needed.(ª‰üÀùÿÿÿÿ
+r
+java:S1104‘"\Make silverScalePanel a static final constant or non-public and provide accessors if needed.(·ëéf
+v
+java:S1104’"ZMake goldenScalePic a static final constant or non-public and provide accessors if needed.(»à¡ßÿÿÿÿÿ
+x
+java:S1104“"\Make goldenScalePanel a static final constant or non-public and provide accessors if needed.(ıã”üÿÿÿÿ
+t
+java:S1104”"]Make goronsBraceletPic a static final constant or non-public and provide accessors if needed.(êêáØ
+u
+java:S1104•"_Make goronsBraceletPanel a static final constant or non-public and provide accessors if needed.(£«ÈL
+p
+java:S1104–"YMake dinsFirePanel a static final constant or non-public and provide accessors if needed.(ß„Õ
+s
+java:S1104—"WMake dinsFirePic a static final constant or non-public and provide accessors if needed.(Åù©»şÿÿÿÿ
+x
+java:S1104˜"\Make faroresWindPanel a static final constant or non-public and provide accessors if needed.(Ç’œúÿÿÿÿ
+v
+java:S1104™"ZMake faroresWindPic a static final constant or non-public and provide accessors if needed.(Åô²Åşÿÿÿÿ
+w
+java:S1104š"[Make nayrusLovePanel a static final constant or non-public and provide accessors if needed.(ìÊñïüÿÿÿÿ
+u
+java:S1104›"YMake nayrusLovePic a static final constant or non-public and provide accessors if needed.(ë’¼¹úÿÿÿÿ
+x
+java:S1104œ"\Make adultWalletPanel a static final constant or non-public and provide accessors if needed.(½™Í´øÿÿÿÿ
+v
+java:S1104"ZMake adultWalletPic a static final constant or non-public and provide accessors if needed.(Üÿßøÿÿÿÿ
+w
+java:S1104"[Make giantsWalletPic a static final constant or non-public and provide accessors if needed.(Æ¡ÿùÿÿÿÿ
+s
+java:S1104Ÿ"]Make giantsWalletPanel a static final constant or non-public and provide accessors if needed.(™Íù
+t
+java:S1104 "]Make stoneOfAgonyPanel a static final constant or non-public and provide accessors if needed.(È«È
+w
+java:S1104¡"[Make stoneOfAgonyPic a static final constant or non-public and provide accessors if needed.(Œ”“úÿÿÿÿ
+x
+java:S1104¢"\Make gerudoTokenPanel a static final constant or non-public and provide accessors if needed.(¶Û¼ÿÿÿÿÿ
+p
+java:S1104£"ZMake gerudoTokenPic a static final constant or non-public and provide accessors if needed.(õùI
+w
+java:S1104¤"`Make magicMeterSmallPanel a static final constant or non-public and provide accessors if needed.(ª³Ó
+x
+java:S1104¥"\Make magicMeterBigPic a static final constant or non-public and provide accessors if needed.(•äÓúÿÿÿÿ
+t
+java:S1104¦"^Make magicMeterBigPanel a static final constant or non-public and provide accessors if needed.(ØÍçN
+u
+java:S1104§"^Make magicMeterSmallPic a static final constant or non-public and provide accessors if needed.(Ì×ª¶
+t
+java:S1104¨"]Make upgradedHealthPic a static final constant or non-public and provide accessors if needed.(ÿÈÊ¤
+v
+java:S1104©"_Make upgradedHealthPanel a static final constant or non-public and provide accessors if needed.(µ¥…¾
+w
+java:S1104ª"[Make spinAttackPanel a static final constant or non-public and provide accessors if needed.(¶ï«ıÿÿÿÿ
+p
+java:S1104«"YMake spinAttackPic a static final constant or non-public and provide accessors if needed.(¦çê¦
+n
+java:S1104¬"RMake panel1 a static final constant or non-public and provide accessors if needed.(•«¡òùÿÿÿÿ
