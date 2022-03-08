@@ -1,17 +1,13 @@
 package controller;
 
 
-import view.GUI;
-
 import javax.swing.*;
 import javax.swing.border.LineBorder;
 import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
-public class ItemController {
-
-
+public class ItemViewController {
 
     public static void setItemToggle(JPanel PanelName) {
         PanelName = PanelName;
@@ -51,17 +47,6 @@ public class ItemController {
         });
 
     }
-
-    GUI mainGUIReference = new GUI();
-
-
-    public void setItemFunctions(JPanel PanelName) {
-        PanelName = PanelName;
-        setItemToggle(PanelName);
-    }
-
-
-
 }
 
 
