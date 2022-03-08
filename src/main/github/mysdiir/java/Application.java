@@ -46,9 +46,9 @@ public class Application extends GUI {
         ItemController.setItemFunctions(GUI.biggestBombBagPanel);
 
         // Strength Equipment
-        ItemController.setItemFunctions(GUI.silverGauntletsPanel);
-        ItemController.setItemFunctions(GUI.goldenGauntletsPanel);
-        ItemController.setItemFunctions(GUI.goronsBraceletPanel);
+        ItemController.setItemFunctions(GUI.silverGauntletPanel);
+        ItemController.setItemFunctions(GUI.goldenGauntletPanel);
+        ItemController.setItemFunctions(GUI.goronBraceletPanel);
 
         // Diving Scales
         ItemController.setItemFunctions(GUI.silverScalePanel);
@@ -60,15 +60,15 @@ public class Application extends GUI {
         ItemController.setItemFunctions(GUI.nayrusLovePanel);
 
         // Wallets
-        ItemController.setItemFunctions(GUI.adultWalletPanel);
-        ItemController.setItemFunctions(GUI.giantsWalletPanel);
+        ItemController.setItemFunctions(GUI.adultsWalletPanel);
+        ItemController.setItemFunctions(GUI.giantWalletPanel);
 
         // Misc
         ItemController.setItemFunctions(GUI.stoneOfAgonyPanel);
         ItemController.setItemFunctions(GUI.gerudoTokenPanel);
-        ItemController.setItemFunctions(GUI.magicMeterSmallPanel);
-        ItemController.setItemFunctions(GUI.magicMeterBigPanel);
-        ItemController.setItemFunctions(GUI.upgradedHealthPanel);
+        ItemController.setItemFunctions(GUI.magicMeterPanel);
+        ItemController.setItemFunctions(GUI.biggerMagicMeterPanel);
+        ItemController.setItemFunctions(GUI.upgradedHeartPanel);
         ItemController.setItemFunctions(GUI.spinAttackPanel);
 
         /*

@@ -1,6 +1,8 @@
 package controller;
 
 
+import view.GUI;
+
 import javax.swing.*;
 import javax.swing.border.LineBorder;
 import java.awt.*;
@@ -24,8 +26,8 @@ public class ItemController {
                 super.mousePressed(e);
 
                 if (SwingUtilities.isLeftMouseButton(e)) {
-                    Color activeGreen = new Color(130, 235, 129);
-                    Color passiveGrey = new Color(78, 87, 85);
+                    Color activeGreen = new Color(181, 243, 181);
+                    Color passiveGrey = new Color(95, 106, 104);
 
                     if (passiveGrey.equals(finalPanelName.getBackground())) {
                         finalPanelName.setBackground(activeGreen);
@@ -50,16 +52,8 @@ public class ItemController {
 
     }
 
-    MainGUI mainGUIReference = new MainGUI();
+    GUI mainGUIReference = new GUI();
 
-
-    public void setScareScrowSong() {
-      String scareScrowSong = "";
-        // !!!implement changeListener for automatic saving
-
-       scareScrowSong = mainGUIReference.scarScrowTextPanel.getText();
-        System.out.println("input saved as " + scareScrowSong);
-    }
 
     public void setItemFunctions(JPanel PanelName) {
         PanelName = PanelName;
