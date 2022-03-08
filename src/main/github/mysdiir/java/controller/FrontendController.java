@@ -7,7 +7,7 @@ import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
-public class ItemViewController {
+public class FrontendController {
 
     public static void setItemToggle(JPanel PanelName) {
         PanelName = PanelName;
