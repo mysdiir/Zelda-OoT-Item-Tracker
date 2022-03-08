@@ -1,9 +1,10 @@
 import controller.ItemController;
+import view.GUI;
 
-public class Application extends MainGUI {
+public class Application extends GUI {
     public static void main(String[] args) {
 
-        /*
+
         GUI GUI = new GUI();
         GUI.setGUI();
 
