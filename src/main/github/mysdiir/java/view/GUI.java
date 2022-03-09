@@ -84,6 +84,55 @@ public class GUI extends JFrame{
     public JPanel biggerMagicMeterPanel;
     public JLabel biggerMagicMeterPic;
     public JPanel empty14_3;
+    public JPanel dekuSticksPanel;
+    public JLabel dekuSticksPic;
+    public JPanel boomerangPanel;
+    public JLabel boomerangPic;
+    public JPanel magicBeansPanel;
+    public JLabel magicBeansPic;
+    public JPanel empty5_4;
+    public JPanel zeldasLetterPanel;
+    public JLabel zeldasLetterPic;
+    public JPanel cucoPanel;
+    public JPanel rutosLetterPanel;
+    public JPanel fairyOcarinaPanel;
+    public JLabel fairyOcarinaPic;
+    public JPanel empty11_4;
+    public JPanel empty14_4;
+    public JPanel dekuNutsPanel;
+    public JLabel dekuNutsPic;
+    public JPanel lensOfTruthPanel;
+    public JLabel lensOfTruthPic;
+    public JPanel bowPanel;
+    public JLabel bowPic;
+    public JPanel fireArrowPanel;
+    public JLabel fireArrowPic;
+    public JPanel iceArrowPanel;
+    public JLabel iceArrowPic;
+    public JPanel lightArrowPanel;
+    public JLabel lightArrowPic;
+    public JPanel hookshotPanel;
+    public JLabel hookshotPic;
+    public JPanel longshotPanel;
+    public JLabel longshotPic;
+    public JPanel megatonHammerPanel;
+    public JLabel megatonHammerPic;
+    public JPanel goodOcarinaPanel;
+    public JPanel empty9_5;
+    public JPanel empty8_5;
+    public JPanel empty11_5;
+    public JPanel empty14_5;
+    public JPanel bombPanel;
+    public JLabel bombPic;
+    public JPanel bombchuPanel;
+    public JLabel bombchuPic;
+    public JLabel cucoPic;
+    public JLabel rutosLetterPic;
+    public JPanel weirdEggPanel;
+    public JLabel weirdEggPic;
+    public JPanel schleuderPanel;
+    public JLabel schleuderPic;
+
 
 
     public void setGUI() {

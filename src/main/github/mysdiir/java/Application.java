@@ -68,46 +68,39 @@ public class Application extends GUI {
             FrontendController.setItemToggle(GUI.upgradedHeartPanel);
             FrontendController.setItemToggle(GUI.spinAttackPanel);
 
-        /*
+
         // Child Items
-        itemControllerMergeItemViewController.setItemToggle(GUI.slingShotPanel);
-        itemControllerMergeItemViewController.setItemToggle(GUI.dekuSeedPanel);
-        itemControllerMergeItemViewController.setItemToggle(GUI.dekuStickPanel);
-        itemControllerMergeItemViewController.setItemToggle(GUI.dekuNutPanel);
-        itemControllerMergeItemViewController.setItemToggle(GUI.boomerangPanel);
-        itemControllerMergeItemViewController.setItemToggle(GUI.magicBeanPanel);
-        itemControllerMergeItemViewController.setItemToggle(GUI.weirdEggPanel);
-        itemControllerMergeItemViewController.setItemToggle(GUI.cucooPanel);
-        itemControllerMergeItemViewController.setItemToggle(GUI.zeldasLetterPanel);
+            FrontendController.setItemToggle(GUI.schleuderPanel);
+            FrontendController.setItemToggle(GUI.dekuSticksPanel);
+            FrontendController.setItemToggle(GUI.boomerangPanel);
+            FrontendController.setItemToggle(GUI.magicBeansPanel);
+            FrontendController.setItemToggle(GUI.upgradedHeartPanel);
+            FrontendController.setItemToggle(GUI.fairyOcarinaPanel);
+
+            // Collectibles
+            FrontendController.setItemToggle(GUI.zeldasLetterPanel);
+            FrontendController.setItemToggle(GUI.cucoPanel);
+            FrontendController.setItemToggle(GUI.rutosLetterPanel);
+
+
 
         // Adult Items
-        itemControllerMergeItemViewController.setItemToggle(GUI.bowPanel);
-        itemControllerMergeItemViewController.setItemToggle(GUI.fireArrowPanel);
-        itemControllerMergeItemViewController.setItemToggle(GUI.iceArrowPanel);
-        itemControllerMergeItemViewController.setItemToggle(GUI.lightArrowPanel);
-        itemControllerMergeItemViewController.setItemToggle(GUI.hooktshotPanel);
-        itemControllerMergeItemViewController.setItemToggle(GUI.longshotPanel);
-        itemControllerMergeItemViewController.setItemToggle(GUI.megatonHammerPanel);
+            FrontendController.setItemToggle(GUI.bowPanel);
+            FrontendController.setItemToggle(GUI.fireArrowPanel);
+            FrontendController.setItemToggle(GUI.iceArrowPanel);
+            FrontendController.setItemToggle(GUI.lightArrowPanel);
+            FrontendController.setItemToggle(GUI.hookshotPanel);
+            FrontendController.setItemToggle(GUI.longshotPanel);
+            FrontendController.setItemToggle(GUI.megatonHammerPanel);
+            FrontendController.setItemToggle(GUI.goodOcarinaPanel);
+
 
         // Child & Adult Items
-        itemControllerMergeItemViewController.setItemToggle(GUI.bombchuPanel);
-        itemControllerMergeItemViewController.setItemToggle(GUI.bombchuPanel);
-        itemControllerMergeItemViewController.setItemToggle(GUI.lensOfTruthPanel);
-        //itemControllerMergeItemViewController.setItemToggle(GUI.fairyOcarinaPanel);
-        itemControllerMergeItemViewController.setItemToggle(GUI.ocarinaOfTimePanel);
+            FrontendController.setItemToggle(GUI.dekuNutsPanel);
+            FrontendController.setItemToggle(GUI.lensOfTruthPanel);
+            FrontendController.setItemToggle(GUI.bombchuPanel);
+            FrontendController.setItemToggle(GUI.bombPanel);
 
-
-         */
-
-            //Dungeons
-            // Forest Temple
-            // Fire Temple
-            // Water Temple
-            // Shadow Temple
-            // Spirit Temple
-            // Light Panel
-            // Forest Temple
-            // Holy Items
 
     }
 }

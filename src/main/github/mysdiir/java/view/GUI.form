@@ -1057,7 +1057,111 @@
             <border type="none"/>
             <children/>
           </grid>
-          <grid id="49a81" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+          <grid id="29a34" binding="dekuSticksPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-10524056"/>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="97cc5" class="javax.swing.JLabel" binding="dekuSticksPic">
+                <constraints/>
+                <properties>
+                  <background color="-8197247"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Deku_Stick_Icon.png"/>
+                  <maximumSize width="35" height="35"/>
+                  <minimumSize width="35" height="35"/>
+                  <preferredSize width="35" height="35"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="f81" binding="schleuderPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-10524056"/>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="18cb1" class="javax.swing.JLabel" binding="schleuderPic">
+                <constraints/>
+                <properties>
+                  <background color="-8197247"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Fairy_Slingshot_Icon.png"/>
+                  <maximumSize width="35" height="35"/>
+                  <minimumSize width="35" height="35"/>
+                  <preferredSize width="35" height="35"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="1e627" binding="boomerangPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-10524056"/>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="48e7a" class="javax.swing.JLabel" binding="boomerangPic">
+                <constraints/>
+                <properties>
+                  <background color="-8197247"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Boomerang_Icon.png"/>
+                  <maximumSize width="35" height="35"/>
+                  <minimumSize width="35" height="35"/>
+                  <preferredSize width="35" height="35"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="fed0e" binding="magicBeansPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-10524056"/>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="c8331" class="javax.swing.JLabel" binding="magicBeansPic">
+                <constraints/>
+                <properties>
+                  <background color="-8197247"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Magic_Bean_Icon.png"/>
+                  <maximumSize width="35" height="35"/>
+                  <minimumSize width="35" height="35"/>
+                  <preferredSize width="35" height="35"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="e5464" binding="empty5_4" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
               <background color="-12300724"/>
@@ -1068,7 +1172,137 @@
             <border type="none"/>
             <children/>
           </grid>
-          <grid id="b97bc" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+          <grid id="f524" binding="zeldasLetterPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-10524056"/>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="e0748" class="javax.swing.JLabel" binding="zeldasLetterPic">
+                <constraints/>
+                <properties>
+                  <background color="-8197247"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Zeldas_Letter_Icon.png"/>
+                  <maximumSize width="35" height="35"/>
+                  <minimumSize width="35" height="35"/>
+                  <preferredSize width="35" height="35"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="90535" binding="weirdEggPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-10524056"/>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="4208c" class="javax.swing.JLabel" binding="weirdEggPic">
+                <constraints/>
+                <properties>
+                  <background color="-8197247"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Weird_Egg_Icon.png"/>
+                  <maximumSize width="35" height="35"/>
+                  <minimumSize width="35" height="35"/>
+                  <preferredSize width="35" height="35"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="7b4b8" binding="cucoPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-10524056"/>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="987fd" class="javax.swing.JLabel" binding="cucoPic">
+                <constraints/>
+                <properties>
+                  <background color="-8197247"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Cucco_Icon.png"/>
+                  <maximumSize width="35" height="35"/>
+                  <minimumSize width="35" height="35"/>
+                  <preferredSize width="35" height="35"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="b218a" binding="rutosLetterPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-10524056"/>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="4fcd1" class="javax.swing.JLabel" binding="rutosLetterPic">
+                <constraints/>
+                <properties>
+                  <background color="-8197247"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Letter_Icon.png"/>
+                  <maximumSize width="35" height="35"/>
+                  <minimumSize width="35" height="35"/>
+                  <preferredSize width="35" height="35"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="84672" binding="fairyOcarinaPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-10524056"/>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="c6774" class="javax.swing.JLabel" binding="fairyOcarinaPic">
+                <constraints/>
+                <properties>
+                  <background color="-8197247"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Fairy_Ocarina_Icon.png"/>
+                  <maximumSize width="35" height="35"/>
+                  <minimumSize width="35" height="35"/>
+                  <preferredSize width="35" height="35"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="8aefd" binding="empty11_4" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
               <background color="-12300724"/>
@@ -1079,7 +1313,59 @@
             <border type="none"/>
             <children/>
           </grid>
-          <grid id="58855" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+          <grid id="6475d" binding="dekuNutsPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-10524056"/>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="8cf0" class="javax.swing.JLabel" binding="dekuNutsPic">
+                <constraints/>
+                <properties>
+                  <background color="-8197247"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Deku_Nut_Icon.png"/>
+                  <maximumSize width="35" height="35"/>
+                  <minimumSize width="35" height="35"/>
+                  <preferredSize width="35" height="35"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="7969c" binding="lensOfTruthPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-10524056"/>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="9a305" class="javax.swing.JLabel" binding="lensOfTruthPic">
+                <constraints/>
+                <properties>
+                  <background color="-8197247"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Lens_of_Truth_Icon.png"/>
+                  <maximumSize width="35" height="35"/>
+                  <minimumSize width="35" height="35"/>
+                  <preferredSize width="35" height="35"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="e99e" binding="empty14_4" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
               <background color="-12300724"/>
@@ -1090,7 +1376,189 @@
             <border type="none"/>
             <children/>
           </grid>
-          <grid id="41bda" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+          <grid id="c53e2" binding="bowPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-10524056"/>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="7fd50" class="javax.swing.JLabel" binding="bowPic">
+                <constraints/>
+                <properties>
+                  <background color="-8197247"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Fairy_Bow_Icon.png"/>
+                  <maximumSize width="35" height="35"/>
+                  <minimumSize width="35" height="35"/>
+                  <preferredSize width="35" height="35"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="80a19" binding="fireArrowPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-10524056"/>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="c26e1" class="javax.swing.JLabel" binding="fireArrowPic">
+                <constraints/>
+                <properties>
+                  <background color="-8197247"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Fire_Arrow_Icon.png"/>
+                  <maximumSize width="35" height="35"/>
+                  <minimumSize width="35" height="35"/>
+                  <preferredSize width="35" height="35"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="8bcf5" binding="iceArrowPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-10524056"/>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="d97dd" class="javax.swing.JLabel" binding="iceArrowPic">
+                <constraints/>
+                <properties>
+                  <background color="-8197247"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Ice_Arrow_Icon.png"/>
+                  <maximumSize width="35" height="35"/>
+                  <minimumSize width="35" height="35"/>
+                  <preferredSize width="35" height="35"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="2ae59" binding="lightArrowPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-10524056"/>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="81de8" class="javax.swing.JLabel" binding="lightArrowPic">
+                <constraints/>
+                <properties>
+                  <background color="-8197247"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Light_Arrow_Icon.png"/>
+                  <maximumSize width="35" height="35"/>
+                  <minimumSize width="35" height="35"/>
+                  <preferredSize width="35" height="35"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="3c42c" binding="hookshotPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-10524056"/>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="a269c" class="javax.swing.JLabel" binding="hookshotPic">
+                <constraints/>
+                <properties>
+                  <background color="-8197247"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Hookshot_Icon.png"/>
+                  <maximumSize width="35" height="35"/>
+                  <minimumSize width="35" height="35"/>
+                  <preferredSize width="35" height="35"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="35cb4" binding="longshotPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-10524056"/>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="4ea64" class="javax.swing.JLabel" binding="longshotPic">
+                <constraints/>
+                <properties>
+                  <background color="-8197247"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Longshot_Icon.png"/>
+                  <maximumSize width="35" height="35"/>
+                  <minimumSize width="35" height="35"/>
+                  <preferredSize width="35" height="35"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="a6e19" binding="megatonHammerPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-10524056"/>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="479" class="javax.swing.JLabel" binding="megatonHammerPic">
+                <constraints/>
+                <properties>
+                  <background color="-8197247"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Megaton_Hammer_Icon.png"/>
+                  <maximumSize width="35" height="35"/>
+                  <minimumSize width="35" height="35"/>
+                  <preferredSize width="35" height="35"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="739c" binding="empty8_5" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
               <background color="-12300724"/>
@@ -1101,7 +1569,7 @@
             <border type="none"/>
             <children/>
           </grid>
-          <grid id="7346" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+          <grid id="48cb8" binding="empty9_5" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
               <background color="-12300724"/>
@@ -1112,7 +1580,33 @@
             <border type="none"/>
             <children/>
           </grid>
-          <grid id="604ce" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+          <grid id="5565" binding="goodOcarinaPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-10524056"/>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="5bc82" class="javax.swing.JLabel" binding="goodOcarinaPic">
+                <constraints/>
+                <properties>
+                  <background color="-8197247"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Ocarina_of_Time_Icon.png"/>
+                  <maximumSize width="35" height="35"/>
+                  <minimumSize width="35" height="35"/>
+                  <preferredSize width="35" height="35"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="d7aca" binding="empty11_5" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
               <background color="-12300724"/>
@@ -1123,238 +1617,59 @@
             <border type="none"/>
             <children/>
           </grid>
-          <grid id="4a1ac" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+          <grid id="32201" binding="bombPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
-              <background color="-12300724"/>
+              <background color="-10524056"/>
               <maximumSize width="35" height="35"/>
               <minimumSize width="35" height="35"/>
               <preferredSize width="35" height="35"/>
             </properties>
             <border type="none"/>
-            <children/>
+            <children>
+              <component id="c0692" class="javax.swing.JLabel" binding="bombPic">
+                <constraints/>
+                <properties>
+                  <background color="-8197247"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Bomb_Icon.png"/>
+                  <maximumSize width="35" height="35"/>
+                  <minimumSize width="35" height="35"/>
+                  <preferredSize width="35" height="35"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+            </children>
           </grid>
-          <grid id="dd6fc" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+          <grid id="9b148" binding="bombchuPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
-              <background color="-12300724"/>
+              <background color="-10524056"/>
               <maximumSize width="35" height="35"/>
               <minimumSize width="35" height="35"/>
               <preferredSize width="35" height="35"/>
             </properties>
             <border type="none"/>
-            <children/>
+            <children>
+              <component id="31566" class="javax.swing.JLabel" binding="bombchuPic">
+                <constraints/>
+                <properties>
+                  <background color="-8197247"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Bombchu_Icon.png"/>
+                  <maximumSize width="35" height="35"/>
+                  <minimumSize width="35" height="35"/>
+                  <preferredSize width="35" height="35"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+            </children>
           </grid>
-          <grid id="ac3b3" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-            <constraints/>
-            <properties>
-              <background color="-12300724"/>
-              <maximumSize width="35" height="35"/>
-              <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
-            </properties>
-            <border type="none"/>
-            <children/>
-          </grid>
-          <grid id="c5a2" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-            <constraints/>
-            <properties>
-              <background color="-12300724"/>
-              <maximumSize width="35" height="35"/>
-              <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
-            </properties>
-            <border type="none"/>
-            <children/>
-          </grid>
-          <grid id="ca778" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-            <constraints/>
-            <properties>
-              <background color="-12300724"/>
-              <maximumSize width="35" height="35"/>
-              <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
-            </properties>
-            <border type="none"/>
-            <children/>
-          </grid>
-          <grid id="5d681" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-            <constraints/>
-            <properties>
-              <background color="-12300724"/>
-              <maximumSize width="35" height="35"/>
-              <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
-            </properties>
-            <border type="none"/>
-            <children/>
-          </grid>
-          <grid id="2562e" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-            <constraints/>
-            <properties>
-              <background color="-12300724"/>
-              <maximumSize width="35" height="35"/>
-              <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
-            </properties>
-            <border type="none"/>
-            <children/>
-          </grid>
-          <grid id="adcf8" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-            <constraints/>
-            <properties>
-              <background color="-12300724"/>
-              <maximumSize width="35" height="35"/>
-              <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
-            </properties>
-            <border type="none"/>
-            <children/>
-          </grid>
-          <grid id="a5d6f" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-            <constraints/>
-            <properties>
-              <background color="-12300724"/>
-              <maximumSize width="35" height="35"/>
-              <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
-            </properties>
-            <border type="none"/>
-            <children/>
-          </grid>
-          <grid id="9ea88" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-            <constraints/>
-            <properties>
-              <background color="-12300724"/>
-              <maximumSize width="35" height="35"/>
-              <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
-            </properties>
-            <border type="none"/>
-            <children/>
-          </grid>
-          <grid id="62a30" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-            <constraints/>
-            <properties>
-              <background color="-12300724"/>
-              <maximumSize width="35" height="35"/>
-              <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
-            </properties>
-            <border type="none"/>
-            <children/>
-          </grid>
-          <grid id="388ba" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-            <constraints/>
-            <properties>
-              <background color="-12300724"/>
-              <maximumSize width="35" height="35"/>
-              <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
-            </properties>
-            <border type="none"/>
-            <children/>
-          </grid>
-          <grid id="fdd37" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-            <constraints/>
-            <properties>
-              <background color="-12300724"/>
-              <maximumSize width="35" height="35"/>
-              <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
-            </properties>
-            <border type="none"/>
-            <children/>
-          </grid>
-          <grid id="cc05c" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-            <constraints/>
-            <properties>
-              <background color="-12300724"/>
-              <maximumSize width="35" height="35"/>
-              <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
-            </properties>
-            <border type="none"/>
-            <children/>
-          </grid>
-          <grid id="2a7da" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-            <constraints/>
-            <properties>
-              <background color="-12300724"/>
-              <maximumSize width="35" height="35"/>
-              <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
-            </properties>
-            <border type="none"/>
-            <children/>
-          </grid>
-          <grid id="30093" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-            <constraints/>
-            <properties>
-              <background color="-12300724"/>
-              <maximumSize width="35" height="35"/>
-              <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
-            </properties>
-            <border type="none"/>
-            <children/>
-          </grid>
-          <grid id="f8eaa" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-            <constraints/>
-            <properties>
-              <background color="-12300724"/>
-              <maximumSize width="35" height="35"/>
-              <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
-            </properties>
-            <border type="none"/>
-            <children/>
-          </grid>
-          <grid id="308ce" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-            <constraints/>
-            <properties>
-              <background color="-12300724"/>
-              <maximumSize width="35" height="35"/>
-              <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
-            </properties>
-            <border type="none"/>
-            <children/>
-          </grid>
-          <grid id="8ab21" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-            <constraints/>
-            <properties>
-              <background color="-12300724"/>
-              <maximumSize width="35" height="35"/>
-              <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
-            </properties>
-            <border type="none"/>
-            <children/>
-          </grid>
-          <grid id="8ef8e" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-            <constraints/>
-            <properties>
-              <background color="-12300724"/>
-              <maximumSize width="35" height="35"/>
-              <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
-            </properties>
-            <border type="none"/>
-            <children/>
-          </grid>
-          <grid id="f30b9" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-            <constraints/>
-            <properties>
-              <background color="-12300724"/>
-              <maximumSize width="35" height="35"/>
-              <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
-            </properties>
-            <border type="none"/>
-            <children/>
-          </grid>
-          <grid id="66123" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+          <grid id="4f874" binding="empty14_5" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
               <background color="-12300724"/>

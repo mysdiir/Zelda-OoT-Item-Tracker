@@ -47,6 +47,20 @@ public class FrontendController {
         });
 
     }
+
+    public static void setXFunction(JPanel PanelName) {
+        PanelName = PanelName;
+    }
+
+
+    public static void setMergedFunctions(JPanel PanelName) {
+        PanelName = PanelName;
+
+        setItemToggle(PanelName);
+
+
+    }
+
 }
 
 
