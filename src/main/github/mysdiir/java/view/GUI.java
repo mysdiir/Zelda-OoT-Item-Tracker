@@ -132,7 +132,36 @@ public class GUI extends JFrame{
     public JLabel weirdEggPic;
     public JPanel schleuderPanel;
     public JLabel schleuderPic;
-
+    public JPanel dungenoItemsPanel;
+    public JPanel forestMedallionPanel;
+    public JLabel ForestMedallionPic;
+    public JPanel forestSongPanel;
+    public JLabel forestSongPic;
+    public JPanel forestHeartContainerPanel;
+    public JLabel forestHeartContainerPic;
+    public JPanel forestBossKeyPanel;
+    public JLabel forestBossKeyPic;
+    public JPanel forestKeyPanel;
+    public JLabel forestKeyPic;
+    public JPanel forestMapPanel;
+    public JLabel forestMapPic;
+    public JPanel forestCompassPanel;
+    public JLabel forestCompassPic;
+    public JPanel fireMedallionPanel;
+    public JLabel fireMedallionPic;
+    public JPanel fireSongPanel;
+    public JLabel fireSongPic;
+    public JPanel fireHeartContainerPanel;
+    public JLabel fireHeartContainerPic;
+    public JPanel fireBossKeyPanel;
+    public JLabel fireBossKeyPic;
+    public JPanel fireKeyPanel;
+    public JLabel fireKeyPic;
+    public JPanel fireMapPanel;
+    public JLabel fireMapPic;
+    public JPanel fireCompassPanel;
+    public JLabel fireCompassPic;
+    private JLabel goodOcarinaPic;
 
 
     public void setGUI() {

@@ -101,6 +101,25 @@ public class Application extends GUI {
             FrontendController.setItemToggle(GUI.bombchuPanel);
             FrontendController.setItemToggle(GUI.bombPanel);
 
+    // Dungeons Panel
+
+        // Forest Temple
+            FrontendController.setItemToggle(GUI.forestMedallionPanel);
+            FrontendController.setItemToggle(GUI.forestSongPanel);
+            FrontendController.setItemToggle(GUI.forestHeartContainerPanel);
+            FrontendController.setItemToggle(GUI.forestBossKeyPanel);
+            FrontendController.setItemToggle(GUI.forestKeyPanel);
+            FrontendController.setItemToggle(GUI.forestMapPanel);
+            FrontendController.setItemToggle(GUI.forestCompassPanel);
+
+        // Fire Temple
+            FrontendController.setItemToggle(GUI.fireMedallionPanel);
+            FrontendController.setItemToggle(GUI.fireSongPanel);
+            FrontendController.setItemToggle(GUI.fireHeartContainerPanel);
+            FrontendController.setItemToggle(GUI.fireBossKeyPanel);
+            FrontendController.setItemToggle(GUI.fireKeyPanel);
+            FrontendController.setItemToggle(GUI.fireMapPanel);
+            FrontendController.setItemToggle(GUI.fireCompassPanel);
 
     }
 }
