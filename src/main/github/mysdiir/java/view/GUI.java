@@ -161,7 +161,38 @@ public class GUI extends JFrame{
     public JLabel fireMapPic;
     public JPanel fireCompassPanel;
     public JLabel fireCompassPic;
-    private JLabel goodOcarinaPic;
+    public JLabel goodOcarinaPic;
+    public JPanel waterMedallionPanel;
+    public JLabel waterMedallionPic;
+    public JPanel waterSongPanel;
+    public JLabel waterSongPic;
+    public JPanel waterHeartContainerPanel;
+    public JLabel waterHeartContainerPic;
+    public JPanel waterBossKeyPanel;
+    public JLabel waterBossKeyPic;
+    public JPanel waterKeyPanel;
+    public JLabel watereyPic;
+    public JPanel waterMapPanel;
+    public JLabel waterMapPic;
+    public JPanel waterCompassPanel;
+    public JLabel waterCompassPic;
+
+    public JLabel shadowMedPic;
+    public JPanel shadowMedPanel;
+
+    public JPanel shadowSongPanel;
+    public JLabel shadowSongPic;
+    public JPanel shadowHeartContainerPanel;
+    public JLabel shadowHeartContainerPic;
+    public JPanel shadowBossKeyPanel;
+    public JLabel shadowBossKeyPic;
+    public JPanel shadowKeyPanel;
+    public JLabel shadowKeyPic;
+    public JPanel shadowMapPanel;
+    public JLabel shadowMapPic;
+    public JPanel shadowCompassPanel;
+    public JLabel shadowCompassPic;
+
 
 
     public void setGUI() {
