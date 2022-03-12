@@ -1590,7 +1590,7 @@
             </properties>
             <border type="none"/>
             <children>
-              <component id="5bc82" class="javax.swing.JLabel" binding="goodOcarinaPic">
+              <component id="8e20d" class="javax.swing.JLabel" binding="oOTPic">
                 <constraints/>
                 <properties>
                   <background color="-8197247"/>
@@ -1681,6 +1681,227 @@
             <children/>
           </grid>
         </children>
+      </grid>
+      <grid id="d237d" binding="dungeonPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties>
+          <background color="-12300724"/>
+          <maximumSize width="580" height="200"/>
+          <minimumSize width="580" height="200"/>
+          <preferredSize width="580" height="200"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="5215b" binding="forestMedallionPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-10524056"/>
+              <foreground color="-10524056"/>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="6bc5c" class="javax.swing.JLabel" binding="forestMedallionPic">
+                <constraints/>
+                <properties>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Forest_Medallion_Icon.png"/>
+                  <maximumSize width="35" height="35"/>
+                  <minimumSize width="35" height="35"/>
+                  <preferredSize width="35" height="35"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="935b0" binding="forestSongPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-10524056"/>
+              <foreground color="-10524056"/>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="ab06" class="javax.swing.JLabel" binding="forestSongPic">
+                <constraints/>
+                <properties>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Forest_Song.png"/>
+                  <maximumSize width="35" height="35"/>
+                  <minimumSize width="35" height="35"/>
+                  <preferredSize width="35" height="35"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="6302e" binding="forestHeartContainerPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-10524056"/>
+              <foreground color="-10524056"/>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="ac8aa" class="javax.swing.JLabel" binding="forestHeartContainerPic">
+                <constraints/>
+                <properties>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Heart_Container_Icon.png"/>
+                  <maximumSize width="35" height="35"/>
+                  <minimumSize width="35" height="35"/>
+                  <preferredSize width="35" height="35"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="d5b45" binding="forestKeyPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-10524056"/>
+              <foreground color="-10524056"/>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="fb7be" class="javax.swing.JLabel" binding="forestKeyPic">
+                <constraints/>
+                <properties>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Small_Key_Icon.png"/>
+                  <maximumSize width="35" height="35"/>
+                  <minimumSize width="35" height="35"/>
+                  <preferredSize width="35" height="35"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="304cd" binding="forestBossKeyPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-10524056"/>
+              <foreground color="-10524056"/>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="10fb5" class="javax.swing.JLabel" binding="forestBossKeyPic">
+                <constraints/>
+                <properties>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Boss_Key_Icon.png"/>
+                  <maximumSize width="35" height="35"/>
+                  <minimumSize width="35" height="35"/>
+                  <preferredSize width="35" height="35"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="deb57" binding="forestMapPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-10524056"/>
+              <foreground color="-10524056"/>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="9a03" class="javax.swing.JLabel" binding="forestMapPic">
+                <constraints/>
+                <properties>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Dungeon_Map_Icon.png"/>
+                  <maximumSize width="35" height="35"/>
+                  <minimumSize width="35" height="35"/>
+                  <preferredSize width="35" height="35"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="d0a5b" binding="forestCompassPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-10524056"/>
+              <foreground color="-10524056"/>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="46873" class="javax.swing.JLabel" binding="forestCompassPic">
+                <constraints/>
+                <properties>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Compass_Icon.png"/>
+                  <maximumSize width="35" height="35"/>
+                  <minimumSize width="35" height="35"/>
+                  <preferredSize width="35" height="35"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <hspacer id="3a3fb">
+            <constraints/>
+          </hspacer>
+        </children>
+      </grid>
+      <grid id="4a328" binding="grottoMapPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="5" vgap="5">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints/>
+        <properties>
+          <background color="-12300724"/>
+          <maximumSize width="580" height="200"/>
+          <minimumSize width="580" height="200"/>
+          <preferredSize width="580" height="200"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="78c48" binding="collectiblesPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="5" vgap="5">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints/>
+        <properties>
+          <background color="-12300724"/>
+          <maximumSize width="580" height="200"/>
+          <minimumSize width="580" height="200"/>
+          <preferredSize width="580" height="200"/>
+        </properties>
+        <border type="none"/>
+        <children/>
       </grid>
     </children>
   </grid>

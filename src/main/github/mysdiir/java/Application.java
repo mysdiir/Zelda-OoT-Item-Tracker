@@ -101,6 +101,16 @@ public class Application extends GUI {
             FrontendController.setItemToggle(GUI.bombchuPanel);
             FrontendController.setItemToggle(GUI.bombPanel);
 
+    // Dungeons
+        // Forest Temple
+            FrontendController.setItemToggle(GUI.forestMedallionPanel);
+            FrontendController.setItemToggle(GUI.forestSongPanel);
+            FrontendController.setItemToggle(GUI.forestHeartContainerPanel);
+            FrontendController.setItemToggle(GUI.forestKeyPanel);
+            FrontendController.setItemToggle(GUI.forestBossKeyPanel);
+            FrontendController.setItemToggle(GUI.forestMapPanel);
+            FrontendController.setItemToggle(GUI.forestCompassPanel);
+
 
     }
 }

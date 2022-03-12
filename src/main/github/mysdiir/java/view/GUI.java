@@ -5,6 +5,9 @@ import javax.swing.*;
 public class GUI extends JFrame{
     public JPanel mainWindow;
     public JPanel coreItemsPanel;
+    public JPanel dungeonPanel;
+    public JPanel grottoMapPanel;
+    public JPanel collectiblesPanel;
     public JPanel kokiriSwordPanel;
     public JPanel masterSwordPanel;
     public JPanel brknBiggoronSwordPanel;
@@ -118,6 +121,7 @@ public class GUI extends JFrame{
     public JPanel megatonHammerPanel;
     public JLabel megatonHammerPic;
     public JPanel goodOcarinaPanel;
+    public JLabel oOTPic;
     public JPanel empty9_5;
     public JPanel empty8_5;
     public JPanel empty11_5;
@@ -132,7 +136,20 @@ public class GUI extends JFrame{
     public JLabel weirdEggPic;
     public JPanel schleuderPanel;
     public JLabel schleuderPic;
-
+    public JPanel forestMedallionPanel;
+    public JLabel forestMedallionPic;
+    public JPanel forestSongPanel;
+    public JLabel forestSongPic;
+    public JPanel forestHeartContainerPanel;
+    public JLabel forestHeartContainerPic;
+    public JPanel forestKeyPanel;
+    public JLabel forestKeyPic;
+    public JPanel forestBossKeyPanel;
+    public JLabel forestBossKeyPic;
+    public JPanel forestMapPanel;
+    public JLabel forestMapPic;
+    public JPanel forestCompassPanel;
+    public JLabel forestCompassPic;
 
 
     public void setGUI() {
