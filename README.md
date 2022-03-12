@@ -16,3 +16,8 @@
 
 <i>2022-03-10:</i> <br>
 - adding dungeon panel with dungeon specific items
+
+<i>2022-03-12:</i> <br>
+- fixing a problem where the order of appearance of main panels didn't show up in the planned order
+- cleaning up code for better overview
+- adding forest, fire, water and shadow temple related items

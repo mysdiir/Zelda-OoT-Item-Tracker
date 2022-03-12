@@ -114,7 +114,16 @@ public class GUI extends JFrame{
     public JPanel fireMapPanel;             public JLabel fireMapPic;
     public JPanel fireCompassPanel;         public JLabel fireCompassPic;
 
+
     // Water temple
+    public JPanel waterMedallionPanel;      public JLabel waterMedallionPic;
+    public JPanel waterSongPanel;           public JLabel waterSongPic;
+    public JPanel waterHeartContainerPanel; public JLabel waterHeartContainerPic;
+    public JPanel waterKeyPanel;            public JLabel waterKeyPic;
+    public JPanel waterBossKeyPanel;        public JLabel waterBossKeyPic;
+    public JPanel waterMapPanel;            public JPanel waterCompassPanel;
+    public JLabel waterMapPic;              public JLabel waterCompassPic;
+
     // Shadow temple
     // Spirit temple
     // Light Area

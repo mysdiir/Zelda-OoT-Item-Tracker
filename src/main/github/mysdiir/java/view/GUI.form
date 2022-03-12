@@ -2059,6 +2059,188 @@
               </component>
             </children>
           </grid>
+          <grid id="bd5aa" binding="waterMedallionPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-10524056"/>
+              <foreground color="-10524056"/>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="f6176" class="javax.swing.JLabel" binding="waterMedallionPic">
+                <constraints/>
+                <properties>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Water_Medallion_Icon.png"/>
+                  <maximumSize width="35" height="35"/>
+                  <minimumSize width="35" height="35"/>
+                  <preferredSize width="35" height="35"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="89fc2" binding="waterSongPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-10524056"/>
+              <foreground color="-10524056"/>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="f1095" class="javax.swing.JLabel" binding="waterSongPic">
+                <constraints/>
+                <properties>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Water_Song.png"/>
+                  <maximumSize width="35" height="35"/>
+                  <minimumSize width="35" height="35"/>
+                  <preferredSize width="35" height="35"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="6e630" binding="waterHeartContainerPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-10524056"/>
+              <foreground color="-10524056"/>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="61657" class="javax.swing.JLabel" binding="waterHeartContainerPic">
+                <constraints/>
+                <properties>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Heart_Container_Icon.png"/>
+                  <maximumSize width="35" height="35"/>
+                  <minimumSize width="35" height="35"/>
+                  <preferredSize width="35" height="35"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="77894" binding="waterKeyPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-10524056"/>
+              <foreground color="-10524056"/>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="65d43" class="javax.swing.JLabel" binding="waterKeyPic">
+                <constraints/>
+                <properties>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Small_Key_Icon.png"/>
+                  <maximumSize width="35" height="35"/>
+                  <minimumSize width="35" height="35"/>
+                  <preferredSize width="35" height="35"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="43b7e" binding="waterBossKeyPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-10524056"/>
+              <foreground color="-10524056"/>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="be6" class="javax.swing.JLabel" binding="waterBossKeyPic">
+                <constraints/>
+                <properties>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Boss_Key_Icon.png"/>
+                  <maximumSize width="35" height="35"/>
+                  <minimumSize width="35" height="35"/>
+                  <preferredSize width="35" height="35"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="42fd7" binding="waterMapPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-10524056"/>
+              <foreground color="-10524056"/>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="6ad90" class="javax.swing.JLabel" binding="waterMapPic">
+                <constraints/>
+                <properties>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Dungeon_Map_Icon.png"/>
+                  <maximumSize width="35" height="35"/>
+                  <minimumSize width="35" height="35"/>
+                  <preferredSize width="35" height="35"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="861a3" binding="waterCompassPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-10524056"/>
+              <foreground color="-10524056"/>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="4e5c4" class="javax.swing.JLabel" binding="waterCompassPic">
+                <constraints/>
+                <properties>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Compass_Icon.png"/>
+                  <maximumSize width="35" height="35"/>
+                  <minimumSize width="35" height="35"/>
+                  <preferredSize width="35" height="35"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
         </children>
       </grid>
       <grid id="4a328" binding="grottoMapPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="5" vgap="5">
