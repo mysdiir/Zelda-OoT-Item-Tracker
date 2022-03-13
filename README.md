@@ -23,5 +23,5 @@
 - adding forest, fire, water and shadow temple related items
 
 <i>2022-03-13:</i>
-- adding shadow, sprit, light related items, spiritual stone, mics. songs
+- adding shadow, sprit, light related items, spiritual stone, mics. songs (adding official artwork for songs)
 - experimenting with layout structure to show number of keys
