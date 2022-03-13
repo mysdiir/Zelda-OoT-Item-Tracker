@@ -119,20 +119,56 @@ public class GUI extends JFrame{
     public JPanel waterMedallionPanel;      public JLabel waterMedallionPic;
     public JPanel waterSongPanel;           public JLabel waterSongPic;
     public JPanel waterHeartContainerPanel; public JLabel waterHeartContainerPic;
-    public JPanel waterKeyPanel;            public JLabel waterKeyPic;
+    public JPanel waterKeyPanel;
     public JPanel waterBossKeyPanel;        public JLabel waterBossKeyPic;
     public JPanel waterMapPanel;            public JPanel waterCompassPanel;
     public JLabel waterMapPic;              public JLabel waterCompassPic;
 
     // Shadow temple
-    // Spirit temple
-    // Light Area
+    public JPanel shadowMedallionPanel;     public JLabel shadowMedallionPic;
+    public JPanel shadowSongPanel;          public JLabel shadowSongPic;
+    public JPanel shadowHeartContainerPanel;public JLabel shadowHeartContainerPic;
+    public JPanel shadowKeyPanel;
+    public JPanel shadowBossKeyPanel;       public JLabel shadowBosKeyPic;
+    public JPanel shadowMapPanel;           public JLabel shadowMapPic;
+    public JPanel shadowCompassPanel;       public JLabel shadowCompassPic;
 
+    // Spirit temple
+    public JPanel spiritMedallionPanel;     public JLabel spiritMedallionPic;
+    public JPanel spiritSongPanel;          public JLabel spiritSongPic;
+    public JPanel spiritHeartContainerPanel;public JLabel spiritHeartContainerPic;
+    public JPanel spiritKeyPanel;
+    public JPanel spiritBossKeyPanel;       public JLabel spiritBossKeyPic;
+    public JPanel spiritMapPanel;           public JLabel spiritMapPic;
+    public JPanel spiritCompassPanel;       public JLabel spiritCompassPic;
+
+    // light Items
+    public JPanel lightMedallionPanel;      public JLabel lightMedallionPic;
+    public JPanel lightSongPanel;           public JLabel lightSongPic;
+
+    public JPanel empty2_3_3;
+
+    // spiritual stones
+    public JPanel kokiriStonePanel;         public JLabel kokiriStonePic;
+    public JPanel goronStonePanel;          public JLabel goronStonePic;
+    public JPanel zoraStonePanel;           public JLabel zoraStonePic;
+
+
+    // misc. songs
+    public JPanel zeldaSongPanel;           public JLabel zeldaSongPic;
+    public JPanel eponaSongPanel;           public JLabel eponaSongPic;
+    public JPanel sariaSongPanel;           public JLabel sariaSongPic;
+    public JPanel sunSongPanel;             public JLabel sunSongPic;
+    public JPanel songOfTimePanel;          public JLabel songOfTimePic;
+    public JPanel songOfStormsPanel;        public JLabel songOfStormPic;
+    private JLabel waterKeyPic;
+    private JLabel spiritKeyPic;
+    private JLabel shadowKeyPic;
 
 
     public void setGUI() {
         setContentPane(mainWindow);
-        setSize(600, 1000);
+        setSize(620, 1000);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         mainWindow.add(coreItemsPanel);
         mainWindow.add(dungeonPanel);

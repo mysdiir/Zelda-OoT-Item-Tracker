@@ -128,6 +128,41 @@ public class Application extends GUI {
             FrontendController.setItemToggle(GUI.waterKeyPanel);
             FrontendController.setItemToggle(GUI.waterMapPanel);
             FrontendController.setItemToggle(GUI.waterCompassPanel);
+
+         // Shadow temple
+            FrontendController.setItemToggle(GUI.shadowMedallionPanel);
+            FrontendController.setItemToggle(GUI.shadowSongPanel);
+            FrontendController.setItemToggle(GUI.shadowHeartContainerPanel);
+            FrontendController.setItemToggle(GUI.shadowBossKeyPanel);
+            FrontendController.setItemToggle(GUI.shadowKeyPanel);
+            FrontendController.setItemToggle(GUI.shadowMapPanel);
+            FrontendController.setItemToggle(GUI.shadowCompassPanel);
+
+         // Spirit temple
+            FrontendController.setItemToggle(GUI.spiritMedallionPanel);
+            FrontendController.setItemToggle(GUI.spiritSongPanel);
+            FrontendController.setItemToggle(GUI.spiritHeartContainerPanel);
+            FrontendController.setItemToggle(GUI.spiritBossKeyPanel);
+            FrontendController.setItemToggle(GUI.spiritKeyPanel);
+            FrontendController.setItemToggle(GUI.spiritMapPanel);
+            FrontendController.setItemToggle(GUI.spiritCompassPanel);
+
+         // Light items
+            FrontendController.setItemToggle(GUI.lightMedallionPanel);
+            FrontendController.setItemToggle(GUI.lightSongPanel);
+
+         // Spiritual Stones
+            FrontendController.setItemToggle(GUI.kokiriStonePanel);
+            FrontendController.setItemToggle(GUI.goronStonePanel);
+            FrontendController.setItemToggle(GUI.zoraStonePanel);
+
+         // misc. Songs
+            FrontendController.setItemToggle(GUI.zeldaSongPanel);
+            FrontendController.setItemToggle(GUI.eponaSongPanel);
+            FrontendController.setItemToggle(GUI.sariaSongPanel);
+            FrontendController.setItemToggle(GUI.sunSongPanel);
+            FrontendController.setItemToggle(GUI.songOfStormsPanel);
+            FrontendController.setItemToggle(GUI.songOfTimePanel);
     }
 }
 

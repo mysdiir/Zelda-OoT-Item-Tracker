@@ -21,3 +21,7 @@
 - fixing a problem where the order of appearance of main panels didn't show up in the planned order
 - cleaning up code for better overview
 - adding forest, fire, water and shadow temple related items
+
+<i>2022-03-13:</i>
+- adding shadow, sprit, light related items, spiritual stone, mics. songs
+- experimenting with layout structure to show number of keys

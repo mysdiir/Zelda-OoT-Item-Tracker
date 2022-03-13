@@ -17,6 +17,8 @@ GUI
 - set collectible panel
 - set checkbox for set vanilla location of item
 
+- icon graphic rework for better outlines
+
 Functions
 
 - create menu-bar
