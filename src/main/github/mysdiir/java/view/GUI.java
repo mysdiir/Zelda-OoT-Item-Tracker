@@ -41,7 +41,7 @@ public class GUI extends JFrame{
     public JPanel goldenScalePanel;         public JLabel goldenScalePic;
     public JPanel faroresWindPanel;         public JLabel faroresWindPic;
     public JPanel stoneOfAgonyPanel;        public JLabel stoneOfAgonyPic;
-    public JPanel gerudoTokenPanel;         public JLabel gerudoTokenPic;
+
     public JPanel spinAttackPanel;          public JLabel spinAttackPic;
     public JPanel bombBagPanel;             public JLabel bombBagPic;
     public JPanel bigBombBagPanel;          public JLabel bigBombBagPic;
@@ -72,30 +72,46 @@ public class GUI extends JFrame{
     public JPanel longshotPanel;            public JLabel longshotPic;
     public JPanel megatonHammerPanel;       public JLabel megatonHammerPic;
     public JPanel goodOcarinaPanel;         public JLabel oOTPic;
-    public JPanel bombPanel;                public JLabel bombPic;
-    public JPanel bombchuPanel;             public JLabel bombchuPic;
+
 
 
     // mixed Items
+    public JPanel bombPanel;                public JLabel bombPic;
+    public JLabel bombchuPic;               public JPanel bombchuPanel;
     public JPanel dekuNutsPanel;            public JLabel dekuNutsPic;
     public JPanel lensOfTruthPanel;         public JLabel lensOfTruthPic;
+    public JPanel bottleFirstPanel;         public JLabel bottleFirstPic;
+    public JPanel bottleSecondPanel;        public JLabel bottleSecondPic;
+    public JPanel bottleThirdPanel;         public JLabel bottleThirdPic;
+    public JPanel bottleFourthPanel;        public JLabel bottleFourthPic;
 
 
-    // empty panels
-    public JPanel empty1_2;
-    public JPanel empty1_3;
-    public JPanel empty10_3;
-    public JPanel empty14_3;
-    public JPanel empty5_4;
-    public JPanel empty11_4;
-    public JPanel empty14_4;
-    public JPanel empty9_5;
-    public JPanel empty8_5;
-    public JPanel empty11_5;
-    public JPanel empty14_5;
+    public JPanel empty1_11_1;
+    public JPanel empty1_13_1;
+    public JPanel empty1_1_2;
+    public JPanel empty1_11_2;
+    public JPanel empty1_12_2;
+    public JPanel empty1_13_2;
+    public JPanel empty1_1_3;
+    public JPanel empty1_10_3;
+    public JPanel empty1_11_3;
+    public JPanel empty1_12_3;
+    public JPanel empty1_13_3;
+    public JPanel empty1_16_3;
+    public JPanel empty1_17_3;
+    public JPanel empty1_18_3;
+    public JPanel empty1_5_4;
+    public JPanel empty1_10_4;
+    public JPanel empty1_11_4;
+    public JPanel empty1_13_4;
+    public JPanel empty1_12_5;
+    public JPanel empty1_5_5;
+    public JPanel empty1_9_5;
+    public JPanel empty1_10_5;
+    public JPanel empty1_11_5;
 
 
-// Dungeons
+    // Dungeons
     // Forest temple
     public JPanel forestMedallionPanel;     public JLabel forestMedallionPic;
     public JPanel forestSongPanel;          public JLabel forestSongPic;
@@ -119,7 +135,7 @@ public class GUI extends JFrame{
     public JPanel waterMedallionPanel;      public JLabel waterMedallionPic;
     public JPanel waterSongPanel;           public JLabel waterSongPic;
     public JPanel waterHeartContainerPanel; public JLabel waterHeartContainerPic;
-    public JPanel waterKeyPanel;
+    public JPanel waterKeyPanel;            public JLabel waterKeyPic;
     public JPanel waterBossKeyPanel;        public JLabel waterBossKeyPic;
     public JPanel waterMapPanel;            public JPanel waterCompassPanel;
     public JLabel waterMapPic;              public JLabel waterCompassPic;
@@ -128,7 +144,7 @@ public class GUI extends JFrame{
     public JPanel shadowMedallionPanel;     public JLabel shadowMedallionPic;
     public JPanel shadowSongPanel;          public JLabel shadowSongPic;
     public JPanel shadowHeartContainerPanel;public JLabel shadowHeartContainerPic;
-    public JPanel shadowKeyPanel;
+    public JPanel shadowKeyPanel;           public JLabel spiritKeyPic;
     public JPanel shadowBossKeyPanel;       public JLabel shadowBosKeyPic;
     public JPanel shadowMapPanel;           public JLabel shadowMapPic;
     public JPanel shadowCompassPanel;       public JLabel shadowCompassPic;
@@ -137,7 +153,7 @@ public class GUI extends JFrame{
     public JPanel spiritMedallionPanel;     public JLabel spiritMedallionPic;
     public JPanel spiritSongPanel;          public JLabel spiritSongPic;
     public JPanel spiritHeartContainerPanel;public JLabel spiritHeartContainerPic;
-    public JPanel spiritKeyPanel;
+    public JPanel spiritKeyPanel;           public JLabel shadowKeyPic;
     public JPanel spiritBossKeyPanel;       public JLabel spiritBossKeyPic;
     public JPanel spiritMapPanel;           public JLabel spiritMapPic;
     public JPanel spiritCompassPanel;       public JLabel spiritCompassPic;
@@ -146,12 +162,14 @@ public class GUI extends JFrame{
     public JPanel lightMedallionPanel;      public JLabel lightMedallionPic;
     public JPanel lightSongPanel;           public JLabel lightSongPic;
 
-    public JPanel empty2_3_3;
-
     // spiritual stones
     public JPanel kokiriStonePanel;         public JLabel kokiriStonePic;
     public JPanel goronStonePanel;          public JLabel goronStonePic;
     public JPanel zoraStonePanel;           public JLabel zoraStonePic;
+
+    // gerudo training complex
+    public JPanel gerudoTokenPanel;         public JLabel gerudoTokenPic;
+    private JPanel gerudoKeyPanel;          private JLabel gerudoKeyPic;
 
 
     // misc. songs
@@ -161,9 +179,49 @@ public class GUI extends JFrame{
     public JPanel sunSongPanel;             public JLabel sunSongPic;
     public JPanel songOfTimePanel;          public JLabel songOfTimePic;
     public JPanel songOfStormsPanel;        public JLabel songOfStormPic;
-    private JLabel waterKeyPic;
-    private JLabel spiritKeyPic;
-    private JLabel shadowKeyPic;
+
+// Grotto map
+    public JLabel grottoMapPic;
+
+// Collectible items
+    // Biggoron trading sequence
+    // Mask trading sequence
+
+    public JPanel heartSkulltullaTriforceContainer;
+
+    // Heartpieces
+    public JPanel heartPieceContainer;
+    public JPanel heartPiecePanel;              public JLabel heartPiecePic;
+    public JProgressBar heartPieceProgressBar;
+    public JButton heartPieceAddBtn;            public JButton heartPieceSubtractBtn;
+
+    // Skulltulla
+    public JPanel skulltullaContainer;
+    public JPanel skultullaPanel;               public JLabel skulltullaPic;
+    public JProgressBar skultullaProgressbar;
+    public JButton skultullaAddBtn;             public JButton skulltullaSubtractBtn;
+
+    // triforce hunt
+    public JPanel triforceHuntContainer;
+    public JTextField triforceInput;
+    public JPanel triforcePanel;                public JLabel triforcePic;
+    public JProgressBar triforceProgressbar;
+    public JButton triforceAddBtn;              public JButton triforceSubstractBtn;
+    public JButton triforceAddtriforceBtn;
+
+    // Scarecrow music
+    public JPanel scareCrowContainer;
+    public JPanel scareCrowPanel;               public JLabel scareCrowPic;
+    public JTextField scareCrowInput;
+
+    // Horror Kid game
+    public JPanel horrorKidGameContainer;
+    public JPanel horrorKidGamePanel;           public JLabel horrorKidGamePic;
+    public JTextField horrorKidGameInput;
+
+    public JPanel empty8_1;
+    public JPanel empty8_2;
+    public JPanel empty8_3;
 
 
     public void setGUI() {

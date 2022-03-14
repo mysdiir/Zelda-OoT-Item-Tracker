@@ -25,3 +25,7 @@
 <i>2022-03-13:</i>
 - adding shadow, sprit, light related items, spiritual stone, mics. songs
 - experimenting with layout structure to show number of keys
+
+<i>2022-03-14:</i>
+- adding placeholder for collectible items and name all elements
+- rearrange gui pattern, because of key count issue
