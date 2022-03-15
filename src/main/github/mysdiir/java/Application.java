@@ -163,6 +163,37 @@ public class Application extends GUI {
             FrontendController.setItemToggle(GUI.sunSongPanel);
             FrontendController.setItemToggle(GUI.songOfStormsPanel);
             FrontendController.setItemToggle(GUI.songOfTimePanel);
+
+         // Gerudo training ground
+            FrontendController.setItemToggle(GUI.gerudoTokenPanel);
+            FrontendController.setItemToggle(GUI.gerudoKeyPanel);
+
+    // Collectibles
+        // Big goron trading sequence
+            FrontendController.setItemToggle(GUI.giantKnifePanel);
+            FrontendController.setItemToggle(GUI.pocketEggPanel);
+            FrontendController.setItemToggle(GUI.pocketCuccoPanel);
+            FrontendController.setItemToggle(GUI.cojiroPanel);
+            FrontendController.setItemToggle(GUI.oddMushroomPanel);
+            FrontendController.setItemToggle(GUI.oddPoulticePanel);
+            FrontendController.setItemToggle(GUI.sawPanel);
+            FrontendController.setItemToggle(GUI.brknGoronSwordPanel);
+            FrontendController.setItemToggle(GUI.prescriptionPanel);
+            FrontendController.setItemToggle(GUI.frogPanel);
+            FrontendController.setItemToggle(GUI.eyeDropsPanel);
+            FrontendController.setItemToggle(GUI.claimCheckPanel);
+            FrontendController.setItemToggle(GUI.secondBigGoronSwordPanel);
+
+            // Mask trading sequence
+            FrontendController.setItemToggle(GUI.keatonMaskPanel);
+            FrontendController.setItemToggle(GUI.skullMaskPanel);
+            FrontendController.setItemToggle(GUI.spookyMaskPanel);
+            FrontendController.setItemToggle(GUI.bunnyHoodPanel);
+            FrontendController.setItemToggle(GUI.gerudoMaskPanel);
+            FrontendController.setItemToggle(GUI.goronMaskPanel);
+            FrontendController.setItemToggle(GUI.zoraMaskPanel);
+            FrontendController.setItemToggle(GUI.maskOfTruthPanel);
+
     }
 }
 

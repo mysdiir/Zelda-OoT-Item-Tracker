@@ -29,3 +29,10 @@
 <i>2022-03-14:</i>
 - adding placeholder for collectible items and name all elements
 - rearrange gui pattern, because of key count issue
+
+<i>2022-03-15:</i>
+- slightly rearranging patterns to save a little width
+- small spacer between dungeon items
+- scarecrow and horro kid mini game moved to core items
+- adding scroll pane to grotto panel with information about location of grotto
+- adding icons and functions of biggoron sword and mask trade sequence

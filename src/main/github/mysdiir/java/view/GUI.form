@@ -9,7 +9,7 @@
       <foreground color="-13814220"/>
       <maximumSize width="600" height="1000"/>
       <minimumSize width="600" height="1000"/>
-      <preferredSize width="600" height="1000"/>
+      <preferredSize width="670" height="1000"/>
     </properties>
     <border type="none"/>
     <children>
@@ -19,7 +19,7 @@
           <background color="-12300724"/>
           <maximumSize width="580" height="210"/>
           <minimumSize width="580" height="210"/>
-          <preferredSize width="680" height="210"/>
+          <preferredSize width="650" height="210"/>
         </properties>
         <border type="none"/>
         <children>
@@ -289,17 +289,6 @@
               </component>
             </children>
           </grid>
-          <grid id="93d6d" binding="empty1_11_1" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-            <constraints/>
-            <properties>
-              <background color="-12300724"/>
-              <maximumSize width="35" height="35"/>
-              <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
-            </properties>
-            <border type="none"/>
-            <children/>
-          </grid>
           <grid id="a815f" binding="dinsFirePanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
@@ -326,7 +315,7 @@
               </component>
             </children>
           </grid>
-          <grid id="bff6c" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+          <grid id="e6085" binding="empty1_1_2" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
               <background color="-12300724"/>
@@ -335,19 +324,7 @@
               <preferredSize width="35" height="35"/>
             </properties>
             <border type="none"/>
-            <children>
-              <grid id="6e865" binding="empty1_13_1" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-                <constraints/>
-                <properties>
-                  <background color="-12300724"/>
-                  <maximumSize width="35" height="35"/>
-                  <minimumSize width="35" height="35"/>
-                  <preferredSize width="35" height="35"/>
-                </properties>
-                <border type="none"/>
-                <children/>
-              </grid>
-            </children>
+            <children/>
           </grid>
           <grid id="cfe6a" binding="adultsWalletPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
@@ -453,7 +430,7 @@
               </component>
             </children>
           </grid>
-          <grid id="583f8" binding="empty1_1_2" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+          <grid id="7268c" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
               <background color="-12300724"/>
@@ -696,17 +673,6 @@
               </component>
             </children>
           </grid>
-          <grid id="d3e04" binding="empty1_11_2" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-            <constraints/>
-            <properties>
-              <background color="-12300724"/>
-              <maximumSize width="35" height="35"/>
-              <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
-            </properties>
-            <border type="none"/>
-            <children/>
-          </grid>
           <grid id="a4fd3" binding="faroresWindPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
@@ -733,18 +699,7 @@
               </component>
             </children>
           </grid>
-          <grid id="7764f" binding="empty1_12_2" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-            <constraints/>
-            <properties>
-              <background color="-12300724"/>
-              <maximumSize width="35" height="35"/>
-              <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
-            </properties>
-            <border type="none"/>
-            <children/>
-          </grid>
-          <grid id="4afca" binding="empty1_13_2" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+          <grid id="cd6b3" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
               <background color="-12300724"/>
@@ -833,7 +788,29 @@
               </component>
             </children>
           </grid>
-          <grid id="85fd" binding="empty1_1_3" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+          <grid id="4e9c5" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-12300724"/>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="20da5" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-12300724"/>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="71baa" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
               <background color="-12300724"/>
@@ -1050,28 +1027,6 @@
               </component>
             </children>
           </grid>
-          <grid id="c6367" binding="empty1_10_3" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-            <constraints/>
-            <properties>
-              <background color="-12300724"/>
-              <maximumSize width="35" height="35"/>
-              <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
-            </properties>
-            <border type="none"/>
-            <children/>
-          </grid>
-          <grid id="89963" binding="empty1_11_3" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-            <constraints/>
-            <properties>
-              <background color="-12300724"/>
-              <maximumSize width="35" height="35"/>
-              <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
-            </properties>
-            <border type="none"/>
-            <children/>
-          </grid>
           <grid id="31909" binding="nayrusLovePanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
@@ -1109,51 +1064,111 @@
               </grid>
             </children>
           </grid>
-          <grid id="f70a" binding="empty1_12_3" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+          <grid id="cff62" binding="bombPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
-              <background color="-12300724"/>
+              <background color="-10524056"/>
               <maximumSize width="35" height="35"/>
               <minimumSize width="35" height="35"/>
               <preferredSize width="35" height="35"/>
             </properties>
             <border type="none"/>
-            <children/>
+            <children>
+              <component id="842d2" class="javax.swing.JLabel" binding="bombPic">
+                <constraints/>
+                <properties>
+                  <background color="-8197247"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Bomb_Icon.png"/>
+                  <maximumSize width="35" height="35"/>
+                  <minimumSize width="35" height="35"/>
+                  <preferredSize width="35" height="35"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+            </children>
           </grid>
-          <grid id="23379" binding="empty1_13_3" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+          <grid id="2da35" binding="bombchuPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
-              <background color="-12300724"/>
+              <background color="-10524056"/>
               <maximumSize width="35" height="35"/>
               <minimumSize width="35" height="35"/>
               <preferredSize width="35" height="35"/>
             </properties>
             <border type="none"/>
-            <children/>
+            <children>
+              <component id="260d3" class="javax.swing.JLabel" binding="bombchuPic">
+                <constraints/>
+                <properties>
+                  <background color="-8197247"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Bombchu_Icon.png"/>
+                  <maximumSize width="35" height="35"/>
+                  <minimumSize width="35" height="35"/>
+                  <preferredSize width="35" height="35"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+            </children>
           </grid>
-          <grid id="c95a9" binding="empty1_16_3" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+          <grid id="40378" binding="dekuNutsPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
-              <background color="-12300724"/>
+              <background color="-10524056"/>
               <maximumSize width="35" height="35"/>
               <minimumSize width="35" height="35"/>
               <preferredSize width="35" height="35"/>
             </properties>
             <border type="none"/>
-            <children/>
+            <children>
+              <component id="446be" class="javax.swing.JLabel" binding="dekuNutsPic">
+                <constraints/>
+                <properties>
+                  <background color="-8197247"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Deku_Nut_Icon.png"/>
+                  <maximumSize width="35" height="35"/>
+                  <minimumSize width="35" height="35"/>
+                  <preferredSize width="35" height="35"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+            </children>
           </grid>
-          <grid id="32e90" binding="empty1_17_3" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+          <grid id="1215c" binding="lensOfTruthPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
-              <background color="-12300724"/>
+              <background color="-10524056"/>
               <maximumSize width="35" height="35"/>
               <minimumSize width="35" height="35"/>
               <preferredSize width="35" height="35"/>
             </properties>
             <border type="none"/>
-            <children/>
+            <children>
+              <component id="a1b9e" class="javax.swing.JLabel" binding="lensOfTruthPic">
+                <constraints/>
+                <properties>
+                  <background color="-8197247"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Lens_of_Truth_Icon.png"/>
+                  <maximumSize width="35" height="35"/>
+                  <minimumSize width="35" height="35"/>
+                  <preferredSize width="35" height="35"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+            </children>
           </grid>
-          <grid id="f8c58" binding="empty1_18_3" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+          <grid id="6ca79" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
               <background color="-12300724"/>
@@ -1268,17 +1283,6 @@
               </component>
             </children>
           </grid>
-          <grid id="e5464" binding="empty1_5_4" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-            <constraints/>
-            <properties>
-              <background color="-12300724"/>
-              <maximumSize width="35" height="35"/>
-              <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
-            </properties>
-            <border type="none"/>
-            <children/>
-          </grid>
           <grid id="f524" binding="zeldasLetterPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
@@ -1383,29 +1387,7 @@
               </component>
             </children>
           </grid>
-          <grid id="f23e6" binding="empty1_10_4" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-            <constraints/>
-            <properties>
-              <background color="-12300724"/>
-              <maximumSize width="35" height="35"/>
-              <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
-            </properties>
-            <border type="none"/>
-            <children/>
-          </grid>
-          <grid id="ecfed" binding="empty1_11_4" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-            <constraints/>
-            <properties>
-              <background color="-12300724"/>
-              <maximumSize width="35" height="35"/>
-              <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
-            </properties>
-            <border type="none"/>
-            <children/>
-          </grid>
-          <grid id="84672" binding="fairyOcarinaPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+          <grid id="ab23b" binding="fairyOcarinaPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
               <background color="-10524056"/>
@@ -1415,7 +1397,7 @@
             </properties>
             <border type="none"/>
             <children>
-              <component id="c6774" class="javax.swing.JLabel" binding="fairyOcarinaPic">
+              <component id="40094" class="javax.swing.JLabel" binding="fairyOcarinaPic">
                 <constraints/>
                 <properties>
                   <background color="-8197247"/>
@@ -1431,117 +1413,48 @@
               </component>
             </children>
           </grid>
-          <grid id="f3271" binding="empty1_13_4" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+          <grid id="e7bc7" layout-manager="FlowLayout" hgap="10" vgap="0" flow-align="1">
             <constraints/>
             <properties>
               <background color="-12300724"/>
               <maximumSize width="35" height="35"/>
               <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
-            </properties>
-            <border type="none"/>
-            <children/>
-          </grid>
-          <grid id="20b45" binding="bombPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-            <constraints/>
-            <properties>
-              <background color="-10524056"/>
-              <maximumSize width="35" height="35"/>
-              <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
+              <preferredSize width="275" height="35"/>
             </properties>
             <border type="none"/>
             <children>
-              <component id="f268b" class="javax.swing.JLabel" binding="bombPic">
+              <grid id="412ee" binding="scareCrowPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
                 <constraints/>
                 <properties>
-                  <background color="-8197247"/>
-                  <horizontalAlignment value="0"/>
-                  <horizontalTextPosition value="0"/>
-                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Bomb_Icon.png"/>
+                  <background color="-10524056"/>
+                  <foreground color="-10524056"/>
                   <maximumSize width="35" height="35"/>
                   <minimumSize width="35" height="35"/>
                   <preferredSize width="35" height="35"/>
-                  <text value=""/>
-                  <verifyInputWhenFocusTarget value="false"/>
                 </properties>
-              </component>
-            </children>
-          </grid>
-          <grid id="6c2f2" binding="bombchuPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-            <constraints/>
-            <properties>
-              <background color="-10524056"/>
-              <maximumSize width="35" height="35"/>
-              <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
-            </properties>
-            <border type="none"/>
-            <children>
-              <component id="eb032" class="javax.swing.JLabel" binding="bombchuPic">
+                <border type="none"/>
+                <children>
+                  <component id="3dfc6" class="javax.swing.JLabel" binding="scareCrowPic">
+                    <constraints/>
+                    <properties>
+                      <horizontalAlignment value="0"/>
+                      <horizontalTextPosition value="0"/>
+                      <icon value="main/resources/icons/3Ds Icons/OoT3D_Song_Zelda.png"/>
+                      <maximumSize width="35" height="35"/>
+                      <minimumSize width="35" height="35"/>
+                      <preferredSize width="35" height="35"/>
+                      <text value=""/>
+                      <verifyInputWhenFocusTarget value="false"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <component id="f6864" class="javax.swing.JTextField" binding="scareCrowInput">
                 <constraints/>
                 <properties>
-                  <background color="-8197247"/>
-                  <horizontalAlignment value="0"/>
-                  <horizontalTextPosition value="0"/>
-                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Bombchu_Icon.png"/>
-                  <maximumSize width="35" height="35"/>
-                  <minimumSize width="35" height="35"/>
-                  <preferredSize width="35" height="35"/>
-                  <text value=""/>
-                  <verifyInputWhenFocusTarget value="false"/>
-                </properties>
-              </component>
-            </children>
-          </grid>
-          <grid id="6475d" binding="dekuNutsPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-            <constraints/>
-            <properties>
-              <background color="-10524056"/>
-              <maximumSize width="35" height="35"/>
-              <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
-            </properties>
-            <border type="none"/>
-            <children>
-              <component id="8cf0" class="javax.swing.JLabel" binding="dekuNutsPic">
-                <constraints/>
-                <properties>
-                  <background color="-8197247"/>
-                  <horizontalAlignment value="0"/>
-                  <horizontalTextPosition value="0"/>
-                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Deku_Nut_Icon.png"/>
-                  <maximumSize width="35" height="35"/>
-                  <minimumSize width="35" height="35"/>
-                  <preferredSize width="35" height="35"/>
-                  <text value=""/>
-                  <verifyInputWhenFocusTarget value="false"/>
-                </properties>
-              </component>
-            </children>
-          </grid>
-          <grid id="7969c" binding="lensOfTruthPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-            <constraints/>
-            <properties>
-              <background color="-10524056"/>
-              <maximumSize width="35" height="35"/>
-              <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
-            </properties>
-            <border type="none"/>
-            <children>
-              <component id="9a305" class="javax.swing.JLabel" binding="lensOfTruthPic">
-                <constraints/>
-                <properties>
-                  <background color="-8197247"/>
-                  <horizontalAlignment value="0"/>
-                  <horizontalTextPosition value="0"/>
-                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Lens_of_Truth_Icon.png"/>
-                  <maximumSize width="35" height="35"/>
-                  <minimumSize width="35" height="35"/>
-                  <preferredSize width="35" height="35"/>
-                  <text value=""/>
-                  <verifyInputWhenFocusTarget value="false"/>
+                  <background color="-12300724"/>
+                  <foreground color="-1031"/>
+                  <preferredSize width="150" height="25"/>
                 </properties>
               </component>
             </children>
@@ -1650,17 +1563,6 @@
               </component>
             </children>
           </grid>
-          <grid id="770d0" binding="empty1_5_5" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-            <constraints/>
-            <properties>
-              <background color="-12300724"/>
-              <maximumSize width="35" height="35"/>
-              <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
-            </properties>
-            <border type="none"/>
-            <children/>
-          </grid>
           <grid id="3c42c" binding="hookshotPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
@@ -1739,7 +1641,7 @@
               </component>
             </children>
           </grid>
-          <grid id="739c" binding="empty1_9_5" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+          <grid id="12d2" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
               <background color="-12300724"/>
@@ -1750,29 +1652,7 @@
             <border type="none"/>
             <children/>
           </grid>
-          <grid id="f8e69" binding="empty1_10_5" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-            <constraints/>
-            <properties>
-              <background color="-12300724"/>
-              <maximumSize width="35" height="35"/>
-              <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
-            </properties>
-            <border type="none"/>
-            <children/>
-          </grid>
-          <grid id="10ed6" binding="empty1_11_5" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-            <constraints/>
-            <properties>
-              <background color="-12300724"/>
-              <maximumSize width="35" height="35"/>
-              <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
-            </properties>
-            <border type="none"/>
-            <children/>
-          </grid>
-          <grid id="5565" binding="goodOcarinaPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+          <grid id="6898" binding="goodOcarinaPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
               <background color="-10524056"/>
@@ -1782,7 +1662,7 @@
             </properties>
             <border type="none"/>
             <children>
-              <component id="8e20d" class="javax.swing.JLabel" binding="oOTPic">
+              <component id="3f84f" class="javax.swing.JLabel" binding="oOTPic">
                 <constraints/>
                 <properties>
                   <background color="-8197247"/>
@@ -1798,117 +1678,48 @@
               </component>
             </children>
           </grid>
-          <grid id="abaca" binding="empty1_12_5" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+          <grid id="c6a79" layout-manager="FlowLayout" hgap="10" vgap="0" flow-align="1">
             <constraints/>
             <properties>
               <background color="-12300724"/>
               <maximumSize width="35" height="35"/>
               <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
-            </properties>
-            <border type="none"/>
-            <children/>
-          </grid>
-          <grid id="b835c" binding="bottleFirstPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-            <constraints/>
-            <properties>
-              <background color="-10524056"/>
-              <maximumSize width="35" height="35"/>
-              <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
+              <preferredSize width="275" height="35"/>
             </properties>
             <border type="none"/>
             <children>
-              <component id="fff1c" class="javax.swing.JLabel" binding="bottleFirstPic">
+              <grid id="af9dc" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
                 <constraints/>
                 <properties>
-                  <background color="-8197247"/>
-                  <horizontalAlignment value="0"/>
-                  <horizontalTextPosition value="0"/>
-                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Letter_Icon.png"/>
+                  <background color="-10524056"/>
+                  <foreground color="-10524056"/>
                   <maximumSize width="35" height="35"/>
                   <minimumSize width="35" height="35"/>
                   <preferredSize width="35" height="35"/>
-                  <text value=""/>
-                  <verifyInputWhenFocusTarget value="false"/>
                 </properties>
-              </component>
-            </children>
-          </grid>
-          <grid id="c761a" binding="bottleSecondPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-            <constraints/>
-            <properties>
-              <background color="-10524056"/>
-              <maximumSize width="35" height="35"/>
-              <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
-            </properties>
-            <border type="none"/>
-            <children>
-              <component id="d8a1" class="javax.swing.JLabel" binding="bottleSecondPic">
+                <border type="none"/>
+                <children>
+                  <component id="b49b0" class="javax.swing.JLabel">
+                    <constraints/>
+                    <properties>
+                      <horizontalAlignment value="0"/>
+                      <horizontalTextPosition value="0"/>
+                      <icon value="main/resources/icons/3Ds Icons/OoT3D_Song_Zelda.png"/>
+                      <maximumSize width="35" height="35"/>
+                      <minimumSize width="35" height="35"/>
+                      <preferredSize width="35" height="35"/>
+                      <text value=""/>
+                      <verifyInputWhenFocusTarget value="false"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <component id="7e630" class="javax.swing.JTextField">
                 <constraints/>
                 <properties>
-                  <background color="-8197247"/>
-                  <horizontalAlignment value="0"/>
-                  <horizontalTextPosition value="0"/>
-                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Letter_Icon.png"/>
-                  <maximumSize width="35" height="35"/>
-                  <minimumSize width="35" height="35"/>
-                  <preferredSize width="35" height="35"/>
-                  <text value=""/>
-                  <verifyInputWhenFocusTarget value="false"/>
-                </properties>
-              </component>
-            </children>
-          </grid>
-          <grid id="d22c3" binding="bottleThirdPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-            <constraints/>
-            <properties>
-              <background color="-10524056"/>
-              <maximumSize width="35" height="35"/>
-              <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
-            </properties>
-            <border type="none"/>
-            <children>
-              <component id="40d97" class="javax.swing.JLabel" binding="bottleThirdPic">
-                <constraints/>
-                <properties>
-                  <background color="-8197247"/>
-                  <horizontalAlignment value="0"/>
-                  <horizontalTextPosition value="0"/>
-                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Letter_Icon.png"/>
-                  <maximumSize width="35" height="35"/>
-                  <minimumSize width="35" height="35"/>
-                  <preferredSize width="35" height="35"/>
-                  <text value=""/>
-                  <verifyInputWhenFocusTarget value="false"/>
-                </properties>
-              </component>
-            </children>
-          </grid>
-          <grid id="3d63" binding="bottleFourthPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-            <constraints/>
-            <properties>
-              <background color="-10524056"/>
-              <maximumSize width="35" height="35"/>
-              <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
-            </properties>
-            <border type="none"/>
-            <children>
-              <component id="5ffca" class="javax.swing.JLabel" binding="bottleFourthPic">
-                <constraints/>
-                <properties>
-                  <background color="-8197247"/>
-                  <horizontalAlignment value="0"/>
-                  <horizontalTextPosition value="0"/>
-                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Letter_Icon.png"/>
-                  <maximumSize width="35" height="35"/>
-                  <minimumSize width="35" height="35"/>
-                  <preferredSize width="35" height="35"/>
-                  <text value=""/>
-                  <verifyInputWhenFocusTarget value="false"/>
+                  <background color="-12300724"/>
+                  <foreground color="-1031"/>
+                  <preferredSize width="150" height="25"/>
                 </properties>
               </component>
             </children>
@@ -1921,7 +1732,7 @@
           <background color="-12300724"/>
           <maximumSize width="600" height="200"/>
           <minimumSize width="600" height="200"/>
-          <preferredSize width="680" height="165"/>
+          <preferredSize width="650" height="165"/>
         </properties>
         <border type="none"/>
         <children>
@@ -2107,14 +1918,13 @@
               </component>
             </children>
           </grid>
-          <grid id="1f30e" binding="empty8_1" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+          <grid id="ab73f" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
               <background color="-12300724"/>
-              <foreground color="-10524056"/>
               <maximumSize width="35" height="35"/>
               <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
+              <preferredSize width="5" height="35"/>
             </properties>
             <border type="none"/>
             <children/>
@@ -2483,14 +2293,13 @@
               </component>
             </children>
           </grid>
-          <grid id="df53e" binding="empty8_2" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+          <grid id="729af" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
               <background color="-12300724"/>
-              <foreground color="-10524056"/>
               <maximumSize width="35" height="35"/>
               <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
+              <preferredSize width="5" height="35"/>
             </properties>
             <border type="none"/>
             <children/>
@@ -2859,14 +2668,13 @@
               </component>
             </children>
           </grid>
-          <grid id="11e78" binding="empty8_3" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+          <grid id="7b58e" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
               <background color="-12300724"/>
-              <foreground color="-10524056"/>
               <maximumSize width="35" height="35"/>
               <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
+              <preferredSize width="5" height="35"/>
             </properties>
             <border type="none"/>
             <children/>
@@ -2935,6 +2743,58 @@
             <border type="none"/>
             <children/>
           </grid>
+          <grid id="3c393" binding="gerudoKeyPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-10524056"/>
+              <foreground color="-10524056"/>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="75" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="6af11" class="javax.swing.JLabel" binding="gerudoKeyPic">
+                <constraints/>
+                <properties>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Small_Key_Icon.png"/>
+                  <maximumSize width="35" height="35"/>
+                  <minimumSize width="35" height="35"/>
+                  <preferredSize width="35" height="35"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="2e5de" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-10524056"/>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="63ee8" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <background color="-8197247"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Gerudo_Token_Icon.png"/>
+                  <maximumSize width="35" height="35"/>
+                  <minimumSize width="35" height="35"/>
+                  <preferredSize width="35" height="35"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
           <grid id="d80d1" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
@@ -2959,31 +2819,7 @@
             <border type="none"/>
             <children/>
           </grid>
-          <grid id="8ccdb" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-            <constraints/>
-            <properties>
-              <background color="-12300724"/>
-              <foreground color="-10524056"/>
-              <maximumSize width="35" height="35"/>
-              <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
-            </properties>
-            <border type="none"/>
-            <children/>
-          </grid>
-          <grid id="139e6" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-            <constraints/>
-            <properties>
-              <background color="-12300724"/>
-              <foreground color="-10524056"/>
-              <maximumSize width="35" height="35"/>
-              <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
-            </properties>
-            <border type="none"/>
-            <children/>
-          </grid>
-          <grid id="5fc6a" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+          <grid id="97773" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
               <background color="-12300724"/>
@@ -3151,7 +2987,7 @@
               </component>
             </children>
           </grid>
-          <grid id="597d4" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+          <grid id="ab3c5" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
               <background color="-12300724"/>
@@ -3163,7 +2999,18 @@
             <border type="none"/>
             <children/>
           </grid>
-          <grid id="98755" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+          <grid id="5c1a9" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-12300724"/>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="5" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="73a47" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
               <background color="-12300724"/>
@@ -3175,7 +3022,7 @@
             <border type="none"/>
             <children/>
           </grid>
-          <grid id="fcfc2" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+          <grid id="7c5ef" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
               <background color="-12300724"/>
@@ -3187,7 +3034,7 @@
             <border type="none"/>
             <children/>
           </grid>
-          <grid id="629f3" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+          <grid id="ffb78" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
               <background color="-12300724"/>
@@ -3198,70 +3045,6 @@
             </properties>
             <border type="none"/>
             <children/>
-          </grid>
-          <grid id="9d870" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-            <constraints/>
-            <properties>
-              <background color="-12300724"/>
-              <foreground color="-10524056"/>
-              <maximumSize width="35" height="35"/>
-              <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
-            </properties>
-            <border type="none"/>
-            <children/>
-          </grid>
-          <grid id="253b4" binding="gerudoTokenPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-            <constraints/>
-            <properties>
-              <background color="-10524056"/>
-              <maximumSize width="35" height="35"/>
-              <minimumSize width="35" height="35"/>
-              <preferredSize width="35" height="35"/>
-            </properties>
-            <border type="none"/>
-            <children>
-              <component id="8caa" class="javax.swing.JLabel" binding="gerudoTokenPic">
-                <constraints/>
-                <properties>
-                  <background color="-8197247"/>
-                  <horizontalAlignment value="0"/>
-                  <horizontalTextPosition value="0"/>
-                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Gerudo_Token_Icon.png"/>
-                  <maximumSize width="35" height="35"/>
-                  <minimumSize width="35" height="35"/>
-                  <preferredSize width="35" height="35"/>
-                  <text value=""/>
-                  <verifyInputWhenFocusTarget value="false"/>
-                </properties>
-              </component>
-            </children>
-          </grid>
-          <grid id="f8634" binding="gerudoKeyPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-            <constraints/>
-            <properties>
-              <background color="-10524056"/>
-              <foreground color="-10524056"/>
-              <maximumSize width="35" height="35"/>
-              <minimumSize width="35" height="35"/>
-              <preferredSize width="75" height="35"/>
-            </properties>
-            <border type="none"/>
-            <children>
-              <component id="fe083" class="javax.swing.JLabel" binding="gerudoKeyPic">
-                <constraints/>
-                <properties>
-                  <horizontalAlignment value="0"/>
-                  <horizontalTextPosition value="0"/>
-                  <icon value="main/resources/icons/3Ds Icons/OoT3D_Small_Key_Icon.png"/>
-                  <maximumSize width="35" height="35"/>
-                  <minimumSize width="35" height="35"/>
-                  <preferredSize width="35" height="35"/>
-                  <text value=""/>
-                  <verifyInputWhenFocusTarget value="false"/>
-                </properties>
-              </component>
-            </children>
           </grid>
           <grid id="21bcd" binding="kokiriStonePanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
@@ -3341,15 +3124,39 @@
               </component>
             </children>
           </grid>
+          <grid id="4462d" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-12300724"/>
+              <foreground color="-10524056"/>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="3e44" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-12300724"/>
+              <foreground color="-10524056"/>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <preferredSize width="35" height="35"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
         </children>
       </grid>
       <grid id="4a328" binding="grottoMapPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
         <constraints/>
         <properties>
-          <background color="-12300724"/>
+          <background color="-13353669"/>
           <maximumSize width="610" height="310"/>
           <minimumSize width="610" height="310"/>
-          <preferredSize width="680" height="310"/>
+          <preferredSize width="650" height="310"/>
         </properties>
         <border type="none"/>
         <children>
@@ -3361,6 +3168,328 @@
               <text value=""/>
             </properties>
           </component>
+          <scrollpane id="74c5">
+            <constraints/>
+            <properties>
+              <background color="-10524056"/>
+              <preferredSize width="210" height="310"/>
+              <verticalScrollBarPolicy value="22"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="9f7bc" layout-manager="GridBagLayout">
+                <constraints/>
+                <properties>
+                  <background color="-10524056"/>
+                </properties>
+                <border type="none" title=""/>
+                <children>
+                  <component id="457cc" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1031"/>
+                      <font name="Bahnschrift" style="2"/>
+                      <foreground color="-1031"/>
+                      <text value="Death Mountain Crater"/>
+                    </properties>
+                  </component>
+                  <component id="77c9e" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1031"/>
+                      <font name="Bahnschrift" size="10"/>
+                      <foreground color="-1031"/>
+                      <text value="   Entrance trail"/>
+                    </properties>
+                  </component>
+                  <component id="8b0c4" class="javax.swing.JCheckBox" default-binding="true">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-10524056"/>
+                      <foreground color="-12300724"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="93c16" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1031"/>
+                      <font name="Bahnschrift" size="10"/>
+                      <foreground color="-1031"/>
+                      <text value="   Entrance Goron City"/>
+                    </properties>
+                  </component>
+                  <component id="bc9a1" class="javax.swing.JCheckBox" default-binding="true">
+                    <constraints>
+                      <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-10524056"/>
+                      <foreground color="-12300724"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="ada10" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1031"/>
+                      <font name="Bahnschrift" size="10"/>
+                      <foreground color="-1031"/>
+                      <text value="   Death Mountain trail"/>
+                    </properties>
+                  </component>
+                  <component id="c8570" class="javax.swing.JCheckBox" default-binding="true">
+                    <constraints>
+                      <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-10524056"/>
+                      <foreground color="-12300724"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="58cfd" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1031"/>
+                      <font name="Bahnschrift" size="10"/>
+                      <foreground color="-1031"/>
+                      <text value="   Entrance Goron City"/>
+                    </properties>
+                  </component>
+                  <component id="bf393" class="javax.swing.JCheckBox" default-binding="true">
+                    <constraints>
+                      <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-10524056"/>
+                      <foreground color="-12300724"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="15ccf" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1031"/>
+                      <font name="Bahnschrift" size="10"/>
+                      <foreground color="-1031"/>
+                      <text value="   Upper pathway"/>
+                    </properties>
+                  </component>
+                  <component id="2a342" class="javax.swing.JCheckBox" default-binding="true">
+                    <constraints>
+                      <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-10524056"/>
+                      <foreground color="-12300724"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="a1ef2" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1031"/>
+                      <font name="Bahnschrift" style="2"/>
+                      <foreground color="-1031"/>
+                      <text value="Desert Colossus"/>
+                    </properties>
+                  </component>
+                  <component id="3cd94" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1031"/>
+                      <font name="Bahnschrift" size="10"/>
+                      <foreground color="-1031"/>
+                      <text value="   Rock Cycle"/>
+                    </properties>
+                  </component>
+                  <component id="c4e92" class="javax.swing.JCheckBox" default-binding="true">
+                    <constraints>
+                      <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-10524056"/>
+                      <foreground color="-12300724"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="808bb" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1031"/>
+                      <font name="Bahnschrift" style="2"/>
+                      <foreground color="-1031"/>
+                      <text value="Gerudo Valley"/>
+                    </properties>
+                  </component>
+                  <component id="d4255" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1031"/>
+                      <font name="Bahnschrift" size="10"/>
+                      <foreground color="-1031"/>
+                      <text value="   Behind tent"/>
+                    </properties>
+                  </component>
+                  <component id="a9880" class="javax.swing.JCheckBox" default-binding="true">
+                    <constraints>
+                      <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-10524056"/>
+                      <foreground color="-12300724"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="4cf74" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1031"/>
+                      <font name="Bahnschrift" size="10"/>
+                      <foreground color="-1031"/>
+                      <text value="   Jumping platform"/>
+                    </properties>
+                  </component>
+                  <component id="d2c0c" class="javax.swing.JCheckBox" default-binding="true">
+                    <constraints>
+                      <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-10524056"/>
+                      <foreground color="-12300724"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="1fbd0" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1031"/>
+                      <font name="Bahnschrift" style="2"/>
+                      <foreground color="-1031"/>
+                      <text value="Gerudo's Fortress"/>
+                    </properties>
+                  </component>
+                  <component id="9ae3d" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1031"/>
+                      <font name="Bahnschrift" size="10"/>
+                      <foreground color="-1031"/>
+                      <text value="   Behind the Boxes"/>
+                    </properties>
+                  </component>
+                  <component id="420c" class="javax.swing.JCheckBox" default-binding="true">
+                    <constraints>
+                      <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-10524056"/>
+                      <foreground color="-12300724"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="2d05d" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1031"/>
+                      <font name="Bahnschrift" style="2"/>
+                      <foreground color="-1031"/>
+                      <text value="Goron City"/>
+                    </properties>
+                  </component>
+                  <component id="c65a5" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1031"/>
+                      <font name="Bahnschrift" size="10"/>
+                      <foreground color="-1031"/>
+                      <text value="   Lava cave"/>
+                    </properties>
+                  </component>
+                  <component id="8951" class="javax.swing.JCheckBox" default-binding="true">
+                    <constraints>
+                      <grid row="14" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-10524056"/>
+                      <foreground color="-12300724"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="2320e" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="15" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1031"/>
+                      <font name="Bahnschrift" style="2"/>
+                      <foreground color="-1031"/>
+                      <text value="Hyrule Field"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </scrollpane>
         </children>
       </grid>
       <grid id="78c48" binding="collectiblesPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
@@ -3369,7 +3498,7 @@
           <background color="-12300724"/>
           <maximumSize width="580" height="200"/>
           <minimumSize width="580" height="200"/>
-          <preferredSize width="680" height="240"/>
+          <preferredSize width="650" height="240"/>
         </properties>
         <border type="none"/>
         <children>
@@ -3377,11 +3506,11 @@
             <constraints/>
             <properties>
               <background color="-12300724"/>
-              <preferredSize width="680" height="82"/>
+              <preferredSize width="650" height="82"/>
             </properties>
             <border type="none"/>
             <children>
-              <grid id="49f5b" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+              <grid id="49f5b" binding="giantKnifePanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
                 <constraints/>
                 <properties>
                   <background color="-10524056"/>
@@ -3392,12 +3521,12 @@
                 </properties>
                 <border type="none"/>
                 <children>
-                  <component id="adeb7" class="javax.swing.JLabel">
+                  <component id="adeb7" class="javax.swing.JLabel" binding="giantKnifePic">
                     <constraints/>
                     <properties>
                       <horizontalAlignment value="0"/>
                       <horizontalTextPosition value="0"/>
-                      <icon value="main/resources/icons/3Ds Icons/OoT3D_Song_Zelda.png"/>
+                      <icon value="main/resources/icons/3Ds Icons/OoT3D_Biggorons_Sword_Icon.png"/>
                       <maximumSize width="35" height="35"/>
                       <minimumSize width="35" height="35"/>
                       <preferredSize width="35" height="35"/>
@@ -3407,7 +3536,7 @@
                   </component>
                 </children>
               </grid>
-              <grid id="e4f6" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+              <grid id="e4f6" binding="pocketEggPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
                 <constraints/>
                 <properties>
                   <background color="-10524056"/>
@@ -3418,12 +3547,12 @@
                 </properties>
                 <border type="none"/>
                 <children>
-                  <component id="9ac03" class="javax.swing.JLabel">
+                  <component id="9ac03" class="javax.swing.JLabel" binding="poketEggPic">
                     <constraints/>
                     <properties>
                       <horizontalAlignment value="0"/>
                       <horizontalTextPosition value="0"/>
-                      <icon value="main/resources/icons/3Ds Icons/OoT3D_Song_Zelda.png"/>
+                      <icon value="main/resources/icons/3Ds Icons/Pocket-Egg.png"/>
                       <maximumSize width="35" height="35"/>
                       <minimumSize width="35" height="35"/>
                       <preferredSize width="35" height="35"/>
@@ -3433,7 +3562,7 @@
                   </component>
                 </children>
               </grid>
-              <grid id="40b63" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+              <grid id="40b63" binding="pocketCuccoPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
                 <constraints/>
                 <properties>
                   <background color="-10524056"/>
@@ -3444,12 +3573,12 @@
                 </properties>
                 <border type="none"/>
                 <children>
-                  <component id="ad8d3" class="javax.swing.JLabel">
+                  <component id="ad8d3" class="javax.swing.JLabel" binding="pocketCuccoPic">
                     <constraints/>
                     <properties>
                       <horizontalAlignment value="0"/>
                       <horizontalTextPosition value="0"/>
-                      <icon value="main/resources/icons/3Ds Icons/OoT3D_Song_Zelda.png"/>
+                      <icon value="main/resources/icons/3Ds Icons/OoT3D_Cucco_Icon.png"/>
                       <maximumSize width="35" height="35"/>
                       <minimumSize width="35" height="35"/>
                       <preferredSize width="35" height="35"/>
@@ -3459,7 +3588,7 @@
                   </component>
                 </children>
               </grid>
-              <grid id="601af" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+              <grid id="601af" binding="cojiroPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
                 <constraints/>
                 <properties>
                   <background color="-10524056"/>
@@ -3470,12 +3599,12 @@
                 </properties>
                 <border type="none"/>
                 <children>
-                  <component id="8230e" class="javax.swing.JLabel">
+                  <component id="8230e" class="javax.swing.JLabel" binding="cojiroPic">
                     <constraints/>
                     <properties>
                       <horizontalAlignment value="0"/>
                       <horizontalTextPosition value="0"/>
-                      <icon value="main/resources/icons/3Ds Icons/OoT3D_Song_Zelda.png"/>
+                      <icon value="main/resources/icons/3Ds Icons/Cojiro-Icon.png"/>
                       <maximumSize width="35" height="35"/>
                       <minimumSize width="35" height="35"/>
                       <preferredSize width="35" height="35"/>
@@ -3485,7 +3614,7 @@
                   </component>
                 </children>
               </grid>
-              <grid id="bf1e4" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+              <grid id="bf1e4" binding="oddMushroomPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
                 <constraints/>
                 <properties>
                   <background color="-10524056"/>
@@ -3496,12 +3625,12 @@
                 </properties>
                 <border type="none"/>
                 <children>
-                  <component id="c5873" class="javax.swing.JLabel">
+                  <component id="c5873" class="javax.swing.JLabel" binding="oddMushroomPic">
                     <constraints/>
                     <properties>
                       <horizontalAlignment value="0"/>
                       <horizontalTextPosition value="0"/>
-                      <icon value="main/resources/icons/3Ds Icons/OoT3D_Song_Zelda.png"/>
+                      <icon value="main/resources/icons/3Ds Icons/Odd-Mushroom.png"/>
                       <maximumSize width="35" height="35"/>
                       <minimumSize width="35" height="35"/>
                       <preferredSize width="35" height="35"/>
@@ -3511,7 +3640,7 @@
                   </component>
                 </children>
               </grid>
-              <grid id="17538" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+              <grid id="17538" binding="oddPoulticePanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
                 <constraints/>
                 <properties>
                   <background color="-10524056"/>
@@ -3522,12 +3651,12 @@
                 </properties>
                 <border type="none"/>
                 <children>
-                  <component id="1544" class="javax.swing.JLabel">
+                  <component id="1544" class="javax.swing.JLabel" binding="oddPoulticePic">
                     <constraints/>
                     <properties>
                       <horizontalAlignment value="0"/>
                       <horizontalTextPosition value="0"/>
-                      <icon value="main/resources/icons/3Ds Icons/OoT3D_Song_Zelda.png"/>
+                      <icon value="main/resources/icons/3Ds Icons/Odd-Poultice.png"/>
                       <maximumSize width="35" height="35"/>
                       <minimumSize width="35" height="35"/>
                       <preferredSize width="35" height="35"/>
@@ -3537,7 +3666,7 @@
                   </component>
                 </children>
               </grid>
-              <grid id="fe8cc" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+              <grid id="fe8cc" binding="sawPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
                 <constraints/>
                 <properties>
                   <background color="-10524056"/>
@@ -3548,12 +3677,12 @@
                 </properties>
                 <border type="none"/>
                 <children>
-                  <component id="9089b" class="javax.swing.JLabel">
+                  <component id="9089b" class="javax.swing.JLabel" binding="sawPic">
                     <constraints/>
                     <properties>
                       <horizontalAlignment value="0"/>
                       <horizontalTextPosition value="0"/>
-                      <icon value="main/resources/icons/3Ds Icons/OoT3D_Song_Zelda.png"/>
+                      <icon value="main/resources/icons/3Ds Icons/Poachers-Saw.png"/>
                       <maximumSize width="35" height="35"/>
                       <minimumSize width="35" height="35"/>
                       <preferredSize width="35" height="35"/>
@@ -3563,7 +3692,7 @@
                   </component>
                 </children>
               </grid>
-              <grid id="46c86" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+              <grid id="46c86" binding="brknGoronSwordPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
                 <constraints/>
                 <properties>
                   <background color="-10524056"/>
@@ -3574,12 +3703,12 @@
                 </properties>
                 <border type="none"/>
                 <children>
-                  <component id="ba361" class="javax.swing.JLabel">
+                  <component id="ba361" class="javax.swing.JLabel" binding="brknGoronSwordPic">
                     <constraints/>
                     <properties>
                       <horizontalAlignment value="0"/>
                       <horizontalTextPosition value="0"/>
-                      <icon value="main/resources/icons/3Ds Icons/OoT3D_Song_Zelda.png"/>
+                      <icon value="main/resources/icons/3Ds Icons/Broken-Goron-Sword.png"/>
                       <maximumSize width="35" height="35"/>
                       <minimumSize width="35" height="35"/>
                       <preferredSize width="35" height="35"/>
@@ -3589,7 +3718,7 @@
                   </component>
                 </children>
               </grid>
-              <grid id="3ba1b" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+              <grid id="3ba1b" binding="prescriptionPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
                 <constraints/>
                 <properties>
                   <background color="-10524056"/>
@@ -3600,12 +3729,12 @@
                 </properties>
                 <border type="none"/>
                 <children>
-                  <component id="db919" class="javax.swing.JLabel">
+                  <component id="db919" class="javax.swing.JLabel" binding="prescriptionPic">
                     <constraints/>
                     <properties>
                       <horizontalAlignment value="0"/>
                       <horizontalTextPosition value="0"/>
-                      <icon value="main/resources/icons/3Ds Icons/OoT3D_Song_Zelda.png"/>
+                      <icon value="main/resources/icons/3Ds Icons/Prescription.png"/>
                       <maximumSize width="35" height="35"/>
                       <minimumSize width="35" height="35"/>
                       <preferredSize width="35" height="35"/>
@@ -3615,7 +3744,7 @@
                   </component>
                 </children>
               </grid>
-              <grid id="eb16" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+              <grid id="eb16" binding="frogPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
                 <constraints/>
                 <properties>
                   <background color="-10524056"/>
@@ -3626,12 +3755,12 @@
                 </properties>
                 <border type="none"/>
                 <children>
-                  <component id="cba12" class="javax.swing.JLabel">
+                  <component id="cba12" class="javax.swing.JLabel" binding="frogPic">
                     <constraints/>
                     <properties>
                       <horizontalAlignment value="0"/>
                       <horizontalTextPosition value="0"/>
-                      <icon value="main/resources/icons/3Ds Icons/OoT3D_Song_Zelda.png"/>
+                      <icon value="main/resources/icons/3Ds Icons/Eyeball-Frog.png"/>
                       <maximumSize width="35" height="35"/>
                       <minimumSize width="35" height="35"/>
                       <preferredSize width="35" height="35"/>
@@ -3641,7 +3770,7 @@
                   </component>
                 </children>
               </grid>
-              <grid id="175c1" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+              <grid id="175c1" binding="eyeDropsPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
                 <constraints/>
                 <properties>
                   <background color="-10524056"/>
@@ -3652,12 +3781,12 @@
                 </properties>
                 <border type="none"/>
                 <children>
-                  <component id="57121" class="javax.swing.JLabel">
+                  <component id="57121" class="javax.swing.JLabel" binding="eyeDropsPic">
                     <constraints/>
                     <properties>
                       <horizontalAlignment value="0"/>
                       <horizontalTextPosition value="0"/>
-                      <icon value="main/resources/icons/3Ds Icons/OoT3D_Song_Zelda.png"/>
+                      <icon value="main/resources/icons/3Ds Icons/Eye-Drops.png"/>
                       <maximumSize width="35" height="35"/>
                       <minimumSize width="35" height="35"/>
                       <preferredSize width="35" height="35"/>
@@ -3667,7 +3796,7 @@
                   </component>
                 </children>
               </grid>
-              <grid id="165fe" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+              <grid id="165fe" binding="claimCheckPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
                 <constraints/>
                 <properties>
                   <background color="-10524056"/>
@@ -3678,12 +3807,12 @@
                 </properties>
                 <border type="none"/>
                 <children>
-                  <component id="57813" class="javax.swing.JLabel">
+                  <component id="57813" class="javax.swing.JLabel" binding="claimCheckPic">
                     <constraints/>
                     <properties>
                       <horizontalAlignment value="0"/>
                       <horizontalTextPosition value="0"/>
-                      <icon value="main/resources/icons/3Ds Icons/OoT3D_Song_Zelda.png"/>
+                      <icon value="main/resources/icons/3Ds Icons/Claim-Check.png"/>
                       <maximumSize width="35" height="35"/>
                       <minimumSize width="35" height="35"/>
                       <preferredSize width="35" height="35"/>
@@ -3693,10 +3822,10 @@
                   </component>
                 </children>
               </grid>
-              <grid id="ba4b4" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+              <grid id="ba4b4" binding="empty3_13_1" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
                 <constraints/>
                 <properties>
-                  <background color="-10524056"/>
+                  <background color="-12300724"/>
                   <foreground color="-10524056"/>
                   <maximumSize width="35" height="35"/>
                   <minimumSize width="35" height="35"/>
@@ -3705,7 +3834,7 @@
                 <border type="none"/>
                 <children/>
               </grid>
-              <grid id="51fa8" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+              <grid id="51fa8" binding="secondBigGoronSwordPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
                 <constraints/>
                 <properties>
                   <background color="-10524056"/>
@@ -3716,12 +3845,12 @@
                 </properties>
                 <border type="none"/>
                 <children>
-                  <component id="52f41" class="javax.swing.JLabel">
+                  <component id="52f41" class="javax.swing.JLabel" binding="secondBigGoronSwordPic">
                     <constraints/>
                     <properties>
                       <horizontalAlignment value="0"/>
                       <horizontalTextPosition value="0"/>
-                      <icon value="main/resources/icons/3Ds Icons/OoT3D_Song_Zelda.png"/>
+                      <icon value="main/resources/icons/3Ds Icons/OoT3D_Biggorons_Sword_Icon.png"/>
                       <maximumSize width="35" height="35"/>
                       <minimumSize width="35" height="35"/>
                       <preferredSize width="35" height="35"/>
@@ -3731,10 +3860,10 @@
                   </component>
                 </children>
               </grid>
-              <grid id="bc243" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+              <grid id="bc243" binding="empty3_15_1" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
                 <constraints/>
                 <properties>
-                  <background color="-10524056"/>
+                  <background color="-12300724"/>
                   <foreground color="-10524056"/>
                   <maximumSize width="35" height="35"/>
                   <minimumSize width="35" height="35"/>
@@ -3743,10 +3872,10 @@
                 <border type="none"/>
                 <children/>
               </grid>
-              <grid id="1e302" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+              <grid id="48f54" binding="empty3_17_1" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
                 <constraints/>
                 <properties>
-                  <background color="-10524056"/>
+                  <background color="-12300724"/>
                   <foreground color="-10524056"/>
                   <maximumSize width="35" height="35"/>
                   <minimumSize width="35" height="35"/>
@@ -3755,19 +3884,7 @@
                 <border type="none"/>
                 <children/>
               </grid>
-              <grid id="48f54" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-                <constraints/>
-                <properties>
-                  <background color="-10524056"/>
-                  <foreground color="-10524056"/>
-                  <maximumSize width="35" height="35"/>
-                  <minimumSize width="35" height="35"/>
-                  <preferredSize width="35" height="35"/>
-                </properties>
-                <border type="none"/>
-                <children/>
-              </grid>
-              <grid id="cd3fa" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+              <grid id="cd3fa" binding="keatonMaskPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
                 <constraints/>
                 <properties>
                   <background color="-10524056"/>
@@ -3778,12 +3895,12 @@
                 </properties>
                 <border type="none"/>
                 <children>
-                  <component id="2324b" class="javax.swing.JLabel">
+                  <component id="2324b" class="javax.swing.JLabel" binding="keatonMaskPic">
                     <constraints/>
                     <properties>
                       <horizontalAlignment value="0"/>
                       <horizontalTextPosition value="0"/>
-                      <icon value="main/resources/icons/3Ds Icons/OoT3D_Song_Zelda.png"/>
+                      <icon value="main/resources/icons/3Ds Icons/Keaton-Mask-Icon.png"/>
                       <maximumSize width="35" height="35"/>
                       <minimumSize width="35" height="35"/>
                       <preferredSize width="35" height="35"/>
@@ -3793,7 +3910,7 @@
                   </component>
                 </children>
               </grid>
-              <grid id="b4ea" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+              <grid id="b4ea" binding="skullMaskPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
                 <constraints/>
                 <properties>
                   <background color="-10524056"/>
@@ -3804,12 +3921,12 @@
                 </properties>
                 <border type="none"/>
                 <children>
-                  <component id="67d90" class="javax.swing.JLabel">
+                  <component id="67d90" class="javax.swing.JLabel" binding="skullMaskPic">
                     <constraints/>
                     <properties>
                       <horizontalAlignment value="0"/>
                       <horizontalTextPosition value="0"/>
-                      <icon value="main/resources/icons/3Ds Icons/OoT3D_Song_Zelda.png"/>
+                      <icon value="main/resources/icons/3Ds Icons/Skull-Mask-Icon.png"/>
                       <maximumSize width="35" height="35"/>
                       <minimumSize width="35" height="35"/>
                       <preferredSize width="35" height="35"/>
@@ -3819,7 +3936,7 @@
                   </component>
                 </children>
               </grid>
-              <grid id="e6dc9" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+              <grid id="e6dc9" binding="spookyMaskPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
                 <constraints/>
                 <properties>
                   <background color="-10524056"/>
@@ -3830,12 +3947,12 @@
                 </properties>
                 <border type="none"/>
                 <children>
-                  <component id="22515" class="javax.swing.JLabel">
+                  <component id="22515" class="javax.swing.JLabel" binding="spookyMaskPic">
                     <constraints/>
                     <properties>
                       <horizontalAlignment value="0"/>
                       <horizontalTextPosition value="0"/>
-                      <icon value="main/resources/icons/3Ds Icons/OoT3D_Song_Zelda.png"/>
+                      <icon value="main/resources/icons/3Ds Icons/Spooky-Mask-Icon.png"/>
                       <maximumSize width="35" height="35"/>
                       <minimumSize width="35" height="35"/>
                       <preferredSize width="35" height="35"/>
@@ -3845,7 +3962,7 @@
                   </component>
                 </children>
               </grid>
-              <grid id="f7f" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+              <grid id="f7f" binding="bunnyHoodPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
                 <constraints/>
                 <properties>
                   <background color="-10524056"/>
@@ -3856,12 +3973,12 @@
                 </properties>
                 <border type="none"/>
                 <children>
-                  <component id="c8c6d" class="javax.swing.JLabel">
+                  <component id="c8c6d" class="javax.swing.JLabel" binding="bunnyHoodPic">
                     <constraints/>
                     <properties>
                       <horizontalAlignment value="0"/>
                       <horizontalTextPosition value="0"/>
-                      <icon value="main/resources/icons/3Ds Icons/OoT3D_Song_Zelda.png"/>
+                      <icon value="main/resources/icons/3Ds Icons/Bunny-Hood-Mask-Icon.png"/>
                       <maximumSize width="35" height="35"/>
                       <minimumSize width="35" height="35"/>
                       <preferredSize width="35" height="35"/>
@@ -3871,7 +3988,7 @@
                   </component>
                 </children>
               </grid>
-              <grid id="9dc6e" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+              <grid id="9dc6e" binding="gerudoMaskPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
                 <constraints/>
                 <properties>
                   <background color="-10524056"/>
@@ -3882,12 +3999,12 @@
                 </properties>
                 <border type="none"/>
                 <children>
-                  <component id="6443a" class="javax.swing.JLabel">
+                  <component id="6443a" class="javax.swing.JLabel" binding="gerudoMaskPic">
                     <constraints/>
                     <properties>
                       <horizontalAlignment value="0"/>
                       <horizontalTextPosition value="0"/>
-                      <icon value="main/resources/icons/3Ds Icons/OoT3D_Song_Zelda.png"/>
+                      <icon value="main/resources/icons/3Ds Icons/Gerudo-Mask-Icon.png"/>
                       <maximumSize width="35" height="35"/>
                       <minimumSize width="35" height="35"/>
                       <preferredSize width="35" height="35"/>
@@ -3897,7 +4014,7 @@
                   </component>
                 </children>
               </grid>
-              <grid id="4d547" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+              <grid id="4d547" binding="goronMaskPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
                 <constraints/>
                 <properties>
                   <background color="-10524056"/>
@@ -3908,12 +4025,12 @@
                 </properties>
                 <border type="none"/>
                 <children>
-                  <component id="6bd14" class="javax.swing.JLabel">
+                  <component id="6bd14" class="javax.swing.JLabel" binding="goronMaskPic">
                     <constraints/>
                     <properties>
                       <horizontalAlignment value="0"/>
                       <horizontalTextPosition value="0"/>
-                      <icon value="main/resources/icons/3Ds Icons/OoT3D_Song_Zelda.png"/>
+                      <icon value="main/resources/icons/3Ds Icons/Goron-Mask-Icon.png"/>
                       <maximumSize width="35" height="35"/>
                       <minimumSize width="35" height="35"/>
                       <preferredSize width="35" height="35"/>
@@ -3923,7 +4040,7 @@
                   </component>
                 </children>
               </grid>
-              <grid id="3ab43" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+              <grid id="3ab43" binding="zoraMaskPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
                 <constraints/>
                 <properties>
                   <background color="-10524056"/>
@@ -3934,12 +4051,12 @@
                 </properties>
                 <border type="none"/>
                 <children>
-                  <component id="94a95" class="javax.swing.JLabel">
+                  <component id="94a95" class="javax.swing.JLabel" binding="zoraMaskPic">
                     <constraints/>
                     <properties>
                       <horizontalAlignment value="0"/>
                       <horizontalTextPosition value="0"/>
-                      <icon value="main/resources/icons/3Ds Icons/OoT3D_Song_Zelda.png"/>
+                      <icon value="main/resources/icons/3Ds Icons/Zora-Mask-Icon.png"/>
                       <maximumSize width="35" height="35"/>
                       <minimumSize width="35" height="35"/>
                       <preferredSize width="35" height="35"/>
@@ -3949,7 +4066,7 @@
                   </component>
                 </children>
               </grid>
-              <grid id="2a827" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+              <grid id="2a827" binding="maskOfTruthPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
                 <constraints/>
                 <properties>
                   <background color="-10524056"/>
@@ -3960,12 +4077,12 @@
                 </properties>
                 <border type="none"/>
                 <children>
-                  <component id="3212" class="javax.swing.JLabel">
+                  <component id="3212" class="javax.swing.JLabel" binding="maskOfTruthPic">
                     <constraints/>
                     <properties>
                       <horizontalAlignment value="0"/>
                       <horizontalTextPosition value="0"/>
-                      <icon value="main/resources/icons/3Ds Icons/OoT3D_Song_Zelda.png"/>
+                      <icon value="main/resources/icons/3Ds Icons/Mask-of-Truth-Mask-Icon.png"/>
                       <maximumSize width="35" height="35"/>
                       <minimumSize width="35" height="35"/>
                       <preferredSize width="35" height="35"/>
@@ -3975,10 +4092,10 @@
                   </component>
                 </children>
               </grid>
-              <grid id="9fc4" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+              <grid id="9fc4" binding="empty3_9_2" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
                 <constraints/>
                 <properties>
-                  <background color="-10524056"/>
+                  <background color="-12300724"/>
                   <foreground color="-10524056"/>
                   <maximumSize width="35" height="35"/>
                   <minimumSize width="35" height="35"/>
@@ -3987,10 +4104,10 @@
                 <border type="none"/>
                 <children/>
               </grid>
-              <grid id="14c92" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+              <grid id="14c92" binding="empty3_10_2" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
                 <constraints/>
                 <properties>
-                  <background color="-10524056"/>
+                  <background color="-12300724"/>
                   <foreground color="-10524056"/>
                   <maximumSize width="35" height="35"/>
                   <minimumSize width="35" height="35"/>
@@ -3999,10 +4116,10 @@
                 <border type="none"/>
                 <children/>
               </grid>
-              <grid id="ecbb8" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+              <grid id="ecbb8" binding="empty3_11_2" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
                 <constraints/>
                 <properties>
-                  <background color="-10524056"/>
+                  <background color="-12300724"/>
                   <foreground color="-10524056"/>
                   <maximumSize width="35" height="35"/>
                   <minimumSize width="35" height="35"/>
@@ -4011,10 +4128,10 @@
                 <border type="none"/>
                 <children/>
               </grid>
-              <grid id="2c380" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+              <grid id="2c380" binding="empty3_12_2" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
                 <constraints/>
                 <properties>
-                  <background color="-10524056"/>
+                  <background color="-12300724"/>
                   <foreground color="-10524056"/>
                   <maximumSize width="35" height="35"/>
                   <minimumSize width="35" height="35"/>
@@ -4023,10 +4140,10 @@
                 <border type="none"/>
                 <children/>
               </grid>
-              <grid id="c35ae" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+              <grid id="1b9e" binding="empty3_14_2" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
                 <constraints/>
                 <properties>
-                  <background color="-10524056"/>
+                  <background color="-12300724"/>
                   <foreground color="-10524056"/>
                   <maximumSize width="35" height="35"/>
                   <minimumSize width="35" height="35"/>
@@ -4035,10 +4152,10 @@
                 <border type="none"/>
                 <children/>
               </grid>
-              <grid id="1b9e" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+              <grid id="7127d" binding="empty3_15_2" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
                 <constraints/>
                 <properties>
-                  <background color="-10524056"/>
+                  <background color="-12300724"/>
                   <foreground color="-10524056"/>
                   <maximumSize width="35" height="35"/>
                   <minimumSize width="35" height="35"/>
@@ -4047,10 +4164,10 @@
                 <border type="none"/>
                 <children/>
               </grid>
-              <grid id="7127d" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+              <grid id="32932" binding="empty3_16_2" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
                 <constraints/>
                 <properties>
-                  <background color="-10524056"/>
+                  <background color="-12300724"/>
                   <foreground color="-10524056"/>
                   <maximumSize width="35" height="35"/>
                   <minimumSize width="35" height="35"/>
@@ -4059,22 +4176,10 @@
                 <border type="none"/>
                 <children/>
               </grid>
-              <grid id="32932" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+              <grid id="e17e4" binding="empty3_17_2" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
                 <constraints/>
                 <properties>
-                  <background color="-10524056"/>
-                  <foreground color="-10524056"/>
-                  <maximumSize width="35" height="35"/>
-                  <minimumSize width="35" height="35"/>
-                  <preferredSize width="35" height="35"/>
-                </properties>
-                <border type="none"/>
-                <children/>
-              </grid>
-              <grid id="e17e4" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-                <constraints/>
-                <properties>
-                  <background color="-10524056"/>
+                  <background color="-12300724"/>
                   <foreground color="-10524056"/>
                   <maximumSize width="35" height="35"/>
                   <minimumSize width="35" height="35"/>
@@ -4089,7 +4194,7 @@
             <constraints/>
             <properties>
               <background color="-12300724"/>
-              <preferredSize width="680" height="45"/>
+              <preferredSize width="650" height="45"/>
             </properties>
             <border type="none"/>
             <children>
@@ -4146,60 +4251,13 @@
                   <text value="-"/>
                 </properties>
               </component>
-              <grid id="20cf1" binding="scareCrowContainer" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-                <constraints/>
-                <properties>
-                  <background color="-12300724"/>
-                  <foreground color="-10524056"/>
-                  <maximumSize width="35" height="35"/>
-                  <minimumSize width="35" height="35"/>
-                  <preferredSize width="250" height="35"/>
-                </properties>
-                <border type="none"/>
-                <children>
-                  <grid id="6337e" binding="scareCrowPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-                    <constraints/>
-                    <properties>
-                      <background color="-10524056"/>
-                      <foreground color="-10524056"/>
-                      <maximumSize width="35" height="35"/>
-                      <minimumSize width="35" height="35"/>
-                      <preferredSize width="35" height="35"/>
-                    </properties>
-                    <border type="none"/>
-                    <children>
-                      <component id="e6de8" class="javax.swing.JLabel" binding="scareCrowPic">
-                        <constraints/>
-                        <properties>
-                          <horizontalAlignment value="0"/>
-                          <horizontalTextPosition value="0"/>
-                          <icon value="main/resources/icons/3Ds Icons/OoT3D_Song_Zelda.png"/>
-                          <maximumSize width="35" height="35"/>
-                          <minimumSize width="35" height="35"/>
-                          <preferredSize width="35" height="35"/>
-                          <text value=""/>
-                          <verifyInputWhenFocusTarget value="false"/>
-                        </properties>
-                      </component>
-                    </children>
-                  </grid>
-                  <component id="4109" class="javax.swing.JTextField" binding="scareCrowInput">
-                    <constraints/>
-                    <properties>
-                      <background color="-12300724"/>
-                      <foreground color="-1031"/>
-                      <preferredSize width="215" height="25"/>
-                    </properties>
-                  </component>
-                </children>
-              </grid>
             </children>
           </grid>
           <grid id="4b23e" binding="skulltullaContainer" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
             <constraints/>
             <properties>
               <background color="-12300724"/>
-              <preferredSize width="680" height="45"/>
+              <preferredSize width="650" height="45"/>
             </properties>
             <border type="none"/>
             <children>
@@ -4256,60 +4314,13 @@
                   <text value="-"/>
                 </properties>
               </component>
-              <grid id="65e3d" binding="horrorKidGameContainer" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-                <constraints/>
-                <properties>
-                  <background color="-12300724"/>
-                  <foreground color="-10524056"/>
-                  <maximumSize width="35" height="35"/>
-                  <minimumSize width="35" height="35"/>
-                  <preferredSize width="250" height="35"/>
-                </properties>
-                <border type="none"/>
-                <children>
-                  <grid id="11c1f" binding="horrorKidGamePanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
-                    <constraints/>
-                    <properties>
-                      <background color="-10524056"/>
-                      <foreground color="-10524056"/>
-                      <maximumSize width="35" height="35"/>
-                      <minimumSize width="35" height="35"/>
-                      <preferredSize width="35" height="35"/>
-                    </properties>
-                    <border type="none"/>
-                    <children>
-                      <component id="10e7d" class="javax.swing.JLabel" binding="horrorKidGamePic">
-                        <constraints/>
-                        <properties>
-                          <horizontalAlignment value="0"/>
-                          <horizontalTextPosition value="0"/>
-                          <icon value="main/resources/icons/3Ds Icons/OoT3D_Song_Zelda.png"/>
-                          <maximumSize width="35" height="35"/>
-                          <minimumSize width="35" height="35"/>
-                          <preferredSize width="35" height="35"/>
-                          <text value=""/>
-                          <verifyInputWhenFocusTarget value="false"/>
-                        </properties>
-                      </component>
-                    </children>
-                  </grid>
-                  <component id="981e0" class="javax.swing.JTextField" binding="horrorKidGameInput">
-                    <constraints/>
-                    <properties>
-                      <background color="-12300724"/>
-                      <foreground color="-1031"/>
-                      <preferredSize width="215" height="25"/>
-                    </properties>
-                  </component>
-                </children>
-              </grid>
             </children>
           </grid>
           <grid id="ce502" binding="triforceHuntContainer" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
             <constraints/>
             <properties>
               <background color="-12300724"/>
-              <preferredSize width="680" height="45"/>
+              <preferredSize width="650" height="45"/>
             </properties>
             <border type="none"/>
             <children>
@@ -4390,7 +4401,7 @@
                   <foreground color="-10524056"/>
                   <maximumSize width="35" height="35"/>
                   <minimumSize width="35" height="35"/>
-                  <preferredSize width="115" height="35"/>
+                  <preferredSize width="65" height="35"/>
                 </properties>
                 <border type="none"/>
                 <children/>

@@ -58,7 +58,7 @@ public class GUI extends JFrame{
     public JPanel zeldasLetterPanel;        public JLabel zeldasLetterPic;
     public JPanel cucoPanel;                public JLabel cucoPic;
     public JPanel rutosLetterPanel;         public JLabel rutosLetterPic;
-    public JPanel fairyOcarinaPanel;        public JLabel fairyOcarinaPic;
+    public JPanel fairyOcarinaPanel;
     public JPanel weirdEggPanel;            public JLabel weirdEggPic;
     public JPanel schleuderPanel;           public JLabel schleuderPic;
 
@@ -71,44 +71,14 @@ public class GUI extends JFrame{
     public JPanel hookshotPanel;            public JLabel hookshotPic;
     public JPanel longshotPanel;            public JLabel longshotPic;
     public JPanel megatonHammerPanel;       public JLabel megatonHammerPic;
-    public JPanel goodOcarinaPanel;         public JLabel oOTPic;
-
+    public JPanel goodOcarinaPanel;
 
 
     // mixed Items
-    public JPanel bombPanel;                public JLabel bombPic;
-    public JLabel bombchuPic;               public JPanel bombchuPanel;
-    public JPanel dekuNutsPanel;            public JLabel dekuNutsPic;
-    public JPanel lensOfTruthPanel;         public JLabel lensOfTruthPic;
-    public JPanel bottleFirstPanel;         public JLabel bottleFirstPic;
-    public JPanel bottleSecondPanel;        public JLabel bottleSecondPic;
-    public JPanel bottleThirdPanel;         public JLabel bottleThirdPic;
-    public JPanel bottleFourthPanel;        public JLabel bottleFourthPic;
-
-
-    public JPanel empty1_11_1;
-    public JPanel empty1_13_1;
-    public JPanel empty1_1_2;
-    public JPanel empty1_11_2;
-    public JPanel empty1_12_2;
-    public JPanel empty1_13_2;
-    public JPanel empty1_1_3;
-    public JPanel empty1_10_3;
-    public JPanel empty1_11_3;
-    public JPanel empty1_12_3;
-    public JPanel empty1_13_3;
-    public JPanel empty1_16_3;
-    public JPanel empty1_17_3;
-    public JPanel empty1_18_3;
-    public JPanel empty1_5_4;
-    public JPanel empty1_10_4;
-    public JPanel empty1_11_4;
-    public JPanel empty1_13_4;
-    public JPanel empty1_12_5;
-    public JPanel empty1_5_5;
-    public JPanel empty1_9_5;
-    public JPanel empty1_10_5;
-    public JPanel empty1_11_5;
+    public JPanel bombPanel;
+    public JPanel bombchuPanel;
+    public JPanel dekuNutsPanel;
+    public JPanel lensOfTruthPanel;
 
 
     // Dungeons
@@ -168,8 +138,8 @@ public class GUI extends JFrame{
     public JPanel zoraStonePanel;           public JLabel zoraStonePic;
 
     // gerudo training complex
-    public JPanel gerudoTokenPanel;         public JLabel gerudoTokenPic;
-    private JPanel gerudoKeyPanel;          private JLabel gerudoKeyPic;
+    public JPanel gerudoTokenPanel;
+    public JPanel gerudoKeyPanel;
 
 
     // misc. songs
@@ -209,24 +179,59 @@ public class GUI extends JFrame{
     public JButton triforceAddBtn;              public JButton triforceSubstractBtn;
     public JButton triforceAddtriforceBtn;
 
-    // Scarecrow music
-    public JPanel scareCrowContainer;
-    public JPanel scareCrowPanel;               public JLabel scareCrowPic;
-    public JTextField scareCrowInput;
+    // Collectibles
 
-    // Horror Kid game
-    public JPanel horrorKidGameContainer;
-    public JPanel horrorKidGamePanel;           public JLabel horrorKidGamePic;
-    public JTextField horrorKidGameInput;
+    // Biggoron trading sequence
+    public JPanel giantKnifePanel;              public JLabel giantKnifePic;
+    public JPanel pocketEggPanel;               public JLabel poketEggPic;
+    public JPanel pocketCuccoPanel;             public JLabel pocketCuccoPic;
+    public JPanel cojiroPanel;                  public JLabel cojiroPic;
+    public JPanel oddMushroomPanel;             public JLabel oddMushroomPic;
+    public JPanel oddPoulticePanel;             public JLabel oddPoulticePic;
+    public JPanel sawPanel;                     public JLabel sawPic;
+    public JPanel brknGoronSwordPanel;          public JLabel brknGoronSwordPic;
+    public JPanel prescriptionPanel;            public JLabel prescriptionPic;
+    public JPanel frogPanel;                    public JLabel frogPic;
+    public JPanel eyeDropsPanel;                public JLabel eyeDropsPic;
+    public JPanel claimCheckPanel;              public JLabel claimCheckPic;
+    public JPanel secondBigGoronSwordPanel;     public JLabel secondBigGoronSwordPic;
 
-    public JPanel empty8_1;
-    public JPanel empty8_2;
-    public JPanel empty8_3;
 
+    public JPanel keatonMaskPanel;              public JLabel keatonMaskPic;
+    public JPanel skullMaskPanel;               public JLabel skullMaskPic;
+    public JPanel spookyMaskPanel;              public JLabel spookyMaskPic;
+    public JPanel bunnyHoodPanel;               public JLabel bunnyHoodPic;
+    public JPanel gerudoMaskPanel;              public JLabel gerudoMaskPic;
+    public JPanel goronMaskPanel;               public JLabel goronMaskPic;
+    public JPanel zoraMaskPanel;                public JLabel zoraMaskPic;
+    public JPanel maskOfTruthPanel;             public JLabel maskOfTruthPic;
+
+    public JPanel empty3_13_1;
+    public JPanel empty3_15_1;
+    public JPanel empty3_17_1;
+    public JPanel empty3_12_2;
+    public JPanel empty3_11_2;
+    public JPanel empty3_10_2;
+    public JPanel empty3_9_2;
+    public JPanel empty3_14_2;
+    public JPanel empty3_15_2;
+    public JPanel empty3_16_2;
+    public JPanel empty3_17_2;
+    private JLabel gerudoKeyPic;
+    private JLabel bombPic;
+    private JLabel bombchuPic;
+    private JLabel dekuNutsPic;
+    private JLabel lensOfTruthPic;
+    private JPanel empty1_1_2;
+    private JLabel fairyOcarinaPic;
+    private JLabel oOTPic;
+    private JPanel scareCrowPanel;
+    private JLabel scareCrowPic;
+    private JTextField scareCrowInput;
 
     public void setGUI() {
         setContentPane(mainWindow);
-        setSize(620, 1000);
+        setSize(670, 1000);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         mainWindow.add(coreItemsPanel);
         mainWindow.add(dungeonPanel);
