@@ -315,7 +315,7 @@
               </component>
             </children>
           </grid>
-          <grid id="e6085" binding="empty1_1_2" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+          <grid id="e6085" binding="empty1_12_1" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
               <background color="-12300724"/>
@@ -336,7 +336,7 @@
             </properties>
             <border type="none"/>
             <children>
-              <component id="58203" class="javax.swing.JLabel" binding="adultPanelPic">
+              <component id="58203" class="javax.swing.JLabel" binding="adultWalletPanelPic">
                 <constraints/>
                 <properties>
                   <background color="-8197247"/>
@@ -362,7 +362,7 @@
             </properties>
             <border type="none"/>
             <children>
-              <component id="df4a2" class="javax.swing.JLabel">
+              <component id="df4a2" class="javax.swing.JLabel" binding="giantWalletPic">
                 <constraints/>
                 <properties>
                   <background color="-8197247"/>
@@ -430,7 +430,7 @@
               </component>
             </children>
           </grid>
-          <grid id="7268c" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+          <grid id="7268c" binding="empty1_1_2" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
               <background color="-12300724"/>
@@ -699,7 +699,7 @@
               </component>
             </children>
           </grid>
-          <grid id="cd6b3" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+          <grid id="cd6b3" binding="empty1_12_2" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
               <background color="-12300724"/>
@@ -788,7 +788,7 @@
               </component>
             </children>
           </grid>
-          <grid id="4e9c5" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+          <grid id="4e9c5" binding="empty1_16_2" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
               <background color="-12300724"/>
@@ -799,7 +799,7 @@
             <border type="none"/>
             <children/>
           </grid>
-          <grid id="20da5" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+          <grid id="20da5" binding="empty1_1_3" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
               <background color="-12300724"/>
@@ -810,7 +810,7 @@
             <border type="none"/>
             <children/>
           </grid>
-          <grid id="71baa" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+          <grid id="71baa" binding="empty1_2_3" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
               <background color="-12300724"/>
@@ -1168,7 +1168,7 @@
               </component>
             </children>
           </grid>
-          <grid id="6ca79" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+          <grid id="6ca79" binding="empty1_16_3" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
               <background color="-12300724"/>
@@ -1413,7 +1413,7 @@
               </component>
             </children>
           </grid>
-          <grid id="e7bc7" layout-manager="FlowLayout" hgap="10" vgap="0" flow-align="1">
+          <grid id="e7bc7" binding="scareCrowContainer" layout-manager="FlowLayout" hgap="10" vgap="0" flow-align="1">
             <constraints/>
             <properties>
               <background color="-12300724"/>
@@ -1439,7 +1439,7 @@
                     <properties>
                       <horizontalAlignment value="0"/>
                       <horizontalTextPosition value="0"/>
-                      <icon value="main/resources/icons/3Ds Icons/OoT3D_Song_Zelda.png"/>
+                      <icon value="main/resources/icons/3Ds Icons/OoT3D_Scare_Scrow.png"/>
                       <maximumSize width="35" height="35"/>
                       <minimumSize width="35" height="35"/>
                       <preferredSize width="35" height="35"/>
@@ -1453,6 +1453,7 @@
                 <constraints/>
                 <properties>
                   <background color="-12300724"/>
+                  <font size="10"/>
                   <foreground color="-1031"/>
                   <preferredSize width="150" height="25"/>
                 </properties>
@@ -1641,7 +1642,7 @@
               </component>
             </children>
           </grid>
-          <grid id="12d2" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+          <grid id="12d2" binding="empty1_8_5" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
               <background color="-12300724"/>
@@ -1678,7 +1679,7 @@
               </component>
             </children>
           </grid>
-          <grid id="c6a79" layout-manager="FlowLayout" hgap="10" vgap="0" flow-align="1">
+          <grid id="c6a79" binding="horrorKidMiniGameContainer" layout-manager="FlowLayout" hgap="10" vgap="0" flow-align="1">
             <constraints/>
             <properties>
               <background color="-12300724"/>
@@ -1688,7 +1689,7 @@
             </properties>
             <border type="none"/>
             <children>
-              <grid id="af9dc" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+              <grid id="af9dc" binding="horrorKidMinigamePanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
                 <constraints/>
                 <properties>
                   <background color="-10524056"/>
@@ -1699,12 +1700,12 @@
                 </properties>
                 <border type="none"/>
                 <children>
-                  <component id="b49b0" class="javax.swing.JLabel">
+                  <component id="b49b0" class="javax.swing.JLabel" binding="horrorKidMiniGamePic">
                     <constraints/>
                     <properties>
                       <horizontalAlignment value="0"/>
                       <horizontalTextPosition value="0"/>
-                      <icon value="main/resources/icons/3Ds Icons/OoT3D_Song_Zelda.png"/>
+                      <icon value="main/resources/icons/3Ds Icons/OoT3D_Horror_Kid.png"/>
                       <maximumSize width="35" height="35"/>
                       <minimumSize width="35" height="35"/>
                       <preferredSize width="35" height="35"/>
@@ -1714,10 +1715,11 @@
                   </component>
                 </children>
               </grid>
-              <component id="7e630" class="javax.swing.JTextField">
+              <component id="7e630" class="javax.swing.JTextField" binding="horrorKidMiniGameInput">
                 <constraints/>
                 <properties>
                   <background color="-12300724"/>
+                  <font size="10"/>
                   <foreground color="-1031"/>
                   <preferredSize width="150" height="25"/>
                 </properties>
@@ -1833,9 +1835,19 @@
                   <icon value="main/resources/icons/3Ds Icons/OoT3D_Small_Key_Icon.png"/>
                   <maximumSize width="35" height="35"/>
                   <minimumSize width="35" height="35"/>
-                  <preferredSize width="357" height="35"/>
+                  <preferredSize width="35" height="35"/>
                   <text value=""/>
                   <verifyInputWhenFocusTarget value="false"/>
+                </properties>
+              </component>
+              <component id="2ed29" class="javax.swing.JLabel" binding="forestKeyLabel">
+                <constraints/>
+                <properties>
+                  <font size="18"/>
+                  <foreground color="-1031"/>
+                  <horizontalAlignment value="0"/>
+                  <preferredSize width="32" height="35"/>
+                  <text value="0"/>
                 </properties>
               </component>
             </children>
@@ -2769,7 +2781,7 @@
               </component>
             </children>
           </grid>
-          <grid id="2e5de" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+          <grid id="2e5de" binding="gerudoTokenPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
             <constraints/>
             <properties>
               <background color="-10524056"/>
@@ -2779,7 +2791,7 @@
             </properties>
             <border type="none"/>
             <children>
-              <component id="63ee8" class="javax.swing.JLabel">
+              <component id="63ee8" class="javax.swing.JLabel" binding="gerudoTokenPic">
                 <constraints/>
                 <properties>
                   <background color="-8197247"/>
@@ -3181,6 +3193,7 @@
                 <constraints/>
                 <properties>
                   <background color="-10524056"/>
+                  <font size="10"/>
                 </properties>
                 <border type="none" title=""/>
                 <children>
@@ -3191,7 +3204,7 @@
                     </constraints>
                     <properties>
                       <background color="-1031"/>
-                      <font name="Bahnschrift" style="2"/>
+                      <font size="10"/>
                       <foreground color="-1031"/>
                       <text value="Death Mountain Crater"/>
                     </properties>
@@ -3203,7 +3216,7 @@
                     </constraints>
                     <properties>
                       <background color="-1031"/>
-                      <font name="Bahnschrift" size="10"/>
+                      <font size="10"/>
                       <foreground color="-1031"/>
                       <text value="   Entrance trail"/>
                     </properties>
@@ -3226,7 +3239,7 @@
                     </constraints>
                     <properties>
                       <background color="-1031"/>
-                      <font name="Bahnschrift" size="10"/>
+                      <font size="10"/>
                       <foreground color="-1031"/>
                       <text value="   Entrance Goron City"/>
                     </properties>
@@ -3249,7 +3262,7 @@
                     </constraints>
                     <properties>
                       <background color="-1031"/>
-                      <font name="Bahnschrift" size="10"/>
+                      <font size="10"/>
                       <foreground color="-1031"/>
                       <text value="   Death Mountain trail"/>
                     </properties>
@@ -3272,7 +3285,7 @@
                     </constraints>
                     <properties>
                       <background color="-1031"/>
-                      <font name="Bahnschrift" size="10"/>
+                      <font size="10"/>
                       <foreground color="-1031"/>
                       <text value="   Entrance Goron City"/>
                     </properties>
@@ -3295,7 +3308,7 @@
                     </constraints>
                     <properties>
                       <background color="-1031"/>
-                      <font name="Bahnschrift" size="10"/>
+                      <font size="10"/>
                       <foreground color="-1031"/>
                       <text value="   Upper pathway"/>
                     </properties>
@@ -3318,7 +3331,7 @@
                     </constraints>
                     <properties>
                       <background color="-1031"/>
-                      <font name="Bahnschrift" style="2"/>
+                      <font size="10"/>
                       <foreground color="-1031"/>
                       <text value="Desert Colossus"/>
                     </properties>
@@ -3330,7 +3343,7 @@
                     </constraints>
                     <properties>
                       <background color="-1031"/>
-                      <font name="Bahnschrift" size="10"/>
+                      <font size="10"/>
                       <foreground color="-1031"/>
                       <text value="   Rock Cycle"/>
                     </properties>
@@ -3353,7 +3366,7 @@
                     </constraints>
                     <properties>
                       <background color="-1031"/>
-                      <font name="Bahnschrift" style="2"/>
+                      <font size="10"/>
                       <foreground color="-1031"/>
                       <text value="Gerudo Valley"/>
                     </properties>
@@ -3365,7 +3378,7 @@
                     </constraints>
                     <properties>
                       <background color="-1031"/>
-                      <font name="Bahnschrift" size="10"/>
+                      <font size="10"/>
                       <foreground color="-1031"/>
                       <text value="   Behind tent"/>
                     </properties>
@@ -3388,7 +3401,7 @@
                     </constraints>
                     <properties>
                       <background color="-1031"/>
-                      <font name="Bahnschrift" size="10"/>
+                      <font size="10"/>
                       <foreground color="-1031"/>
                       <text value="   Jumping platform"/>
                     </properties>
@@ -3411,7 +3424,7 @@
                     </constraints>
                     <properties>
                       <background color="-1031"/>
-                      <font name="Bahnschrift" style="2"/>
+                      <font size="10"/>
                       <foreground color="-1031"/>
                       <text value="Gerudo's Fortress"/>
                     </properties>
@@ -3423,7 +3436,7 @@
                     </constraints>
                     <properties>
                       <background color="-1031"/>
-                      <font name="Bahnschrift" size="10"/>
+                      <font size="10"/>
                       <foreground color="-1031"/>
                       <text value="   Behind the Boxes"/>
                     </properties>
@@ -3446,7 +3459,7 @@
                     </constraints>
                     <properties>
                       <background color="-1031"/>
-                      <font name="Bahnschrift" style="2"/>
+                      <font size="10"/>
                       <foreground color="-1031"/>
                       <text value="Goron City"/>
                     </properties>
@@ -3458,7 +3471,7 @@
                     </constraints>
                     <properties>
                       <background color="-1031"/>
-                      <font name="Bahnschrift" size="10"/>
+                      <font size="10"/>
                       <foreground color="-1031"/>
                       <text value="   Lava cave"/>
                     </properties>
@@ -3481,7 +3494,7 @@
                     </constraints>
                     <properties>
                       <background color="-1031"/>
-                      <font name="Bahnschrift" style="2"/>
+                      <font size="10"/>
                       <foreground color="-1031"/>
                       <text value="Hyrule Field"/>
                     </properties>

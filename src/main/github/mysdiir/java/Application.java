@@ -62,7 +62,6 @@ public class Application extends GUI {
 
             // Misc
             FrontendController.setItemToggle(GUI.stoneOfAgonyPanel);
-            FrontendController.setItemToggle(GUI.gerudoTokenPanel);
             FrontendController.setItemToggle(GUI.magicMeterPanel);
             FrontendController.setItemToggle(GUI.biggerMagicMeterPanel);
             FrontendController.setItemToggle(GUI.upgradedHeartPanel);

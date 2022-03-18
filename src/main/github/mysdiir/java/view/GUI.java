@@ -32,9 +32,10 @@ public class GUI extends JFrame{
     public JPanel silverGauntletPanel;      public JLabel silverGauntletPic;
     public JPanel goldenGauntletPanel;      public JLabel goldenGauntletsPic;
     public JPanel dinsFirePanel;            public JLabel dinsFirePic;
-    public JPanel adultsWalletPanel;        public JLabel adultPanelPic;
-    public JPanel giantWalletPanel;         public JPanel upgradedHeartPanel;
-    public JLabel updatesHeartPic;          public JPanel quiverPanel;              public JLabel quiverPic;
+    public JPanel adultsWalletPanel;        public JLabel adultWalletPanelPic;
+    public JPanel giantWalletPanel;         public JLabel giantWalletPic;
+    public JPanel upgradedHeartPanel;       public JLabel updatesHeartPic;
+    public JPanel quiverPanel;              public JLabel quiverPic;
     public JPanel bigQuiverPanel;           public JLabel bigQuiverPic;
     public JPanel biggestQuiverPanel;       public JLabel biggestQuiverPic;
     public JPanel silverScalePanel;         public JLabel silverScalePic;
@@ -79,6 +80,14 @@ public class GUI extends JFrame{
     public JPanel bombchuPanel;
     public JPanel dekuNutsPanel;
     public JPanel lensOfTruthPanel;
+
+    // Scare crow song
+    public JPanel scareCrowContainer;       public JTextField scareCrowInput;
+    public JPanel scareCrowPanel;           public JLabel scareCrowPic;
+
+    // Horror kid mini game
+    public JPanel horrorKidMiniGameContainer;public JTextField horrorKidMiniGameInput;
+    public JPanel horrorKidMinigamePanel;    public JLabel horrorKidMiniGamePic;
 
 
     // Dungeons
@@ -217,17 +226,25 @@ public class GUI extends JFrame{
     public JPanel empty3_15_2;
     public JPanel empty3_16_2;
     public JPanel empty3_17_2;
-    private JLabel gerudoKeyPic;
-    private JLabel bombPic;
-    private JLabel bombchuPic;
-    private JLabel dekuNutsPic;
-    private JLabel lensOfTruthPic;
-    private JPanel empty1_1_2;
-    private JLabel fairyOcarinaPic;
-    private JLabel oOTPic;
-    private JPanel scareCrowPanel;
-    private JLabel scareCrowPic;
-    private JTextField scareCrowInput;
+    public JLabel gerudoKeyPic;
+    public JLabel bombPic;
+    public JLabel bombchuPic;
+    public JLabel dekuNutsPic;
+    public JLabel lensOfTruthPic;
+    public JPanel empty1_12_1;
+    public JLabel fairyOcarinaPic;
+    public JLabel oOTPic;
+
+    public JPanel empty1_1_2;
+    public JPanel empty1_12_2;
+    public JPanel empty1_16_2;
+    public JPanel empty1_16_3;
+    public JPanel empty1_1_3;
+    public JPanel empty1_2_3;
+    public JPanel empty1_8_5;
+    private JLabel gerudoTokenPic;
+    private JLabel forestKeyLabel;
+
 
     public void setGUI() {
         setContentPane(mainWindow);

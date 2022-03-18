@@ -52,14 +52,47 @@ public class FrontendController {
         PanelName = PanelName;
     }
 
+    public static void toggleKey(JPanel panelName, JLabel labelName, int maxKeyValue) {
+        panelName = panelName;
+        labelName = labelName;
+        maxKeyValue = maxKeyValue;
 
-    public static void setMergedFunctions(JPanel PanelName) {
-        PanelName = PanelName;
+        int currentKeyValue = 0;
 
-        setItemToggle(PanelName);
+        Color activeGreen = new Color(181, 243, 181);
+        Color passiveGrey = new Color(95, 106, 104);
 
+        JPanel finalPanelName = panelName;
+        panelName.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                super.mouseClicked(e);
 
+                if (SwingUtilities.isLeftMouseButton(e)) {
+
+                // if currentKeyValue == 0 -> make green and increment
+                // if currentKeyValue >= maxKeyValue -> break;
+                // if currentKeyValue >= 1 -> increment
+
+                // switch case?
+                }
+
+                if (SwingUtilities.isRightMouseButton(e)) {
+
+                // if currentKeyValue == 0 -> break
+                // if currentKeyValue == 1 -> make passive and decrement
+                // if currentKeyValue >= 1 -> increment
+
+                // switch case?
+
+                }
+
+            }
+        });
     }
+
+
+
 
 }
 

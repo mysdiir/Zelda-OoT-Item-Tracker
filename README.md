@@ -36,3 +36,8 @@
 - scarecrow and horro kid mini game moved to core items
 - adding scroll pane to grotto panel with information about location of grotto
 - adding icons and functions of biggoron sword and mask trade sequence
+
+<i>2022-03-18:</i>
+- adding scare crow and horror kid minigame icons
+- check and adjust panel names with given name convention
+- collect first ideas how to implement key counting function
