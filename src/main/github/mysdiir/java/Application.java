@@ -1,12 +1,18 @@
 import controller.FrontendController;
 import view.GUI;
 
+import javax.swing.*;
+import javax.swing.plaf.basic.BasicScrollBarUI;
+import java.awt.*;
+
 public class Application extends GUI {
 
     public static void main(String[] args) {
 
             GUI GUI = new GUI();
             GUI.setGUI();
+            GUI.grottoScrollPane.getVerticalScrollBar().setBackground((Color.RED));
+            GUI.grottoScrollPane.setCorner(JScrollPane.UPPER_RIGHT_CORNER, GUI.grottoScrollPane);
 
             FrontendController itemViewController = new FrontendController();
 
@@ -105,7 +111,7 @@ public class Application extends GUI {
             FrontendController.setItemToggle(GUI.forestMedallionPanel);
             FrontendController.setItemToggle(GUI.forestSongPanel);
             FrontendController.setItemToggle(GUI.forestHeartContainerPanel);
-            FrontendController.setItemToggle(GUI.forestKeyPanel);
+            FrontendController.toggleKey(GUI.forestKeyPanel, GUI.forestKeyLabel, 5 );
             FrontendController.setItemToggle(GUI.forestBossKeyPanel);
             FrontendController.setItemToggle(GUI.forestMapPanel);
             FrontendController.setItemToggle(GUI.forestCompassPanel);
@@ -115,7 +121,7 @@ public class Application extends GUI {
             FrontendController.setItemToggle(GUI.fireSongPanel);
             FrontendController.setItemToggle(GUI.fireHeartContainerPanel);
             FrontendController.setItemToggle(GUI.fireBossKeyPanel);
-            FrontendController.setItemToggle(GUI.fireKeyPanel);
+            FrontendController.toggleKey(GUI.fireKeyPanel, GUI.fireKeyLabel, 8 );
             FrontendController.setItemToggle(GUI.fireMapPanel);
             FrontendController.setItemToggle(GUI.fireCompassPanel);
 
@@ -124,7 +130,7 @@ public class Application extends GUI {
             FrontendController.setItemToggle(GUI.waterSongPanel);
             FrontendController.setItemToggle(GUI.waterHeartContainerPanel);
             FrontendController.setItemToggle(GUI.waterBossKeyPanel);
-            FrontendController.setItemToggle(GUI.waterKeyPanel);
+            FrontendController.toggleKey(GUI.waterKeyPanel, GUI.waterKeyLabel, 6);
             FrontendController.setItemToggle(GUI.waterMapPanel);
             FrontendController.setItemToggle(GUI.waterCompassPanel);
 
@@ -133,7 +139,7 @@ public class Application extends GUI {
             FrontendController.setItemToggle(GUI.shadowSongPanel);
             FrontendController.setItemToggle(GUI.shadowHeartContainerPanel);
             FrontendController.setItemToggle(GUI.shadowBossKeyPanel);
-            FrontendController.setItemToggle(GUI.shadowKeyPanel);
+            FrontendController.toggleKey(GUI.shadowKeyPanel, GUI.shadowKeyLabel, 5);
             FrontendController.setItemToggle(GUI.shadowMapPanel);
             FrontendController.setItemToggle(GUI.shadowCompassPanel);
 
@@ -142,7 +148,7 @@ public class Application extends GUI {
             FrontendController.setItemToggle(GUI.spiritSongPanel);
             FrontendController.setItemToggle(GUI.spiritHeartContainerPanel);
             FrontendController.setItemToggle(GUI.spiritBossKeyPanel);
-            FrontendController.setItemToggle(GUI.spiritKeyPanel);
+            FrontendController.toggleKey(GUI.spiritKeyPanel, GUI.spiritKeyLabel, 4 );
             FrontendController.setItemToggle(GUI.spiritMapPanel);
             FrontendController.setItemToggle(GUI.spiritCompassPanel);
 
@@ -164,8 +170,8 @@ public class Application extends GUI {
             FrontendController.setItemToggle(GUI.songOfTimePanel);
 
          // Gerudo training ground
-            FrontendController.setItemToggle(GUI.gerudoTokenPanel);
-            FrontendController.setItemToggle(GUI.gerudoKeyPanel);
+            FrontendController.toggleKey(GUI.gerudoKeyPanel, GUI.gerudoKeyLabel, 9);
+
 
     // Collectibles
         // Big goron trading sequence

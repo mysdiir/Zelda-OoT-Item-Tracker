@@ -45,53 +45,53 @@ public class FrontendController {
                 }
             }
         });
-
-    }
-
-    public static void setXFunction(JPanel PanelName) {
-        PanelName = PanelName;
     }
 
     public static void toggleKey(JPanel panelName, JLabel labelName, int maxKeyValue) {
-        panelName = panelName;
-        labelName = labelName;
-        maxKeyValue = maxKeyValue;
+        JPanel finalPanelName = panelName;
+        JLabel finalLabelName = labelName;
+        int finalMaxKeyValue = maxKeyValue;
 
-        int currentKeyValue = 0;
 
         Color activeGreen = new Color(181, 243, 181);
         Color passiveGrey = new Color(95, 106, 104);
 
-        JPanel finalPanelName = panelName;
         panelName.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
 
+                int currentKeyValue = Integer.parseInt(finalLabelName.getText());
+
+
                 if (SwingUtilities.isLeftMouseButton(e)) {
-
-                // if currentKeyValue == 0 -> make green and increment
-                // if currentKeyValue >= maxKeyValue -> break;
-                // if currentKeyValue >= 1 -> increment
-
-                // switch case?
+                   if (currentKeyValue == finalMaxKeyValue) return;
+                   if (currentKeyValue == 0) {
+                       finalPanelName.setBackground(activeGreen);
+                   }
+                   if (currentKeyValue >= 0) {
+                           currentKeyValue = currentKeyValue + 1;
+                           finalLabelName.setText(String.valueOf(currentKeyValue));
+                                //System.out.println(currentKeyValue);
+                   }
                 }
 
                 if (SwingUtilities.isRightMouseButton(e)) {
-
-                // if currentKeyValue == 0 -> break
-                // if currentKeyValue == 1 -> make passive and decrement
-                // if currentKeyValue >= 1 -> increment
-
-                // switch case?
+                    if (currentKeyValue == 0) return;
+                    if (currentKeyValue == 1) {
+                        finalPanelName.setBackground(passiveGrey);
+                    }
+                    if (currentKeyValue <= maxKeyValue) {
+                        currentKeyValue = currentKeyValue - 1;
+                        finalLabelName.setText(String.valueOf(currentKeyValue));
+                                //System.out.println(currentKeyValue);
+                    }
 
                 }
 
             }
         });
     }
-
-
 
 
 }
