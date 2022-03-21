@@ -2,7 +2,7 @@
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="view.GUI">
   <grid id="27dc6" binding="mainWindow" layout-manager="FlowLayout" hgap="10" vgap="10" flow-align="1">
     <constraints>
-      <xy x="20" y="20" width="700" height="1000"/>
+      <xy x="20" y="20" width="700" height="2000"/>
     </constraints>
     <properties>
       <background color="-13814220"/>
@@ -3226,56 +3226,1008 @@
             <constraints/>
             <properties>
               <icon value="main/resources/icons/Vanilla Icons/OoT_GrottoMap.png"/>
-              <preferredSize width="425" height="300"/>
+              <maximumSize width="375" height="300"/>
+              <minimumSize width="375" height="300"/>
+              <preferredSize width="375" height="300"/>
               <text value=""/>
             </properties>
           </component>
-          <scrollpane id="74c5" binding="grottoScrollPane">
+          <scrollpane id="4d529" binding="grottoScrollPanel">
             <constraints/>
             <properties>
-              <background color="-10524056"/>
-              <focusTraversalPolicyProvider value="false"/>
-              <preferredSize width="210" height="310"/>
+              <focusCycleRoot value="false"/>
+              <horizontalScrollBarPolicy value="31"/>
+              <inheritsPopupMenu value="false"/>
+              <maximumSize width="250" height="300"/>
+              <minimumSize width="250" height="300"/>
+              <preferredSize width="250" height="300"/>
               <verticalScrollBarPolicy value="22"/>
+              <visible value="true"/>
             </properties>
-            <border type="none"/>
+            <border type="line" title="">
+              <title-color color="-16777216"/>
+              <color color="-10524056"/>
+            </border>
             <children>
-              <grid id="9f7bc" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
-                <margin top="0" left="0" bottom="0" right="0"/>
+              <grid id="a8535" binding="grottoPanel" layout-manager="GridBagLayout">
                 <constraints/>
                 <properties>
                   <background color="-13353669"/>
-                  <font size="10"/>
+                  <maximumSize width="200" height="300"/>
+                  <minimumSize width="200" height="300"/>
+                  <preferredSize width="200" height="1100"/>
+                  <requestFocusEnabled value="false"/>
                 </properties>
-                <border type="none" title=""/>
+                <border type="none">
+                  <color color="-10524056"/>
+                </border>
                 <children>
-                  <component id="c9bdc" class="javax.swing.JLabel">
+                  <component id="3b0b1" class="javax.swing.JLabel" binding="grottoHeadline01">
                     <constraints>
                       <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
                     </constraints>
                     <properties>
-                      <foreground color="-10524056"/>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
                       <text value="Death Mountain Crater"/>
                     </properties>
                   </component>
-                  <vspacer id="83a59">
+                  <component id="dad54" class="javax.swing.JLabel" binding="grotto001Label">
                     <constraints>
-                      <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
                     </constraints>
-                  </vspacer>
-                  <component id="e7cd0" class="javax.swing.JCheckBox" binding="checkBox1" default-binding="true">
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Lava chamber"/>
+                    </properties>
+                  </component>
+                  <component id="9fde9" class="javax.swing.JCheckBox" binding="grotto001Check">
                     <constraints>
-                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
                     </constraints>
                     <properties>
                       <background color="-13353669"/>
-                      <borderPainted value="false"/>
-                      <borderPaintedFlat value="false"/>
-                      <contentAreaFilled value="false"/>
-                      <debugGraphicsOptions value="1"/>
-                      <enabled value="false"/>
-                      <foreground color="-1373930"/>
-                      <selected value="false"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="54d28" class="javax.swing.JLabel" binding="grotto002Label">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Entrance to Goron city"/>
+                    </properties>
+                  </component>
+                  <component id="79510" class="javax.swing.JCheckBox" binding="grotto002Check">
+                    <constraints>
+                      <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <vspacer id="8af9f">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                  </vspacer>
+                  <component id="f2724" class="javax.swing.JLabel" binding="grottoHeadline02">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Death Montain Trail"/>
+                    </properties>
+                  </component>
+                  <component id="f4cd5" class="javax.swing.JLabel" binding="grotto003Label">
+                    <constraints>
+                      <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Entrance to Goron city"/>
+                    </properties>
+                  </component>
+                  <component id="68f5d" class="javax.swing.JCheckBox" binding="grotto003Check">
+                    <constraints>
+                      <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="24a42" class="javax.swing.JLabel" binding="grotto004Label">
+                    <constraints>
+                      <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Upper pathway"/>
+                    </properties>
+                  </component>
+                  <component id="ec910" class="javax.swing.JCheckBox" binding="grotto004Check">
+                    <constraints>
+                      <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <vspacer id="6a23">
+                    <constraints>
+                      <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                  </vspacer>
+                  <component id="31433" class="javax.swing.JLabel" binding="grottoHeadline03">
+                    <constraints>
+                      <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Desert Colossus"/>
+                    </properties>
+                  </component>
+                  <component id="c0830" class="javax.swing.JLabel" binding="grotto005Label">
+                    <constraints>
+                      <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Stone ring near Warp"/>
+                    </properties>
+                  </component>
+                  <component id="84b4c" class="javax.swing.JCheckBox" binding="grotto005Check">
+                    <constraints>
+                      <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <vspacer id="3606d">
+                    <constraints>
+                      <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                  </vspacer>
+                  <component id="68205" class="javax.swing.JLabel" binding="grottoHeadline04">
+                    <constraints>
+                      <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Gerudo Valley"/>
+                    </properties>
+                  </component>
+                  <component id="85ee3" class="javax.swing.JLabel" binding="grotto006Label">
+                    <constraints>
+                      <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Behind tent"/>
+                    </properties>
+                  </component>
+                  <component id="82d7d" class="javax.swing.JCheckBox" binding="grotto006Check">
+                    <constraints>
+                      <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="9304d" class="javax.swing.JLabel" binding="grotto007Label">
+                    <constraints>
+                      <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Platform in canyon"/>
+                    </properties>
+                  </component>
+                  <component id="7b60f" class="javax.swing.JCheckBox" binding="grotto007Check">
+                    <constraints>
+                      <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <vspacer id="18eff">
+                    <constraints>
+                      <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                  </vspacer>
+                  <component id="9c3d4" class="javax.swing.JLabel" binding="grottoHeadline05">
+                    <constraints>
+                      <grid row="15" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Gerudo Fortress"/>
+                    </properties>
+                  </component>
+                  <component id="a189c" class="javax.swing.JLabel" binding="grotto008Label">
+                    <constraints>
+                      <grid row="16" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Beind boxes"/>
+                    </properties>
+                  </component>
+                  <component id="6e160" class="javax.swing.JCheckBox" binding="grotto008Check">
+                    <constraints>
+                      <grid row="16" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <vspacer id="d80be">
+                    <constraints>
+                      <grid row="17" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                  </vspacer>
+                  <component id="891c" class="javax.swing.JLabel" binding="grottoHeadline06">
+                    <constraints>
+                      <grid row="18" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Goron city"/>
+                    </properties>
+                  </component>
+                  <component id="dc68f" class="javax.swing.JLabel" binding="grotto009Label">
+                    <constraints>
+                      <grid row="19" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Lava chamber"/>
+                    </properties>
+                  </component>
+                  <component id="5d36f" class="javax.swing.JCheckBox" binding="grotto009Check">
+                    <constraints>
+                      <grid row="19" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <vspacer id="1268c">
+                    <constraints>
+                      <grid row="20" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                  </vspacer>
+                  <component id="6f012" class="javax.swing.JLabel" binding="grottoHeadline07">
+                    <constraints>
+                      <grid row="21" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Hyrule castle"/>
+                    </properties>
+                  </component>
+                  <component id="64fcf" class="javax.swing.JLabel" binding="grotto010Label">
+                    <constraints>
+                      <grid row="22" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Tree near Talon"/>
+                    </properties>
+                  </component>
+                  <component id="eb204" class="javax.swing.JCheckBox" binding="grotto010Check">
+                    <constraints>
+                      <grid row="22" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <vspacer id="59791">
+                    <constraints>
+                      <grid row="23" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                  </vspacer>
+                  <component id="5bcc4" class="javax.swing.JLabel" binding="grottoHeadline08">
+                    <constraints>
+                      <grid row="24" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Hyrule field"/>
+                    </properties>
+                  </component>
+                  <component id="11e3e" class="javax.swing.JLabel" binding="grotto011Label">
+                    <constraints>
+                      <grid row="25" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Fence entrance lake"/>
+                    </properties>
+                  </component>
+                  <component id="6367f" class="javax.swing.JCheckBox" binding="grotto011Check">
+                    <constraints>
+                      <grid row="25" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="7b350" class="javax.swing.JLabel" binding="grotto012Label">
+                    <constraints>
+                      <grid row="26" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Entrance lake Hylia"/>
+                    </properties>
+                  </component>
+                  <component id="60ba7" class="javax.swing.JCheckBox" binding="grotto012Check">
+                    <constraints>
+                      <grid row="26" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="b306a" class="javax.swing.JLabel" binding="grotto013Label">
+                    <constraints>
+                      <grid row="27" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="South-west entrance Kokiri"/>
+                    </properties>
+                  </component>
+                  <component id="90d3e" class="javax.swing.JCheckBox" binding="grotto013Check">
+                    <constraints>
+                      <grid row="27" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="a35e7" class="javax.swing.JLabel" binding="grotto014Label">
+                    <constraints>
+                      <grid row="28" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Southern hyrule caslte"/>
+                    </properties>
+                  </component>
+                  <component id="6acf0" class="javax.swing.JCheckBox" binding="grotto014Check">
+                    <constraints>
+                      <grid row="28" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="cf24a" class="javax.swing.JLabel" binding="grotto015Label">
+                    <constraints>
+                      <grid row="29" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Nothern edge hyrule castle"/>
+                    </properties>
+                  </component>
+                  <component id="16d8" class="javax.swing.JCheckBox" binding="grotto015Check">
+                    <constraints>
+                      <grid row="29" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="4df4d" class="javax.swing.JLabel" binding="grotto016Label">
+                    <constraints>
+                      <grid row="30" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="North west Lon-Lon ranch"/>
+                    </properties>
+                  </component>
+                  <component id="a3e3" class="javax.swing.JCheckBox" binding="grotto016Check">
+                    <constraints>
+                      <grid row="30" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="40043" class="javax.swing.JLabel" binding="grotto017Label">
+                    <constraints>
+                      <grid row="31" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Entrance Gerudo valley"/>
+                    </properties>
+                  </component>
+                  <component id="8efb6" class="javax.swing.JCheckBox" binding="grotto017Check">
+                    <constraints>
+                      <grid row="31" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <vspacer id="4136c">
+                    <constraints>
+                      <grid row="32" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                  </vspacer>
+                  <component id="387fc" class="javax.swing.JLabel" binding="grottoHeadline09">
+                    <constraints>
+                      <grid row="33" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Kakariko village"/>
+                    </properties>
+                  </component>
+                  <component id="964dc" class="javax.swing.JLabel" binding="grotto018Label">
+                    <constraints>
+                      <grid row="34" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Fence entrance lake"/>
+                    </properties>
+                  </component>
+                  <component id="7edb7" class="javax.swing.JCheckBox" binding="grotto018Check">
+                    <constraints>
+                      <grid row="34" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="ed70e" class="javax.swing.JLabel" binding="grotto019Label">
+                    <constraints>
+                      <grid row="35" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Behind potion shop"/>
+                    </properties>
+                  </component>
+                  <component id="eec4b" class="javax.swing.JCheckBox" binding="grotto019Check">
+                    <constraints>
+                      <grid row="35" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="4ef05" class="javax.swing.JLabel" binding="grotto020Label">
+                    <constraints>
+                      <grid row="36" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Center of village at tree"/>
+                    </properties>
+                  </component>
+                  <component id="d43f4" class="javax.swing.JCheckBox" binding="grotto020Check">
+                    <constraints>
+                      <grid row="36" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <vspacer id="536f7">
+                    <constraints>
+                      <grid row="37" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                  </vspacer>
+                  <component id="a6c75" class="javax.swing.JLabel" binding="grottoHeadline10">
+                    <constraints>
+                      <grid row="38" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Kokiri village"/>
+                    </properties>
+                  </component>
+                  <component id="b6b17" class="javax.swing.JLabel" binding="grotto021Label">
+                    <constraints>
+                      <grid row="39" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Next to lost woods entrance"/>
+                    </properties>
+                  </component>
+                  <component id="5cea6" class="javax.swing.JCheckBox" binding="grotto021Check">
+                    <constraints>
+                      <grid row="39" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <vspacer id="504df">
+                    <constraints>
+                      <grid row="40" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                  </vspacer>
+                  <component id="4989" class="javax.swing.JLabel" binding="grottoHeadline11">
+                    <constraints>
+                      <grid row="41" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Lake hylia"/>
+                    </properties>
+                  </component>
+                  <component id="42777" class="javax.swing.JLabel" binding="grotto022Label">
+                    <constraints>
+                      <grid row="42" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Tombstone on small island"/>
+                    </properties>
+                  </component>
+                  <component id="32d65" class="javax.swing.JCheckBox" binding="grotto022Check">
+                    <constraints>
+                      <grid row="42" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <vspacer id="28c10">
+                    <constraints>
+                      <grid row="43" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                  </vspacer>
+                  <component id="2de29" class="javax.swing.JLabel" binding="grottoHeadline12">
+                    <constraints>
+                      <grid row="44" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Lon-Lon ranch"/>
+                    </properties>
+                  </component>
+                  <component id="f7ac" class="javax.swing.JLabel" binding="grotto023Label">
+                    <constraints>
+                      <grid row="45" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="South-east corner"/>
+                    </properties>
+                  </component>
+                  <component id="13f8" class="javax.swing.JCheckBox" binding="grotto023Check">
+                    <constraints>
+                      <grid row="45" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <vspacer id="bc2c0">
+                    <constraints>
+                      <grid row="46" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                  </vspacer>
+                  <component id="a0f93" class="javax.swing.JLabel" binding="grottoHeadline13">
+                    <constraints>
+                      <grid row="47" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Lost woods"/>
+                    </properties>
+                  </component>
+                  <component id="4f59b" class="javax.swing.JLabel" binding="grotto024Label">
+                    <constraints>
+                      <grid row="48" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Clearence with single tree"/>
+                    </properties>
+                  </component>
+                  <component id="306aa" class="javax.swing.JCheckBox" binding="grotto024Check">
+                    <constraints>
+                      <grid row="48" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="18c0" class="javax.swing.JLabel" binding="grotto025Label">
+                    <constraints>
+                      <grid row="49" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Entrance secrest meadow"/>
+                    </properties>
+                  </component>
+                  <component id="6cacb" class="javax.swing.JCheckBox" binding="grotto025Check">
+                    <constraints>
+                      <grid row="49" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="b03f1" class="javax.swing.JLabel" binding="grotto026Label">
+                    <constraints>
+                      <grid row="50" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Entrance  Goron city"/>
+                    </properties>
+                  </component>
+                  <component id="e333b" class="javax.swing.JCheckBox" binding="grotto26Check">
+                    <constraints>
+                      <grid row="50" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="887f7" class="javax.swing.JCheckBox">
+                    <constraints>
+                      <grid row="51" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <vspacer id="4c663">
+                    <constraints>
+                      <grid row="51" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                  </vspacer>
+                  <component id="c6943" class="javax.swing.JLabel" binding="grottoHeadline14">
+                    <constraints>
+                      <grid row="52" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Secret forest maedow"/>
+                    </properties>
+                  </component>
+                  <component id="4f1c4" class="javax.swing.JLabel" binding="grotto27Panel">
+                    <constraints>
+                      <grid row="53" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Entrance"/>
+                    </properties>
+                  </component>
+                  <component id="1b8f0" class="javax.swing.JCheckBox" binding="grotto27Check">
+                    <constraints>
+                      <grid row="53" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="36a14" class="javax.swing.JLabel" binding="grotto028Panel">
+                    <constraints>
+                      <grid row="54" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Center"/>
+                    </properties>
+                  </component>
+                  <component id="1bd9d" class="javax.swing.JCheckBox" binding="grotto028Check">
+                    <constraints>
+                      <grid row="54" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="1f764" class="javax.swing.JLabel" binding="grotto029Label">
+                    <constraints>
+                      <grid row="55" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Entrance forest temple"/>
+                    </properties>
+                  </component>
+                  <component id="51249" class="javax.swing.JCheckBox" binding="grotto029Check">
+                    <constraints>
+                      <grid row="55" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <vspacer id="3b706">
+                    <constraints>
+                      <grid row="56" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                  </vspacer>
+                  <component id="dc480" class="javax.swing.JLabel" binding="grottoHeadline15">
+                    <constraints>
+                      <grid row="57" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Zoras River"/>
+                    </properties>
+                  </component>
+                  <component id="81f7d" class="javax.swing.JLabel" binding="grotto030Label">
+                    <constraints>
+                      <grid row="58" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Circle of rocks, entrance"/>
+                    </properties>
+                  </component>
+                  <component id="4694b" class="javax.swing.JCheckBox" binding="grotto030Check">
+                    <constraints>
+                      <grid row="58" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="4d833" class="javax.swing.JLabel" binding="grotto031Label">
+                    <constraints>
+                      <grid row="59" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Center east side"/>
+                    </properties>
+                  </component>
+                  <component id="889a2" class="javax.swing.JCheckBox" binding="grotto031Check">
+                    <constraints>
+                      <grid row="59" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="4005a" class="javax.swing.JLabel" binding="grotto032Label">
+                    <constraints>
+                      <grid row="60" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Center"/>
+                    </properties>
+                  </component>
+                  <component id="afdda" class="javax.swing.JCheckBox" binding="grotto032Check">
+                    <constraints>
+                      <grid row="60" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <vspacer id="b6b00">
+                    <constraints>
+                      <grid row="61" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                  </vspacer>
+                  <component id="fb171" class="javax.swing.JLabel" binding="grottoHeadline16">
+                    <constraints>
+                      <grid row="62" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Zoras domain"/>
+                    </properties>
+                  </component>
+                  <component id="b4312" class="javax.swing.JLabel" binding="grotto033Label">
+                    <constraints>
+                      <grid row="63" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="2.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Candara"/>
+                      <foreground color="-1031"/>
+                      <text value="Small island at entrance"/>
+                    </properties>
+                  </component>
+                  <component id="d2ca8" class="javax.swing.JCheckBox" binding="grotto033Check">
+                    <constraints>
+                      <grid row="63" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
                       <text value=""/>
                     </properties>
                   </component>

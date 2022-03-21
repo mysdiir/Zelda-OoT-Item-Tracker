@@ -11,8 +11,7 @@ public class Application extends GUI {
 
             GUI GUI = new GUI();
             GUI.setGUI();
-            GUI.grottoScrollPane.getVerticalScrollBar().setBackground((Color.RED));
-            GUI.grottoScrollPane.setCorner(JScrollPane.UPPER_RIGHT_CORNER, GUI.grottoScrollPane);
+
 
             FrontendController itemViewController = new FrontendController();
 
