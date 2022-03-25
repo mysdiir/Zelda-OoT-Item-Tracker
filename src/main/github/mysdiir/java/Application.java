@@ -12,9 +12,6 @@ public class Application extends GUI {
             GUI GUI = new GUI();
             GUI.setGUI();
 
-
-            FrontendController itemViewController = new FrontendController();
-
             FrontendController.setItemToggle(GUI.kokiriSwordPanel);
             FrontendController.setItemToggle(GUI.masterSwordPanel);
             FrontendController.setItemToggle(GUI.brknBiggoronSwordPanel);
@@ -198,6 +195,15 @@ public class Application extends GUI {
             FrontendController.setItemToggle(GUI.zoraMaskPanel);
             FrontendController.setItemToggle(GUI.maskOfTruthPanel);
 
+            FrontendController.addHeartPiece(26,GUI.heartPieceAddBtn,GUI.heartPieceProgressBar, GUI.heartPieceOutputLabel);
+            FrontendController.subtractHearPiece(26,GUI.heartPieceSubtractBtn,GUI.heartPieceProgressBar,GUI.heartPieceOutputLabel);
+
+            FrontendController.addSkulltula(100,GUI.skultullaAddBtn,GUI.skultullaProgressbar, GUI.skulltullaOutputLabel);
+            FrontendController.subtractSkulltula(100,GUI.skulltullaSubtractBtn,GUI.skultullaProgressbar,GUI.skulltullaOutputLabel);
+
+            FrontendController.setTriforceValue(GUI.triforceAddtriforceBtn, GUI.triforceInput, GUI.triforceProgressbar);
+            FrontendController.addTriforce(GUI.triforceAddBtn, GUI.triforceProgressbar, GUI.triforceOutputLabel);
+            FrontendController.subtractTriforce(GUI.triforceSubstractBtn, GUI.triforceProgressbar, GUI.triforceOutputLabel);
     }
 }
 

@@ -1,7 +1,8 @@
 package view;
 
-
 import javax.swing.*;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 
 public class GUI extends JFrame{
 
@@ -14,303 +15,299 @@ public class GUI extends JFrame{
 
 // Items
     // Core items
-    public JPanel kokiriSwordPanel;         public JLabel kokiriSwordPic;
-    public JPanel masterSwordPanel;         public JLabel masterSwordPic;
+    public JPanel kokiriSwordPanel;         private JLabel kokiriSwordPic;
+    public JPanel masterSwordPanel;         private JLabel masterSwordPic;
     public JPanel brknBiggoronSwordPanel;   public JPanel biggoronSwordPanel;
-    public JPanel kokiriShieldPanel;        public JLabel kokiriShieldPic;
-    public JPanel hylianShieldPanel;        public JLabel hylianShieldPic;
-    public JPanel mirrorShieldPanel;        public JLabel mirrorShieldPic;
-    public JPanel kokiriTunicPanel;         public JLabel kokiriTunicPic;
-    public JPanel goronTunicPanel;          public JLabel goronTunicPic;
-    public JPanel zoraTunicPanel;           public JLabel zoraTunicPic;
-    public JPanel ironBootsPanel;           public JLabel ironBootsPic;
-    public JPanel hoverBootsPanel;          public JLabel hoverBootsPic;
-    public JLabel brknBiggoronSwordPic;     public JLabel biggoronSwordPic;
-    public JPanel kokiriBootsPanel;         public JLabel kokiriBootsPic;
-    public JPanel bulletBagPanel;           public JLabel bulletBagPic;
-    public JPanel bigBulletBagPanel;        public JLabel bigBulletBagPic;
-    public JPanel biggestBulletBagPanel;    public JLabel biggestBulletBagPic;
-    public JPanel silverGauntletPanel;      public JLabel silverGauntletPic;
-    public JPanel goldenGauntletPanel;      public JLabel goldenGauntletsPic;
-    public JPanel dinsFirePanel;            public JLabel dinsFirePic;
-    public JPanel adultsWalletPanel;        public JLabel adultWalletPanelPic;
-    public JPanel giantWalletPanel;         public JLabel giantWalletPic;
-    public JPanel upgradedHeartPanel;       public JLabel updatesHeartPic;
-    public JPanel quiverPanel;              public JLabel quiverPic;
-    public JPanel bigQuiverPanel;           public JLabel bigQuiverPic;
-    public JPanel biggestQuiverPanel;       public JLabel biggestQuiverPic;
-    public JPanel silverScalePanel;         public JLabel silverScalePic;
-    public JPanel goldenScalePanel;         public JLabel goldenScalePic;
-    public JPanel faroresWindPanel;         public JLabel faroresWindPic;
-    public JPanel stoneOfAgonyPanel;        public JLabel stoneOfAgonyPic;
+    public JPanel kokiriShieldPanel;        private JLabel kokiriShieldPic;
+    public JPanel hylianShieldPanel;        private JLabel hylianShieldPic;
+    public JPanel mirrorShieldPanel;        private JLabel mirrorShieldPic;
+    public JPanel kokiriTunicPanel;         private JLabel kokiriTunicPic;
+    public JPanel goronTunicPanel;          private JLabel goronTunicPic;
+    public JPanel zoraTunicPanel;           private JLabel zoraTunicPic;
+    public JPanel ironBootsPanel;           private JLabel ironBootsPic;
+    public JPanel hoverBootsPanel;          private JLabel hoverBootsPic;
+    public JLabel brknBiggoronSwordPic;     private JLabel biggoronSwordPic;
+    public JPanel kokiriBootsPanel;         private JLabel kokiriBootsPic;
+    public JPanel bulletBagPanel;           private JLabel bulletBagPic;
+    public JPanel bigBulletBagPanel;        private JLabel bigBulletBagPic;
+    public JPanel biggestBulletBagPanel;    private JLabel biggestBulletBagPic;
+    public JPanel silverGauntletPanel;      private JLabel silverGauntletPic;
+    public JPanel goldenGauntletPanel;      private JLabel goldenGauntletsPic;
+    public JPanel dinsFirePanel;            private JLabel dinsFirePic;
+    public JPanel adultsWalletPanel;        private JLabel adultWalletPanelPic;
+    public JPanel giantWalletPanel;         private JLabel giantWalletPic;
+    public JPanel upgradedHeartPanel;       private JLabel updatesHeartPic;
+    public JPanel quiverPanel;              private JLabel quiverPic;
+    public JPanel bigQuiverPanel;           private JLabel bigQuiverPic;
+    public JPanel biggestQuiverPanel;       private JLabel biggestQuiverPic;
+    public JPanel silverScalePanel;         private JLabel silverScalePic;
+    public JPanel goldenScalePanel;         private JLabel goldenScalePic;
+    public JPanel faroresWindPanel;         private JLabel faroresWindPic;
+    public JPanel stoneOfAgonyPanel;        private JLabel stoneOfAgonyPic;
 
-    public JPanel spinAttackPanel;          public JLabel spinAttackPic;
-    public JPanel bombBagPanel;             public JLabel bombBagPic;
-    public JPanel bigBombBagPanel;          public JLabel bigBombBagPic;
-    public JPanel biggestBombBagPanel;      public JLabel biggestBombBagPic;
-    public JPanel goronBraceletPanel;       public JLabel goronBraceletPic;
-    public JPanel nayrusLovePanel;          public JLabel nayrusLovePic;
-    public JPanel magicMeterPanel;          public JLabel magicMeterPic;
-    public JPanel biggerMagicMeterPanel;    public JLabel biggerMagicMeterPic;
+    public JPanel spinAttackPanel;          private JLabel spinAttackPic;
+    public JPanel bombBagPanel;             private JLabel bombBagPic;
+    public JPanel bigBombBagPanel;          private JLabel bigBombBagPic;
+    public JPanel biggestBombBagPanel;      private JLabel biggestBombBagPic;
+    public JPanel goronBraceletPanel;       private JLabel goronBraceletPic;
+    public JPanel nayrusLovePanel;          private JLabel nayrusLovePic;
+    public JPanel magicMeterPanel;          private JLabel magicMeterPic;
+    public JPanel biggerMagicMeterPanel;    private JLabel biggerMagicMeterPic;
 
     // Child items
-    public JPanel dekuSticksPanel;          public JLabel dekuSticksPic;
-    public JPanel boomerangPanel;           public JLabel boomerangPic;
-    public JPanel magicBeansPanel;          public JLabel magicBeansPic;
-    public JPanel zeldasLetterPanel;        public JLabel zeldasLetterPic;
-    public JPanel cucoPanel;                public JLabel cucoPic;
-    public JPanel rutosLetterPanel;         public JLabel rutosLetterPic;
-    public JPanel fairyOcarinaPanel;        public JLabel fairyOcarinaPic;
-    public JPanel weirdEggPanel;            public JLabel weirdEggPic;
-    public JPanel schleuderPanel;           public JLabel schleuderPic;
+    public JPanel dekuSticksPanel;          private JLabel dekuSticksPic;
+    public JPanel boomerangPanel;           private JLabel boomerangPic;
+    public JPanel magicBeansPanel;          private JLabel magicBeansPic;
+    public JPanel zeldasLetterPanel;        private JLabel zeldasLetterPic;
+    public JPanel cucoPanel;                private JLabel cucoPic;
+    public JPanel rutosLetterPanel;         private JLabel rutosLetterPic;
+    public JPanel fairyOcarinaPanel;        private JLabel fairyOcarinaPic;
+    public JPanel weirdEggPanel;            private JLabel weirdEggPic;
+    public JPanel schleuderPanel;           private JLabel schleuderPic;
 
 
     // Adult items
-    public JPanel bowPanel;                 public JLabel bowPic;
-    public JPanel fireArrowPanel;           public JLabel fireArrowPic;
-    public JPanel iceArrowPanel;            public JLabel iceArrowPic;
-    public JPanel lightArrowPanel;          public JLabel lightArrowPic;
-    public JPanel hookshotPanel;            public JLabel hookshotPic;
-    public JPanel longshotPanel;            public JLabel longshotPic;
-    public JPanel megatonHammerPanel;       public JLabel megatonHammerPic;
-    public JPanel goodOcarinaPanel;         public JLabel oOTPic;
+    public JPanel bowPanel;                 private JLabel bowPic;
+    public JPanel fireArrowPanel;           private JLabel fireArrowPic;
+    public JPanel iceArrowPanel;            private JLabel iceArrowPic;
+    public JPanel lightArrowPanel;          private JLabel lightArrowPic;
+    public JPanel hookshotPanel;            private JLabel hookshotPic;
+    public JPanel longshotPanel;            private JLabel longshotPic;
+    public JPanel megatonHammerPanel;       private JLabel megatonHammerPic;
+    public JPanel goodOcarinaPanel;         private JLabel oOTPic;
 
     // mixed Items
-    public JPanel bombPanel;                public JLabel bombPic;
-    public JPanel bombchuPanel;             public JLabel bombchuPic;
-    public JPanel dekuNutsPanel;            public JLabel dekuNutsPic;
-    public JPanel lensOfTruthPanel;         public JLabel lensOfTruthPic;
+    public JPanel bombPanel;                private JLabel bombPic;
+    public JPanel bombchuPanel;             private JLabel bombchuPic;
+    public JPanel dekuNutsPanel;            private JLabel dekuNutsPic;
+    public JPanel lensOfTruthPanel;         private JLabel lensOfTruthPic;
 
     // Scare crow song
     public JPanel scareCrowContainer;       public JTextField scareCrowInput;
-    public JPanel scareCrowPanel;           public JLabel scareCrowPic;
+    public JPanel scareCrowPanel;           private JLabel scareCrowPic;
 
     // Horror kid mini game
     public JPanel horrorKidMiniGameContainer;public JTextField horrorKidMiniGameInput;
-    public JPanel horrorKidMinigamePanel;    public JLabel horrorKidMiniGamePic;
+    public JPanel horrorKidMinigamePanel;    private JLabel horrorKidMiniGamePic;
 
 
 // Dungeons
     // Forest temple
-    public JPanel forestMedallionPanel;     public JLabel forestMedallionPic;
-    public JPanel forestSongPanel;          public JLabel forestSongPic;
-    public JPanel forestHeartContainerPanel;public JLabel forestHeartContainerPic;
-    public JPanel forestKeyPanel;           public JLabel forestKeyPic;             public JLabel forestKeyLabel;
-    public JPanel forestBossKeyPanel;       public JLabel forestBossKeyPic;
-    public JPanel forestMapPanel;           public JLabel forestMapPic;
-    public JPanel forestCompassPanel;       public JLabel forestCompassPic;
+    public JPanel forestMedallionPanel;     private JLabel forestMedallionPic;
+    public JPanel forestSongPanel;          private JLabel forestSongPic;
+    public JPanel forestHeartContainerPanel;private JLabel forestHeartContainerPic;
+    public JPanel forestKeyPanel;           private JLabel forestKeyPic;             public JLabel forestKeyLabel;
+    public JPanel forestBossKeyPanel;       private JLabel forestBossKeyPic;
+    public JPanel forestMapPanel;           private JLabel forestMapPic;
+    public JPanel forestCompassPanel;       private JLabel forestCompassPic;
 
     // Fire temple
-    public JPanel fireMedallionPanel;       public JLabel fireMedallionPic;
-    public JPanel fireSongPanel;            public JLabel fireSongPic;
-    public JPanel fireHeartContainerPanel;  public JLabel fireHeartContainerPic;
-    public JPanel fireKeyPanel;             public JLabel fireKeyPic;               public JLabel fireKeyLabel;
-    public JPanel fireBossKeyPanel;         public JLabel fireBossKeyPic;
-    public JPanel fireMapPanel;             public JLabel fireMapPic;
-    public JPanel fireCompassPanel;         public JLabel fireCompassPic;
+    public JPanel fireMedallionPanel;       private JLabel fireMedallionPic;
+    public JPanel fireSongPanel;            private JLabel fireSongPic;
+    public JPanel fireHeartContainerPanel;  private JLabel fireHeartContainerPic;
+    public JPanel fireKeyPanel;             private JLabel fireKeyPic;               public JLabel fireKeyLabel;
+    public JPanel fireBossKeyPanel;         private JLabel fireBossKeyPic;
+    public JPanel fireMapPanel;             private JLabel fireMapPic;
+    public JPanel fireCompassPanel;         private JLabel fireCompassPic;
 
     // Water temple
-    public JPanel waterMedallionPanel;      public JLabel waterMedallionPic;
-    public JPanel waterSongPanel;           public JLabel waterSongPic;
-    public JPanel waterHeartContainerPanel; public JLabel waterHeartContainerPic;
-    public JPanel waterKeyPanel;            public JLabel waterKeyPic;              public JLabel waterKeyLabel;
-    public JPanel waterBossKeyPanel;        public JLabel waterBossKeyPic;
-    public JPanel waterMapPanel;            public JPanel waterCompassPanel;
-    public JLabel waterMapPic;              public JLabel waterCompassPic;
+    public JPanel waterMedallionPanel;      private JLabel waterMedallionPic;
+    public JPanel waterSongPanel;           private JLabel waterSongPic;
+    public JPanel waterHeartContainerPanel; private JLabel waterHeartContainerPic;
+    public JPanel waterKeyPanel;            private JLabel waterKeyPic;              public JLabel waterKeyLabel;
+    public JPanel waterBossKeyPanel;        private JLabel waterBossKeyPic;
+    public JPanel waterMapPanel;            public JLabel waterMapPic;
+    public JPanel waterCompassPanel;        private JLabel waterCompassPic;
 
     // Shadow temple
-    public JPanel shadowMedallionPanel;     public JLabel shadowMedallionPic;
-    public JPanel shadowSongPanel;          public JLabel shadowSongPic;
-    public JPanel shadowHeartContainerPanel;public JLabel shadowHeartContainerPic;
-    public JPanel shadowKeyPanel;           public JLabel shadowKeyPic;             public JLabel shadowKeyLabel;
-    public JPanel shadowBossKeyPanel;       public JLabel shadowBosKeyPic;
-    public JPanel shadowMapPanel;           public JLabel shadowMapPic;
-    public JPanel shadowCompassPanel;       public JLabel shadowCompassPic;
+    public JPanel shadowMedallionPanel;     private JLabel shadowMedallionPic;
+    public JPanel shadowSongPanel;          private JLabel shadowSongPic;
+    public JPanel shadowHeartContainerPanel;private JLabel shadowHeartContainerPic;
+    public JPanel shadowKeyPanel;           private JLabel shadowKeyPic;             public JLabel shadowKeyLabel;
+    public JPanel shadowBossKeyPanel;       private JLabel shadowBosKeyPic;
+    public JPanel shadowMapPanel;           private JLabel shadowMapPic;
+    public JPanel shadowCompassPanel;       private JLabel shadowCompassPic;
 
     // Spirit temple
-    public JPanel spiritMedallionPanel;     public JLabel spiritMedallionPic;
-    public JPanel spiritSongPanel;          public JLabel spiritSongPic;
-    public JPanel spiritHeartContainerPanel;public JLabel spiritHeartContainerPic;
-    public JPanel spiritKeyPanel;           public JLabel spiritKeyPic;          public JLabel spiritKeyLabel;
-    public JPanel spiritBossKeyPanel;       public JLabel spiritBossKeyPic;
-    public JPanel spiritMapPanel;           public JLabel spiritMapPic;
-    public JPanel spiritCompassPanel;       public JLabel spiritCompassPic;
+    public JPanel spiritMedallionPanel;     private JLabel spiritMedallionPic;
+    public JPanel spiritSongPanel;          private JLabel spiritSongPic;
+    public JPanel spiritHeartContainerPanel;private JLabel spiritHeartContainerPic;
+    public JPanel spiritKeyPanel;           private JLabel spiritKeyPic;          public JLabel spiritKeyLabel;
+    public JPanel spiritBossKeyPanel;       private JLabel spiritBossKeyPic;
+    public JPanel spiritMapPanel;           private JLabel spiritMapPic;
+    public JPanel spiritCompassPanel;       private JLabel spiritCompassPic;
 
     // light Items
-    public JPanel lightMedallionPanel;      public JLabel lightMedallionPic;
-    public JPanel lightSongPanel;           public JLabel lightSongPic;
+    public JPanel lightMedallionPanel;      private JLabel lightMedallionPic;
+    public JPanel lightSongPanel;           private JLabel lightSongPic;
 
     // spiritual stones
-    public JPanel kokiriStonePanel;         public JLabel kokiriStonePic;
-    public JPanel goronStonePanel;          public JLabel goronStonePic;
-    public JPanel zoraStonePanel;           public JLabel zoraStonePic;
+    public JPanel kokiriStonePanel;         private JLabel kokiriStonePic;
+    public JPanel goronStonePanel;          private JLabel goronStonePic;
+    public JPanel zoraStonePanel;           private JLabel zoraStonePic;
 
     // gerudo training complex
-    public JPanel gerudoTokenPanel;         public JLabel gerudoKeyPic;
-    public JPanel gerudoKeyPanel;           public JLabel gerudoTokenPic;       public JLabel gerudoKeyLabel;
+    public JPanel gerudoTokenPanel;         private JLabel gerudoKeyPic;
+    public JPanel gerudoKeyPanel;           private JLabel gerudoTokenPic;       public JLabel gerudoKeyLabel;
 
     // misc. songs
-    public JPanel zeldaSongPanel;           public JLabel zeldaSongPic;
-    public JPanel eponaSongPanel;           public JLabel eponaSongPic;
-    public JPanel sariaSongPanel;           public JLabel sariaSongPic;
-    public JPanel sunSongPanel;             public JLabel sunSongPic;
-    public JPanel songOfTimePanel;          public JLabel songOfTimePic;
-    public JPanel songOfStormsPanel;        public JLabel songOfStormPic;
+    public JPanel zeldaSongPanel;           private JLabel zeldaSongPic;
+    public JPanel eponaSongPanel;           private JLabel eponaSongPic;
+    public JPanel sariaSongPanel;           private JLabel sariaSongPic;
+    public JPanel sunSongPanel;             private JLabel sunSongPic;
+    public JPanel songOfTimePanel;          private JLabel songOfTimePic;
+    public JPanel songOfStormsPanel;        private JLabel songOfStormPic;
 
 // Grotto map
     public JLabel grottoMapPic;
+
+    private JScrollPane grottoScrollPanel;
+    private JPanel grottoPanel;
+
+    private JLabel grottoHeadline01;
+    private JLabel grotto001Label;               public JCheckBox grotto001Check;
+    private JLabel grotto002Label;               public JCheckBox grotto002Check;
+
+    private JLabel grottoHeadline02;
+    private JLabel grotto003Label;               public JCheckBox grotto003Check;
+    private JLabel grotto004Label;               public JCheckBox grotto004Check;
+
+    private JLabel grottoHeadline03;
+    private JLabel grotto005Label;               public JCheckBox grotto005Check;
+
+    private JLabel grottoHeadline04;
+    private JLabel grotto006Label;               public JCheckBox grotto006Check;
+    private JLabel grotto007Label;               public JCheckBox grotto007Check;
+
+    private JLabel grottoHeadline05;
+    private JLabel grotto008Label;               public JCheckBox grotto008Check;
+
+    private JLabel grottoHeadline06;
+    private JLabel grotto009Label;               public JCheckBox grotto009Check;
+
+    private JLabel grottoHeadline07;
+    private JLabel grotto010Label;               public JCheckBox grotto010Check;
+
+    private JLabel grottoHeadline08;
+    private JLabel grotto011Label;               public JCheckBox grotto011Check;
+    private JLabel grotto012Label;               public JCheckBox grotto012Check;
+    private JLabel grotto013Label;               public JCheckBox grotto013Check;
+    private JLabel grotto014Label;               public JCheckBox grotto014Check;
+    private JLabel grotto015Label;               public JCheckBox grotto015Check;
+    private JLabel grotto016Label;               public JCheckBox grotto016Check;
+    private JLabel grotto017Label;               public JCheckBox grotto017Check;
+
+    private JLabel grottoHeadline09;
+    private JLabel grotto018Label;               public JCheckBox grotto018Check;
+    private JLabel grotto019Label;               public JCheckBox grotto019Check;
+    private JLabel grotto020Label;               public JCheckBox grotto020Check;
+
+    private JLabel grottoHeadline10;
+    private JLabel grotto021Label;               public JCheckBox grotto021Check;
+
+    private JLabel grottoHeadline11;
+    private JLabel grotto022Label;               public JCheckBox grotto022Check;
+
+    private JLabel grottoHeadline12;
+    private JLabel grotto023Label;               public JCheckBox grotto023Check;
+
+    private JLabel grottoHeadline13;
+    private JLabel grotto024Label;               public JCheckBox grotto024Check;
+    private JLabel grotto025Label;               public JCheckBox grotto025Check;
+    private JLabel grotto026Label;               public JCheckBox grotto26Check;
+
+    private JLabel grottoHeadline14;
+    private JLabel grotto27Panel;                public JCheckBox grotto27Check;
+    private JLabel grotto028Panel;               public JCheckBox grotto028Check;
+    private JLabel grotto029Label;               public JCheckBox grotto029Check;
+
+    private JLabel grottoHeadline15;
+    private JLabel grotto030Label;               public JCheckBox grotto030Check;
+    private JLabel grotto031Label;               public JCheckBox grotto031Check;
+    private JLabel grotto032Label;               public JCheckBox grotto032Check;
+
+    private JLabel grottoHeadline16;
+    private JLabel grotto033Label;               public JCheckBox grotto033Check;
 
 // Collectibles
     public JPanel heartSkulltullaTriforceContainer;
 
     // Heartpieces
     public JPanel heartPieceContainer;
-    public JPanel heartPiecePanel;              public JLabel heartPiecePic;
     public JProgressBar heartPieceProgressBar;
-    public JButton heartPieceAddBtn;            public JButton heartPieceSubtractBtn;
+    public JButton heartPieceAddBtn;       public JButton heartPieceSubtractBtn;
 
     // Skulltulla
     public JPanel skulltullaContainer;
-    public JPanel skultullaPanel;               public JLabel skulltullaPic;
     public JProgressBar skultullaProgressbar;
     public JButton skultullaAddBtn;             public JButton skulltullaSubtractBtn;
 
     // triforce hunt
     public JPanel triforceHuntContainer;
-    public JTextField triforceInput;
+    public  JTextField triforceInput;
     public JPanel triforcePanel;                public JLabel triforcePic;
     public JProgressBar triforceProgressbar;
     public JButton triforceAddBtn;              public JButton triforceSubstractBtn;
     public JButton triforceAddtriforceBtn;
 
     // Biggoron trading sequence
-    public JPanel giantKnifePanel;              public JLabel giantKnifePic;
-    public JPanel pocketEggPanel;               public JLabel poketEggPic;
-    public JPanel pocketCuccoPanel;             public JLabel pocketCuccoPic;
-    public JPanel cojiroPanel;                  public JLabel cojiroPic;
-    public JPanel oddMushroomPanel;             public JLabel oddMushroomPic;
-    public JPanel oddPoulticePanel;             public JLabel oddPoulticePic;
-    public JPanel sawPanel;                     public JLabel sawPic;
-    public JPanel brknGoronSwordPanel;          public JLabel brknGoronSwordPic;
-    public JPanel prescriptionPanel;            public JLabel prescriptionPic;
-    public JPanel frogPanel;                    public JLabel frogPic;
-    public JPanel eyeDropsPanel;                public JLabel eyeDropsPic;
-    public JPanel claimCheckPanel;              public JLabel claimCheckPic;
-    public JPanel secondBigGoronSwordPanel;     public JLabel secondBigGoronSwordPic;
+    public JPanel giantKnifePanel;              private JLabel giantKnifePic;
+    public JPanel pocketEggPanel;               private JLabel poketEggPic;
+    public JPanel pocketCuccoPanel;             private JLabel pocketCuccoPic;
+    public JPanel cojiroPanel;                  private JLabel cojiroPic;
+    public JPanel oddMushroomPanel;             private JLabel oddMushroomPic;
+    public JPanel oddPoulticePanel;             private JLabel oddPoulticePic;
+    public JPanel sawPanel;                     private JLabel sawPic;
+    public JPanel brknGoronSwordPanel;          private JLabel brknGoronSwordPic;
+    public JPanel prescriptionPanel;            private JLabel prescriptionPic;
+    public JPanel frogPanel;                    private JLabel frogPic;
+    public JPanel eyeDropsPanel;                private JLabel eyeDropsPic;
+    public JPanel claimCheckPanel;              private JLabel claimCheckPic;
+    public JPanel secondBigGoronSwordPanel;     private JLabel secondBigGoronSwordPic;
 
-    public JPanel keatonMaskPanel;              public JLabel keatonMaskPic;
-    public JPanel skullMaskPanel;               public JLabel skullMaskPic;
-    public JPanel spookyMaskPanel;              public JLabel spookyMaskPic;
-    public JPanel bunnyHoodPanel;               public JLabel bunnyHoodPic;
-    public JPanel gerudoMaskPanel;              public JLabel gerudoMaskPic;
-    public JPanel goronMaskPanel;               public JLabel goronMaskPic;
-    public JPanel zoraMaskPanel;                public JLabel zoraMaskPic;
-    public JPanel maskOfTruthPanel;             public JLabel maskOfTruthPic;
+    public JPanel keatonMaskPanel;              private JLabel keatonMaskPic;
+    public JPanel skullMaskPanel;               private JLabel skullMaskPic;
+    public JPanel spookyMaskPanel;              private JLabel spookyMaskPic;
+    public JPanel bunnyHoodPanel;               private JLabel bunnyHoodPic;
+    public JPanel gerudoMaskPanel;              private JLabel gerudoMaskPic;
+    public JPanel goronMaskPanel;               private JLabel goronMaskPic;
+    public JPanel zoraMaskPanel;                private JLabel zoraMaskPic;
+    public JPanel maskOfTruthPanel;             private JLabel maskOfTruthPic;
 
-    public JPanel empty3_13_1;
-    public JPanel empty3_15_1;
-    public JPanel empty3_17_1;
-    public JPanel empty3_12_2;
-    public JPanel empty3_11_2;
-    public JPanel empty3_10_2;
-    public JPanel empty3_9_2;
-    public JPanel empty3_14_2;
-    public JPanel empty3_15_2;
-    public JPanel empty3_16_2;
-    public JPanel empty3_17_2;
-    public JPanel empty1_1_2;
-    public JPanel empty1_12_2;
-    public JPanel empty1_16_2;
-    public JPanel empty1_16_3;
-    public JPanel empty1_1_3;
-    public JPanel empty1_2_3;
-    public JPanel empty1_8_5;
-    public JPanel empty1_12_1;
-    private JScrollPane grottoScrollPanel;
-    private JPanel grottoPanel;
-    private JLabel grottoHeadline01;
-    private JLabel grotto001Label;
-    private JCheckBox grotto001Check;
-    private JLabel grotto002Label;
-    private JCheckBox grotto002Check;
-    private JLabel grottoHeadline02;
-    private JLabel grotto003Label;
-    private JCheckBox grotto003Check;
-    private JLabel grotto004Label;
-    private JCheckBox grotto004Check;
-    private JLabel grottoHeadline03;
-    private JLabel grotto005Label;
-    private JCheckBox grotto005Check;
-    private JLabel grottoHeadline04;
-    private JLabel grotto006Label;
-    private JCheckBox grotto006Check;
-    private JLabel grotto007Label;
-    private JCheckBox grotto007Check;
-    private JLabel grottoHeadline05;
-    private JLabel grotto008Label;
-    private JCheckBox grotto008Check;
-    private JLabel grottoHeadline06;
-    private JLabel grotto009Label;
-    private JCheckBox grotto009Check;
-    private JLabel grottoHeadline07;
-    private JLabel grotto010Label;
-    private JCheckBox grotto010Check;
-    private JLabel grottoHeadline08;
-    private JLabel grotto011Label;
-    private JCheckBox grotto011Check;
-    private JLabel grotto012Label;
-    private JCheckBox grotto012Check;
-    private JLabel grotto013Label;
-    private JCheckBox grotto013Check;
-    private JLabel grotto014Label;
-    private JCheckBox grotto014Check;
-    private JLabel grotto015Label;
-    private JCheckBox grotto015Check;
-    private JLabel grotto016Label;
-    private JCheckBox grotto016Check;
-    private JLabel grotto017Label;
-    private JCheckBox grotto017Check;
-    private JLabel grottoHeadline09;
-    private JLabel grotto018Label;
-    private JCheckBox grotto018Check;
-    private JLabel grotto019Label;
-    private JCheckBox grotto019Check;
-    private JLabel grotto020Label;
-    private JCheckBox grotto020Check;
-    private JLabel grottoHeadline10;
-    private JLabel grotto021Label;
-    private JCheckBox grotto021Check;
-    private JLabel grottoHeadline11;
-    private JLabel grotto022Label;
-    private JCheckBox grotto022Check;
-    private JLabel grottoHeadline12;
-    private JLabel grotto023Label;
-    private JCheckBox grotto023Check;
-    private JLabel grottoHeadline13;
-    private JLabel grotto024Label;
-    private JCheckBox grotto024Check;
-    private JLabel grotto025Label;
-    private JCheckBox grotto025Check;
-    private JLabel grotto026Label;
-    private JCheckBox grotto26Check;
-    private JLabel grottoHeadline14;
-    private JLabel grotto27Panel;
-    private JCheckBox grotto27Check;
-    private JLabel grotto028Panel;
-    private JCheckBox grotto028Check;
-    private JLabel grotto029Label;
-    private JCheckBox grotto029Check;
-    private JLabel grottoHeadline15;
-    private JLabel grotto030Label;
-    private JCheckBox grotto030Check;
-    private JLabel grotto031Label;
-    private JCheckBox grotto031Check;
-    private JLabel grotto032Label;
-    private JCheckBox grotto032Check;
-    private JLabel grottoHeadline16;
-    private JLabel grotto033Label;
-    private JCheckBox grotto033Check;
+    private JPanel empty3_13_1;
+    private JPanel empty3_15_1;
+    private JPanel empty3_17_1;
+    private JPanel empty3_12_2;
+    private JPanel empty3_11_2;
+    private JPanel empty3_10_2;
+    private JPanel empty3_9_2;
+    private JPanel empty3_14_2;
+    private JPanel empty3_15_2;
+    private JPanel empty3_16_2;
+    private JPanel empty3_17_2;
+    private JPanel empty1_1_2;
+    private JPanel empty1_12_2;
+    private JPanel empty1_16_2;
+    private JPanel empty1_16_3;
+    private JPanel empty1_1_3;
+    private JPanel empty1_2_3;
+    private JPanel empty1_8_5;
+    private JPanel empty1_12_1;
+    private JPanel heartPieceSpacer;
+    private JPanel skulltullaSpacer;
+    private JPanel triforceSpacer;
+    private JPanel heartPiecePanel;
+    private JLabel heartPiecePic;
+    public JLabel heartPieceOutputLabel;
+    private JPanel skultullaPanel;
+    private JLabel skulltullaPic;
+    public JLabel skulltullaOutputLabel;
+    public JLabel triforceOutputLabel;
 
+
+    public GUI() {
+
+    }
 
     public void setGUI() {
         setContentPane(mainWindow);

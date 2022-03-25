@@ -1,13 +1,24 @@
 package controller;
 
 
+import view.GUI;
+
 import javax.swing.*;
 import javax.swing.border.LineBorder;
 import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.util.ArrayList;
 
 public class FrontendController {
+
+
+    static int currentHeartPieceValue;
+    static int currentSkulltulaValue;
+    static int currentTriforceValue;
+    static int maxTriforceValue;
+
+
 
     public static void setItemToggle(JPanel PanelName) {
         PanelName = PanelName;
@@ -94,7 +105,165 @@ public class FrontendController {
     }
 
 
+    public static void addHeartPiece(int maxValue, JButton btnName, JProgressBar pbName, JLabel outputLabel) {
+
+        int finalMaxValue = maxValue;
+        btnName = btnName;
+        JProgressBar finalPbName = pbName;
+        JLabel finalOutputLabel = outputLabel;
+
+        pbName.setMaximum(maxValue);
+
+        btnName.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                super.mouseClicked(e);
+                if (currentHeartPieceValue < finalMaxValue) {
+                    currentHeartPieceValue = currentHeartPieceValue + 1;
+                    finalPbName.setValue(currentHeartPieceValue);
+                    // System.out.println("Value added");
+                    finalOutputLabel.setText(String.valueOf(currentHeartPieceValue));
+                }
+            }
+        });
+    }
+
+    public static void subtractHearPiece(int maxValue, JButton btnName, JProgressBar pbName, JLabel outputLabel) {
+
+        maxValue = maxValue;
+        btnName = btnName;
+        JProgressBar finalPbName = pbName;
+        JLabel finalOutputLabel = outputLabel;
+
+
+        pbName.setMaximum(maxValue);
+
+        btnName.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                super.mouseClicked(e);
+                if (currentHeartPieceValue > 0) {
+                    currentHeartPieceValue = currentHeartPieceValue - 1;
+                    finalPbName.setValue(currentHeartPieceValue);
+                    // System.out.println("Value subtracted");
+                    finalOutputLabel.setText(String.valueOf(currentHeartPieceValue));
+
+                }
+            }
+        });
+    }
+
+    public static void addSkulltula(int maxValue, JButton btnName, JProgressBar pbName, JLabel outputLabel) {
+
+        int finalMaxValue = maxValue;
+        btnName = btnName;
+        JProgressBar finalPbName = pbName;
+        JLabel finalOutputLabel = outputLabel;
+
+        pbName.setMaximum(maxValue);
+
+        btnName.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                super.mouseClicked(e);
+                if (currentSkulltulaValue < finalMaxValue) {
+                    currentSkulltulaValue = currentSkulltulaValue + 1;
+                    finalPbName.setValue(currentSkulltulaValue);
+                        System.out.println("Value added");
+                    finalOutputLabel.setText(String.valueOf(currentSkulltulaValue));
+                }
+            }
+        });
+    }
+
+    public static void subtractSkulltula(int maxValue, JButton btnName, JProgressBar pbName, JLabel outputLabel) {
+
+        maxValue = maxValue;
+        btnName = btnName;
+        JProgressBar finalPbName = pbName;
+        JLabel finalOutputLabel = outputLabel;
+
+
+        pbName.setMaximum(maxValue);
+
+        btnName.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                super.mouseClicked(e);
+                if (currentSkulltulaValue > 0) {
+                    currentSkulltulaValue = currentSkulltulaValue - 1;
+                    finalPbName.setValue(currentSkulltulaValue);
+                        System.out.println("Value subtracted");
+                    finalOutputLabel.setText(String.valueOf(currentSkulltulaValue));
+
+                }
+            }
+        });
+    }
+
+
+    public static void setTriforceValue(JButton BTNName, JTextField TFName, JProgressBar PBName) {
+
+        BTNName = BTNName;
+        JTextField finalTFName = TFName;
+        JProgressBar finalPBName = PBName;
+
+        BTNName.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                super.mouseClicked(e);
+                String tirforceValueString = finalTFName.getText();
+                int maxTriforceValue = Integer.parseInt(tirforceValueString);
+                finalPBName.setMaximum(maxTriforceValue);
+                System.out.println(finalPBName.getMaximum());
+                currentTriforceValue = maxTriforceValue;
+            }
+        });
+    }
+
+    public static void addTriforce(JButton btnName, JProgressBar pbName, JLabel outputLabel) {
+
+        btnName = btnName;
+        JProgressBar finalPbName = pbName;
+        JLabel finalOutputLabel = outputLabel;
+
+        btnName.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                super.mouseClicked(e);
+                if (currentTriforceValue < maxTriforceValue) {
+                    currentTriforceValue = currentTriforceValue + 1;
+                    finalPbName.setValue(currentTriforceValue);
+                        System.out.println("Value added");
+                    finalOutputLabel.setText(String.valueOf(currentTriforceValue));
+                }
+            }
+        });
+    }
+
+    public static void subtractTriforce(JButton btnName, JProgressBar pbName, JLabel outputLabel) {
+
+        btnName = btnName;
+        JProgressBar finalPbName = pbName;
+        JLabel finalOutputLabel = outputLabel;
+
+        btnName.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                super.mouseClicked(e);
+                if (currentTriforceValue > 0) {
+                    currentTriforceValue = currentTriforceValue - 1;
+                    finalPbName.setValue(currentTriforceValue);
+                        System.out.println("Value subtracted");
+                    finalOutputLabel.setText(String.valueOf(currentTriforceValue));
+
+                }
+            }
+        });
+    }
+
 }
+
 
 
 

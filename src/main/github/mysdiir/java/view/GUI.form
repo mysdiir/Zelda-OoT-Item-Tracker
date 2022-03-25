@@ -4943,18 +4943,18 @@
             </properties>
             <border type="none"/>
             <children>
-              <grid id="9660b" binding="heartPiecePanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+              <grid id="b162a" binding="heartPiecePanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
                 <constraints/>
                 <properties>
                   <background color="-10524056"/>
                   <foreground color="-10524056"/>
                   <maximumSize width="35" height="35"/>
                   <minimumSize width="35" height="35"/>
-                  <preferredSize width="35" height="35"/>
+                  <preferredSize width="75" height="35"/>
                 </properties>
                 <border type="none"/>
                 <children>
-                  <component id="57ec6" class="javax.swing.JLabel" binding="heartPiecePic">
+                  <component id="f5675" class="javax.swing.JLabel" binding="heartPiecePic">
                     <constraints/>
                     <properties>
                       <horizontalAlignment value="0"/>
@@ -4967,6 +4967,16 @@
                       <verifyInputWhenFocusTarget value="false"/>
                     </properties>
                   </component>
+                  <component id="8b83f" class="javax.swing.JLabel" binding="heartPieceOutputLabel">
+                    <constraints/>
+                    <properties>
+                      <font size="18"/>
+                      <foreground color="-1031"/>
+                      <horizontalAlignment value="0"/>
+                      <preferredSize width="32" height="35"/>
+                      <text value="0"/>
+                    </properties>
+                  </component>
                 </children>
               </grid>
               <component id="c12ec" class="javax.swing.JProgressBar" binding="heartPieceProgressBar">
@@ -4974,8 +4984,9 @@
                 <properties>
                   <background color="-12300724"/>
                   <foreground color="-10524056"/>
+                  <maximum value="26"/>
                   <preferredSize width="250" height="10"/>
-                  <value value="50"/>
+                  <value value="0"/>
                 </properties>
               </component>
               <component id="4acd" class="javax.swing.JButton" binding="heartPieceAddBtn">
@@ -4996,6 +5007,16 @@
                   <text value="-"/>
                 </properties>
               </component>
+              <grid id="7911" binding="heartPieceSpacer" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints/>
+                <properties>
+                  <background color="-12300724"/>
+                  <preferredSize width="170" height="30"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
             </children>
           </grid>
           <grid id="4b23e" binding="skulltullaContainer" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
@@ -5006,28 +5027,39 @@
             </properties>
             <border type="none"/>
             <children>
-              <grid id="caa74" binding="skultullaPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+              <grid id="c5d53" binding="skultullaPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
                 <constraints/>
                 <properties>
                   <background color="-10524056"/>
                   <foreground color="-10524056"/>
                   <maximumSize width="35" height="35"/>
                   <minimumSize width="35" height="35"/>
-                  <preferredSize width="35" height="35"/>
+                  <preferredSize width="70" height="35"/>
                 </properties>
                 <border type="none"/>
                 <children>
-                  <component id="77d00" class="javax.swing.JLabel" binding="skulltullaPic">
+                  <component id="48d1a" class="javax.swing.JLabel" binding="skulltullaPic">
                     <constraints/>
                     <properties>
                       <horizontalAlignment value="0"/>
                       <horizontalTextPosition value="0"/>
-                      <icon value="main/resources/icons/3Ds Icons/OoT3D_Piece_of_Heart_Icon.png"/>
+                      <icon value="main/resources/icons/3Ds Icons/Gold-Skulltula-Token.png"/>
                       <maximumSize width="35" height="35"/>
                       <minimumSize width="35" height="35"/>
                       <preferredSize width="35" height="35"/>
                       <text value=""/>
                       <verifyInputWhenFocusTarget value="false"/>
+                    </properties>
+                  </component>
+                  <component id="a40d0" class="javax.swing.JLabel" binding="skulltullaOutputLabel">
+                    <constraints/>
+                    <properties>
+                      <background color="-1031"/>
+                      <font size="18"/>
+                      <foreground color="-1031"/>
+                      <horizontalAlignment value="0"/>
+                      <preferredSize width="32" height="35"/>
+                      <text value="0"/>
                     </properties>
                   </component>
                 </children>
@@ -5038,7 +5070,7 @@
                   <background color="-12300724"/>
                   <foreground color="-10524056"/>
                   <preferredSize width="250" height="10"/>
-                  <value value="50"/>
+                  <value value="0"/>
                 </properties>
               </component>
               <component id="72e46" class="javax.swing.JButton" binding="skultullaAddBtn">
@@ -5059,6 +5091,16 @@
                   <text value="-"/>
                 </properties>
               </component>
+              <grid id="69012" binding="skulltullaSpacer" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints/>
+                <properties>
+                  <background color="-12300724"/>
+                  <preferredSize width="170" height="30"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
             </children>
           </grid>
           <grid id="ce502" binding="triforceHuntContainer" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
@@ -5076,7 +5118,7 @@
                   <foreground color="-10524056"/>
                   <maximumSize width="35" height="35"/>
                   <minimumSize width="35" height="35"/>
-                  <preferredSize width="35" height="35"/>
+                  <preferredSize width="70" height="35"/>
                 </properties>
                 <border type="none"/>
                 <children>
@@ -5093,6 +5135,17 @@
                       <verifyInputWhenFocusTarget value="false"/>
                     </properties>
                   </component>
+                  <component id="20bf3" class="javax.swing.JLabel" binding="triforceOutputLabel">
+                    <constraints/>
+                    <properties>
+                      <background color="-1031"/>
+                      <font size="18"/>
+                      <foreground color="-1031"/>
+                      <horizontalAlignment value="0"/>
+                      <preferredSize width="32" height="35"/>
+                      <text value="0"/>
+                    </properties>
+                  </component>
                 </children>
               </grid>
               <component id="8b18e" class="javax.swing.JProgressBar" binding="triforceProgressbar">
@@ -5101,7 +5154,7 @@
                   <background color="-12300724"/>
                   <foreground color="-10524056"/>
                   <preferredSize width="250" height="10"/>
-                  <value value="50"/>
+                  <value value="0"/>
                 </properties>
               </component>
               <component id="d753f" class="javax.swing.JButton" binding="triforceAddBtn">
@@ -5139,14 +5192,14 @@
                   <text value="add"/>
                 </properties>
               </component>
-              <grid id="656b7" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+              <grid id="656b7" binding="triforceSpacer" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
                 <constraints/>
                 <properties>
                   <background color="-12300724"/>
                   <foreground color="-10524056"/>
                   <maximumSize width="35" height="35"/>
                   <minimumSize width="35" height="35"/>
-                  <preferredSize width="65" height="35"/>
+                  <preferredSize width="35" height="35"/>
                 </properties>
                 <border type="none"/>
                 <children/>
