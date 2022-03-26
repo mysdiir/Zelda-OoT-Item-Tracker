@@ -1,0 +1,1 @@
+- [x] release of 1.0
