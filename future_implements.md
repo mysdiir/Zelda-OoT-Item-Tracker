@@ -1,7 +1,7 @@
 # Future implements for Item Tracker
 
 ## Functions
-- [] release of 1.0
+- [ ] release of 1.0
 - [ ] adding menu bar
 - [ ] adding saving option of current progress
 - [ ] adding loading option of current progress
