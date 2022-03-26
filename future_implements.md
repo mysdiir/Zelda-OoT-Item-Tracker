@@ -7,8 +7,8 @@
 - [ ] adding loading option of current progress
 - [ ] adding horizontal mode (current made for vertical mode)
 ## Look
-- [] light mode
-- [] greenscreen mode for streamers
+- [ ] light mode
+- [ ] greenscreen mode for streamers
 
 
 ## Bug Fixing
