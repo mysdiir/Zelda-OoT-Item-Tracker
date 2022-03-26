@@ -15,3 +15,6 @@
 
 ## Git Hub and text realted files
 - [x] seperating README, devlog and further implements
+- [ ] adding several files to .gitignore
+- [ ] adding pictures for quick overview
+- [ ] adding documentation in english, german, french and (maybe) spanish
