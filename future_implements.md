@@ -6,9 +6,11 @@
 - [ ] adding saving option of current progress
 - [ ] adding loading option of current progress
 - [ ] adding horizontal mode (current made for vertical mode)
+- [ ] adding options to select containers that match to player's playstyle
 ## Look
 - [ ] light mode
 - [ ] greenscreen mode for streamers
+- [ ] rework of icons
 
 
 ## Bug Fixing
