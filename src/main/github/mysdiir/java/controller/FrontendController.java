@@ -213,10 +213,11 @@ public class FrontendController {
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
                 String tirforceValueString = finalTFName.getText();
-                int maxTriforceValue = Integer.parseInt(tirforceValueString);
+                    // System.out.println(tirforceValueString);
+                maxTriforceValue = Integer.parseInt(tirforceValueString);
                 finalPBName.setMaximum(maxTriforceValue);
-                System.out.println(finalPBName.getMaximum());
-                currentTriforceValue = maxTriforceValue;
+                    // System.out.println(finalPBName.getMaximum());
+
             }
         });
     }
@@ -231,10 +232,12 @@ public class FrontendController {
             @Override
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
+                System.out.println("Add");
+                System.out.println(currentTriforceValue + " " + maxTriforceValue);
                 if (currentTriforceValue < maxTriforceValue) {
                     currentTriforceValue = currentTriforceValue + 1;
                     finalPbName.setValue(currentTriforceValue);
-                        System.out.println("Value added");
+                       // System.out.println("Value added");
                     finalOutputLabel.setText(String.valueOf(currentTriforceValue));
                 }
             }
@@ -251,10 +254,11 @@ public class FrontendController {
             @Override
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
+                System.out.println("Subtract");
                 if (currentTriforceValue > 0) {
                     currentTriforceValue = currentTriforceValue - 1;
                     finalPbName.setValue(currentTriforceValue);
-                        System.out.println("Value subtracted");
+                       // System.out.println("Value subtracted");
                     finalOutputLabel.setText(String.valueOf(currentTriforceValue));
 
                 }

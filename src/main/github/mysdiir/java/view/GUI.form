@@ -5127,7 +5127,7 @@
                     <properties>
                       <horizontalAlignment value="0"/>
                       <horizontalTextPosition value="0"/>
-                      <icon value="main/resources/icons/3Ds Icons/OoT3D_Piece_of_Heart_Icon.png"/>
+                      <icon value="main/resources/icons/3Ds Icons/Triforce_Part.png"/>
                       <maximumSize width="35" height="35"/>
                       <minimumSize width="35" height="35"/>
                       <preferredSize width="35" height="35"/>
