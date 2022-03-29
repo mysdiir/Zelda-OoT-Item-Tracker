@@ -1,5 +1,9 @@
 # Devlog
 
+_2022-03-29:_
+>- adding icon and functions for triforce hunt (add button, subtract button, set triforce max value)
+>- compile to .jar file with problems of different jre and jdk (fixing in progress)
+
 _2022-03-25:_
 >- adding heartpiece panel and skulltula panel in GUI and set the functionality
 >- added quick guide, supported OS information in plain text
