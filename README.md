@@ -12,7 +12,7 @@ This Zelda Ocarina of Time Item tracker is made for playing Zelda Ocarina of Tim
 > <br>
 ![02](https://user-images.githubusercontent.com/70364903/160780456-d0377396-ea4e-495e-a75e-5583d66ca42b.png)
 ![03](https://user-images.githubusercontent.com/70364903/160780458-10c79ec5-3924-49df-9998-c5be5e5846bc.png)
-<br>
+> <br>
 > <br>
                   
 ### Tracking originial position:
@@ -37,7 +37,7 @@ to give yourself an overview which item you have already checked.
 > <br>
 > ![05](https://user-images.githubusercontent.com/70364903/160781016-e3db216b-074d-49e0-a41f-a4f580656189.PNG)
 > ![06](https://user-images.githubusercontent.com/70364903/160781022-b5ee2c2f-6074-4ed0-82c3-bef6ac9f91d9.PNG)
-<br>
+> <br>
 > <br>
 > Your text will be shown until you delete it or close the application
 > 
@@ -45,7 +45,7 @@ to give yourself an overview which item you have already checked.
 > own by screenshotting it.
 > <br>
 > The saving and loading feature is, next to bug fixing, the next top priority in this project.*
-<br>
+> <br>
         
 ### Grotto tracker:
 
