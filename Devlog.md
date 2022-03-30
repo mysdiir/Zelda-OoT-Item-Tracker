@@ -1,8 +1,14 @@
 # Devlog
 
+_2022-03-30:_
+>- moving .jar file to root folder, to get better accessibility to application
+>- adding pictures for README.md 
+
 _2022-03-29:_
 >- adding icon and functions for triforce hunt (add button, subtract button, set triforce max value)
 >- compile to .jar file with problems of different jre and jdk (fixing in progress)
+>- compilement to .jar file (Version 1.0) successful
+
 
 _2022-03-25:_
 >- adding heartpiece panel and skulltula panel in GUI and set the functionality
