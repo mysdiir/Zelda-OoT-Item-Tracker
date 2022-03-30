@@ -28,6 +28,9 @@ to give yourself an overview which item you have already checked.
 
 ### Song storage:
 > You also can store your chosen scarescrow song (the same as Horror Kid minigame) by `typing` your combination in the given text field.
+> <br>
+> ![05](https://user-images.githubusercontent.com/70364903/160781016-e3db216b-074d-49e0-a41f-a4f580656189.PNG)
+> ![06](https://user-images.githubusercontent.com/70364903/160781022-b5ee2c2f-6074-4ed0-82c3-bef6ac9f91d9.PNG)
 
 <br>
         
