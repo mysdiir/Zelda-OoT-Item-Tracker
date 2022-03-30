@@ -8,11 +8,16 @@ This Zelda Ocarina of Time Item tracker is made for playing Zelda Ocarina of Tim
 
 ### Item tracking:         
 > Track your current recieved item with `left clicking` on the specific icon to the item.
-
+> <br>
+![02](https://user-images.githubusercontent.com/70364903/160780456-d0377396-ea4e-495e-a75e-5583d66ca42b.png)
+![03](https://user-images.githubusercontent.com/70364903/160780458-10c79ec5-3924-49df-9998-c5be5e5846bc.png)
 <br>
                   
 ### Tracking originial position:
 > To track the original position of vanilla item, use `right click`.
+> <br>
+> ![02](https://user-images.githubusercontent.com/70364903/160780456-d0377396-ea4e-495e-a75e-5583d66ca42b.png)
+![04](https://user-images.githubusercontent.com/70364903/160780461-97308db0-97b8-460f-ae07-9f950a66dd86.png)
 
 >**Example**: When you get Goron Tunic at the location of Kokiri sword, right click on Kokiri Sword 
 to give yourself an overview which item you have already checked.
@@ -23,6 +28,9 @@ to give yourself an overview which item you have already checked.
 
 ### Song storage:
 > You also can store your chosen scarescrow song (the same as Horror Kid minigame) by `typing` your combination in the given text field.
+> <br>
+> ![05](https://user-images.githubusercontent.com/70364903/160781016-e3db216b-074d-49e0-a41f-a4f580656189.PNG)
+> ![06](https://user-images.githubusercontent.com/70364903/160781022-b5ee2c2f-6074-4ed0-82c3-bef6ac9f91d9.PNG)
 
 <br>
         
