@@ -81,6 +81,7 @@ Currently used is Java JRE (Java Runtime Environment) 1.8.0.
 > Check your current Java version (https://www.java.com/download/help/version_manual.html)
 
 > Download current Java version (https://www.java.com/download/manual.jsp)
+> <br>
 > Java autoupdate help center (https://www.java.com/download/help/java_update.html)
 
 <br>
