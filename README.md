@@ -71,3 +71,40 @@ Also I will change the readability of the information files.
 >Mac OS X, Windows 11, Windows 10, windows 7, Windows 8, Windows Vista, Windows XP, Linux
 
 Due to the fact that Java is a multiplatform programming languague, which means that after creating the final .jar file, it should be possible to run the application on Windows, Linux and Mac.
+
+<br>
+
+### Which Java version is supported?
+
+Currently used is Java JRE (Java Runtime Environment) 1.8.0.
+<br>
+> Check your current Java version (https://www.java.com/download/help/version_manual.html)
+
+> Download current Java version (https://www.java.com/download/manual.jsp)
+> Java autoupdate help center (https://www.java.com/download/help/java_update.html)
+
+<br>
+If you use a specific Java version and whish me to create one, feel free to open an issue here in GitHub.
+I will check if all functions within the application will work with your wanted Java version.
+<br>
+
+> **Note** : It's important to keep up with current Java versions, to have closed bugs or safty issues.
+<br>
+
+### Donwload
+<br>
+You can find an overview of all released versions here  (https://github.com/mysdiir/Zelda-OoT-Item-Tracker/releases/tag/v1.0)
+<br>
+
+### Final words
+First of all, this is my first "bigger" project in Java and I hope you will have fun with my Zelda OoT Item Tracker :)
+If you have any problems, bugs or else, feel free to open a new issue or leave a comment.
+<br>
+Please don't be too harsh with me :D
+I'm learning about a year Java in a professional surroundings and programming in general about 1.5 years :P
+Also, english is not my mother tounge, so dont' be bothered if my english is not the best.
+
+A huge thank you eveyone who uses my item tracker, my brother for giving me tips for UX basics and the Good Old Days Gaming community for supporting me.
+Milo for giving me a great introduction to GitHub.
+
+Have fun :)
