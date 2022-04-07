@@ -311,8 +311,10 @@ public class GUI extends JFrame{
 
     public void setGUI() {
         setContentPane(mainWindow);
-        setSize(670, 1000);
+        setSize(670, 1100);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Zelda Ocarina of Time Item Tracker");
+        setResizable(false);
         mainWindow.add(coreItemsPanel);
         mainWindow.add(dungeonPanel);
         mainWindow.add(grottoMapPanel);

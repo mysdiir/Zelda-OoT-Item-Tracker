@@ -75,6 +75,7 @@ public class Application extends GUI {
             FrontendController.setItemToggle(GUI.dekuSticksPanel);
             FrontendController.setItemToggle(GUI.boomerangPanel);
             FrontendController.setItemToggle(GUI.magicBeansPanel);
+            FrontendController.setItemToggle(GUI.weirdEggPanel);
             FrontendController.setItemToggle(GUI.upgradedHeartPanel);
             FrontendController.setItemToggle(GUI.fairyOcarinaPanel);
 

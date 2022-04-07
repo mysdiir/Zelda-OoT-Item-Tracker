@@ -3217,8 +3217,8 @@
         <properties>
           <background color="-13353669"/>
           <maximumSize width="610" height="310"/>
-          <minimumSize width="610" height="310"/>
-          <preferredSize width="650" height="310"/>
+          <minimumSize width="610" height="320"/>
+          <preferredSize width="650" height="350"/>
         </properties>
         <border type="none"/>
         <children>
@@ -3240,7 +3240,7 @@
               <inheritsPopupMenu value="false"/>
               <maximumSize width="250" height="300"/>
               <minimumSize width="250" height="300"/>
-              <preferredSize width="250" height="300"/>
+              <preferredSize width="250" height="340"/>
               <verticalScrollBarPolicy value="22"/>
               <visible value="true"/>
             </properties>
@@ -3268,7 +3268,7 @@
                       <gridbag weightx="2.0" weighty="0.0"/>
                     </constraints>
                     <properties>
-                      <font name="Candara"/>
+                      <font name="Candara" style="2"/>
                       <foreground color="-1031"/>
                       <text value="Death Mountain Crater"/>
                     </properties>
@@ -3287,7 +3287,7 @@
                   <component id="9fde9" class="javax.swing.JCheckBox" binding="grotto001Check">
                     <constraints>
                       <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
+                      <gridbag weightx="1.0" weighty="0.0"/>
                     </constraints>
                     <properties>
                       <background color="-13353669"/>
@@ -3308,26 +3308,20 @@
                   <component id="79510" class="javax.swing.JCheckBox" binding="grotto002Check">
                     <constraints>
                       <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
+                      <gridbag weightx="1.0" weighty="0.0"/>
                     </constraints>
                     <properties>
                       <background color="-13353669"/>
                       <text value=""/>
                     </properties>
                   </component>
-                  <vspacer id="8af9f">
-                    <constraints>
-                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
-                    </constraints>
-                  </vspacer>
                   <component id="f2724" class="javax.swing.JLabel" binding="grottoHeadline02">
                     <constraints>
                       <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                       <gridbag weightx="2.0" weighty="0.0"/>
                     </constraints>
                     <properties>
-                      <font name="Candara"/>
+                      <font name="Candara" style="2"/>
                       <foreground color="-1031"/>
                       <text value="Death Montain Trail"/>
                     </properties>
@@ -3346,7 +3340,7 @@
                   <component id="68f5d" class="javax.swing.JCheckBox" binding="grotto003Check">
                     <constraints>
                       <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
+                      <gridbag weightx="1.0" weighty="0.0"/>
                     </constraints>
                     <properties>
                       <background color="-13353669"/>
@@ -3367,26 +3361,20 @@
                   <component id="ec910" class="javax.swing.JCheckBox" binding="grotto004Check">
                     <constraints>
                       <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
+                      <gridbag weightx="1.0" weighty="0.0"/>
                     </constraints>
                     <properties>
                       <background color="-13353669"/>
                       <text value=""/>
                     </properties>
                   </component>
-                  <vspacer id="6a23">
-                    <constraints>
-                      <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
-                    </constraints>
-                  </vspacer>
                   <component id="31433" class="javax.swing.JLabel" binding="grottoHeadline03">
                     <constraints>
                       <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                       <gridbag weightx="2.0" weighty="0.0"/>
                     </constraints>
                     <properties>
-                      <font name="Candara"/>
+                      <font name="Candara" style="2"/>
                       <foreground color="-1031"/>
                       <text value="Desert Colossus"/>
                     </properties>
@@ -3405,26 +3393,20 @@
                   <component id="84b4c" class="javax.swing.JCheckBox" binding="grotto005Check">
                     <constraints>
                       <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
+                      <gridbag weightx="1.0" weighty="0.0"/>
                     </constraints>
                     <properties>
                       <background color="-13353669"/>
                       <text value=""/>
                     </properties>
                   </component>
-                  <vspacer id="3606d">
-                    <constraints>
-                      <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
-                    </constraints>
-                  </vspacer>
                   <component id="68205" class="javax.swing.JLabel" binding="grottoHeadline04">
                     <constraints>
                       <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                       <gridbag weightx="2.0" weighty="0.0"/>
                     </constraints>
                     <properties>
-                      <font name="Candara"/>
+                      <font name="Candara" style="2"/>
                       <foreground color="-1031"/>
                       <text value="Gerudo Valley"/>
                     </properties>
@@ -3443,7 +3425,7 @@
                   <component id="82d7d" class="javax.swing.JCheckBox" binding="grotto006Check">
                     <constraints>
                       <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
+                      <gridbag weightx="1.0" weighty="0.0"/>
                     </constraints>
                     <properties>
                       <background color="-13353669"/>
@@ -3464,26 +3446,20 @@
                   <component id="7b60f" class="javax.swing.JCheckBox" binding="grotto007Check">
                     <constraints>
                       <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
+                      <gridbag weightx="1.0" weighty="0.0"/>
                     </constraints>
                     <properties>
                       <background color="-13353669"/>
                       <text value=""/>
                     </properties>
                   </component>
-                  <vspacer id="18eff">
-                    <constraints>
-                      <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
-                    </constraints>
-                  </vspacer>
                   <component id="9c3d4" class="javax.swing.JLabel" binding="grottoHeadline05">
                     <constraints>
                       <grid row="15" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                       <gridbag weightx="2.0" weighty="0.0"/>
                     </constraints>
                     <properties>
-                      <font name="Candara"/>
+                      <font name="Candara" style="2"/>
                       <foreground color="-1031"/>
                       <text value="Gerudo Fortress"/>
                     </properties>
@@ -3502,26 +3478,20 @@
                   <component id="6e160" class="javax.swing.JCheckBox" binding="grotto008Check">
                     <constraints>
                       <grid row="16" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
+                      <gridbag weightx="1.0" weighty="0.0"/>
                     </constraints>
                     <properties>
                       <background color="-13353669"/>
                       <text value=""/>
                     </properties>
                   </component>
-                  <vspacer id="d80be">
-                    <constraints>
-                      <grid row="17" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
-                    </constraints>
-                  </vspacer>
                   <component id="891c" class="javax.swing.JLabel" binding="grottoHeadline06">
                     <constraints>
                       <grid row="18" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                       <gridbag weightx="2.0" weighty="0.0"/>
                     </constraints>
                     <properties>
-                      <font name="Candara"/>
+                      <font name="Candara" style="2"/>
                       <foreground color="-1031"/>
                       <text value="Goron city"/>
                     </properties>
@@ -3540,26 +3510,20 @@
                   <component id="5d36f" class="javax.swing.JCheckBox" binding="grotto009Check">
                     <constraints>
                       <grid row="19" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
+                      <gridbag weightx="1.0" weighty="0.0"/>
                     </constraints>
                     <properties>
                       <background color="-13353669"/>
                       <text value=""/>
                     </properties>
                   </component>
-                  <vspacer id="1268c">
-                    <constraints>
-                      <grid row="20" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
-                    </constraints>
-                  </vspacer>
                   <component id="6f012" class="javax.swing.JLabel" binding="grottoHeadline07">
                     <constraints>
                       <grid row="21" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                       <gridbag weightx="2.0" weighty="0.0"/>
                     </constraints>
                     <properties>
-                      <font name="Candara"/>
+                      <font name="Candara" style="2"/>
                       <foreground color="-1031"/>
                       <text value="Hyrule castle"/>
                     </properties>
@@ -3578,26 +3542,20 @@
                   <component id="eb204" class="javax.swing.JCheckBox" binding="grotto010Check">
                     <constraints>
                       <grid row="22" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
+                      <gridbag weightx="1.0" weighty="0.0"/>
                     </constraints>
                     <properties>
                       <background color="-13353669"/>
                       <text value=""/>
                     </properties>
                   </component>
-                  <vspacer id="59791">
-                    <constraints>
-                      <grid row="23" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
-                    </constraints>
-                  </vspacer>
                   <component id="5bcc4" class="javax.swing.JLabel" binding="grottoHeadline08">
                     <constraints>
                       <grid row="24" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                       <gridbag weightx="2.0" weighty="0.0"/>
                     </constraints>
                     <properties>
-                      <font name="Candara"/>
+                      <font name="Candara" style="2"/>
                       <foreground color="-1031"/>
                       <text value="Hyrule field"/>
                     </properties>
@@ -3616,7 +3574,7 @@
                   <component id="6367f" class="javax.swing.JCheckBox" binding="grotto011Check">
                     <constraints>
                       <grid row="25" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
+                      <gridbag weightx="1.0" weighty="0.0"/>
                     </constraints>
                     <properties>
                       <background color="-13353669"/>
@@ -3637,7 +3595,7 @@
                   <component id="60ba7" class="javax.swing.JCheckBox" binding="grotto012Check">
                     <constraints>
                       <grid row="26" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
+                      <gridbag weightx="1.0" weighty="0.0"/>
                     </constraints>
                     <properties>
                       <background color="-13353669"/>
@@ -3658,7 +3616,7 @@
                   <component id="90d3e" class="javax.swing.JCheckBox" binding="grotto013Check">
                     <constraints>
                       <grid row="27" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
+                      <gridbag weightx="1.0" weighty="0.0"/>
                     </constraints>
                     <properties>
                       <background color="-13353669"/>
@@ -3679,7 +3637,7 @@
                   <component id="6acf0" class="javax.swing.JCheckBox" binding="grotto014Check">
                     <constraints>
                       <grid row="28" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
+                      <gridbag weightx="1.0" weighty="0.0"/>
                     </constraints>
                     <properties>
                       <background color="-13353669"/>
@@ -3700,7 +3658,7 @@
                   <component id="16d8" class="javax.swing.JCheckBox" binding="grotto015Check">
                     <constraints>
                       <grid row="29" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
+                      <gridbag weightx="1.0" weighty="0.0"/>
                     </constraints>
                     <properties>
                       <background color="-13353669"/>
@@ -3721,7 +3679,7 @@
                   <component id="a3e3" class="javax.swing.JCheckBox" binding="grotto016Check">
                     <constraints>
                       <grid row="30" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
+                      <gridbag weightx="1.0" weighty="0.0"/>
                     </constraints>
                     <properties>
                       <background color="-13353669"/>
@@ -3742,26 +3700,20 @@
                   <component id="8efb6" class="javax.swing.JCheckBox" binding="grotto017Check">
                     <constraints>
                       <grid row="31" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
+                      <gridbag weightx="1.0" weighty="0.0"/>
                     </constraints>
                     <properties>
                       <background color="-13353669"/>
                       <text value=""/>
                     </properties>
                   </component>
-                  <vspacer id="4136c">
-                    <constraints>
-                      <grid row="32" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
-                    </constraints>
-                  </vspacer>
                   <component id="387fc" class="javax.swing.JLabel" binding="grottoHeadline09">
                     <constraints>
                       <grid row="33" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                       <gridbag weightx="2.0" weighty="0.0"/>
                     </constraints>
                     <properties>
-                      <font name="Candara"/>
+                      <font name="Candara" style="2"/>
                       <foreground color="-1031"/>
                       <text value="Kakariko village"/>
                     </properties>
@@ -3780,7 +3732,7 @@
                   <component id="7edb7" class="javax.swing.JCheckBox" binding="grotto018Check">
                     <constraints>
                       <grid row="34" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
+                      <gridbag weightx="1.0" weighty="0.0"/>
                     </constraints>
                     <properties>
                       <background color="-13353669"/>
@@ -3801,7 +3753,7 @@
                   <component id="eec4b" class="javax.swing.JCheckBox" binding="grotto019Check">
                     <constraints>
                       <grid row="35" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
+                      <gridbag weightx="1.0" weighty="0.0"/>
                     </constraints>
                     <properties>
                       <background color="-13353669"/>
@@ -3822,26 +3774,20 @@
                   <component id="d43f4" class="javax.swing.JCheckBox" binding="grotto020Check">
                     <constraints>
                       <grid row="36" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
+                      <gridbag weightx="1.0" weighty="0.0"/>
                     </constraints>
                     <properties>
                       <background color="-13353669"/>
                       <text value=""/>
                     </properties>
                   </component>
-                  <vspacer id="536f7">
-                    <constraints>
-                      <grid row="37" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
-                    </constraints>
-                  </vspacer>
                   <component id="a6c75" class="javax.swing.JLabel" binding="grottoHeadline10">
                     <constraints>
                       <grid row="38" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                       <gridbag weightx="2.0" weighty="0.0"/>
                     </constraints>
                     <properties>
-                      <font name="Candara"/>
+                      <font name="Candara" style="2"/>
                       <foreground color="-1031"/>
                       <text value="Kokiri village"/>
                     </properties>
@@ -3860,26 +3806,20 @@
                   <component id="5cea6" class="javax.swing.JCheckBox" binding="grotto021Check">
                     <constraints>
                       <grid row="39" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
+                      <gridbag weightx="1.0" weighty="0.0"/>
                     </constraints>
                     <properties>
                       <background color="-13353669"/>
                       <text value=""/>
                     </properties>
                   </component>
-                  <vspacer id="504df">
-                    <constraints>
-                      <grid row="40" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
-                    </constraints>
-                  </vspacer>
                   <component id="4989" class="javax.swing.JLabel" binding="grottoHeadline11">
                     <constraints>
                       <grid row="41" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                       <gridbag weightx="2.0" weighty="0.0"/>
                     </constraints>
                     <properties>
-                      <font name="Candara"/>
+                      <font name="Candara" style="2"/>
                       <foreground color="-1031"/>
                       <text value="Lake hylia"/>
                     </properties>
@@ -3898,26 +3838,20 @@
                   <component id="32d65" class="javax.swing.JCheckBox" binding="grotto022Check">
                     <constraints>
                       <grid row="42" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
+                      <gridbag weightx="1.0" weighty="0.0"/>
                     </constraints>
                     <properties>
                       <background color="-13353669"/>
                       <text value=""/>
                     </properties>
                   </component>
-                  <vspacer id="28c10">
-                    <constraints>
-                      <grid row="43" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
-                    </constraints>
-                  </vspacer>
                   <component id="2de29" class="javax.swing.JLabel" binding="grottoHeadline12">
                     <constraints>
                       <grid row="44" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                       <gridbag weightx="2.0" weighty="0.0"/>
                     </constraints>
                     <properties>
-                      <font name="Candara"/>
+                      <font name="Candara" style="2"/>
                       <foreground color="-1031"/>
                       <text value="Lon-Lon ranch"/>
                     </properties>
@@ -3936,26 +3870,20 @@
                   <component id="13f8" class="javax.swing.JCheckBox" binding="grotto023Check">
                     <constraints>
                       <grid row="45" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
+                      <gridbag weightx="1.0" weighty="0.0"/>
                     </constraints>
                     <properties>
                       <background color="-13353669"/>
                       <text value=""/>
                     </properties>
                   </component>
-                  <vspacer id="bc2c0">
-                    <constraints>
-                      <grid row="46" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
-                    </constraints>
-                  </vspacer>
                   <component id="a0f93" class="javax.swing.JLabel" binding="grottoHeadline13">
                     <constraints>
                       <grid row="47" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                       <gridbag weightx="2.0" weighty="0.0"/>
                     </constraints>
                     <properties>
-                      <font name="Candara"/>
+                      <font name="Candara" style="2"/>
                       <foreground color="-1031"/>
                       <text value="Lost woods"/>
                     </properties>
@@ -3974,7 +3902,7 @@
                   <component id="306aa" class="javax.swing.JCheckBox" binding="grotto024Check">
                     <constraints>
                       <grid row="48" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
+                      <gridbag weightx="1.0" weighty="0.0"/>
                     </constraints>
                     <properties>
                       <background color="-13353669"/>
@@ -3995,7 +3923,7 @@
                   <component id="6cacb" class="javax.swing.JCheckBox" binding="grotto025Check">
                     <constraints>
                       <grid row="49" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
+                      <gridbag weightx="1.0" weighty="0.0"/>
                     </constraints>
                     <properties>
                       <background color="-13353669"/>
@@ -4016,36 +3944,20 @@
                   <component id="e333b" class="javax.swing.JCheckBox" binding="grotto26Check">
                     <constraints>
                       <grid row="50" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
+                      <gridbag weightx="1.0" weighty="0.0"/>
                     </constraints>
                     <properties>
                       <background color="-13353669"/>
                       <text value=""/>
                     </properties>
                   </component>
-                  <component id="887f7" class="javax.swing.JCheckBox">
-                    <constraints>
-                      <grid row="51" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
-                    </constraints>
-                    <properties>
-                      <background color="-13353669"/>
-                      <text value=""/>
-                    </properties>
-                  </component>
-                  <vspacer id="4c663">
-                    <constraints>
-                      <grid row="51" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
-                    </constraints>
-                  </vspacer>
                   <component id="c6943" class="javax.swing.JLabel" binding="grottoHeadline14">
                     <constraints>
                       <grid row="52" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                       <gridbag weightx="2.0" weighty="0.0"/>
                     </constraints>
                     <properties>
-                      <font name="Candara"/>
+                      <font name="Candara" style="2"/>
                       <foreground color="-1031"/>
                       <text value="Secret forest maedow"/>
                     </properties>
@@ -4064,7 +3976,7 @@
                   <component id="1b8f0" class="javax.swing.JCheckBox" binding="grotto27Check">
                     <constraints>
                       <grid row="53" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
+                      <gridbag weightx="1.0" weighty="0.0"/>
                     </constraints>
                     <properties>
                       <background color="-13353669"/>
@@ -4085,7 +3997,7 @@
                   <component id="1bd9d" class="javax.swing.JCheckBox" binding="grotto028Check">
                     <constraints>
                       <grid row="54" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
+                      <gridbag weightx="1.0" weighty="0.0"/>
                     </constraints>
                     <properties>
                       <background color="-13353669"/>
@@ -4106,26 +4018,20 @@
                   <component id="51249" class="javax.swing.JCheckBox" binding="grotto029Check">
                     <constraints>
                       <grid row="55" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
+                      <gridbag weightx="1.0" weighty="0.0"/>
                     </constraints>
                     <properties>
                       <background color="-13353669"/>
                       <text value=""/>
                     </properties>
                   </component>
-                  <vspacer id="3b706">
-                    <constraints>
-                      <grid row="56" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
-                    </constraints>
-                  </vspacer>
                   <component id="dc480" class="javax.swing.JLabel" binding="grottoHeadline15">
                     <constraints>
                       <grid row="57" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                       <gridbag weightx="2.0" weighty="0.0"/>
                     </constraints>
                     <properties>
-                      <font name="Candara"/>
+                      <font name="Candara" style="2"/>
                       <foreground color="-1031"/>
                       <text value="Zoras River"/>
                     </properties>
@@ -4144,7 +4050,7 @@
                   <component id="4694b" class="javax.swing.JCheckBox" binding="grotto030Check">
                     <constraints>
                       <grid row="58" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
+                      <gridbag weightx="1.0" weighty="0.0"/>
                     </constraints>
                     <properties>
                       <background color="-13353669"/>
@@ -4165,7 +4071,7 @@
                   <component id="889a2" class="javax.swing.JCheckBox" binding="grotto031Check">
                     <constraints>
                       <grid row="59" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
+                      <gridbag weightx="1.0" weighty="0.0"/>
                     </constraints>
                     <properties>
                       <background color="-13353669"/>
@@ -4186,26 +4092,20 @@
                   <component id="afdda" class="javax.swing.JCheckBox" binding="grotto032Check">
                     <constraints>
                       <grid row="60" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
+                      <gridbag weightx="1.0" weighty="0.0"/>
                     </constraints>
                     <properties>
                       <background color="-13353669"/>
                       <text value=""/>
                     </properties>
                   </component>
-                  <vspacer id="b6b00">
-                    <constraints>
-                      <grid row="61" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
-                    </constraints>
-                  </vspacer>
                   <component id="fb171" class="javax.swing.JLabel" binding="grottoHeadline16">
                     <constraints>
                       <grid row="62" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                       <gridbag weightx="2.0" weighty="0.0"/>
                     </constraints>
                     <properties>
-                      <font name="Candara"/>
+                      <font name="Candara" style="2"/>
                       <foreground color="-1031"/>
                       <text value="Zoras domain"/>
                     </properties>
@@ -4224,13 +4124,238 @@
                   <component id="d2ca8" class="javax.swing.JCheckBox" binding="grotto033Check">
                     <constraints>
                       <grid row="63" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                      <gridbag weightx="0.0" weighty="0.0"/>
+                      <gridbag weightx="1.0" weighty="0.0"/>
                     </constraints>
                     <properties>
                       <background color="-13353669"/>
                       <text value=""/>
                     </properties>
                   </component>
+                  <grid id="63824" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <maximumSize width="20" height="20"/>
+                      <minimumSize width="20" height="20"/>
+                      <preferredSize width="20" height="10"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <grid id="9e44e" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <maximumSize width="20" height="20"/>
+                      <minimumSize width="20" height="20"/>
+                      <preferredSize width="20" height="10"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <grid id="31c17" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <maximumSize width="20" height="20"/>
+                      <minimumSize width="20" height="20"/>
+                      <preferredSize width="20" height="10"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <grid id="d7868" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <maximumSize width="20" height="20"/>
+                      <minimumSize width="20" height="20"/>
+                      <preferredSize width="20" height="10"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <grid id="396c9" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="17" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <maximumSize width="20" height="20"/>
+                      <minimumSize width="20" height="20"/>
+                      <preferredSize width="20" height="10"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <grid id="b8351" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="20" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <maximumSize width="20" height="20"/>
+                      <minimumSize width="20" height="20"/>
+                      <preferredSize width="20" height="10"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <grid id="f3343" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="23" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <maximumSize width="20" height="20"/>
+                      <minimumSize width="20" height="20"/>
+                      <preferredSize width="20" height="10"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <grid id="c0329" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="32" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <maximumSize width="20" height="20"/>
+                      <minimumSize width="20" height="20"/>
+                      <preferredSize width="20" height="10"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <grid id="81452" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="37" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <maximumSize width="20" height="20"/>
+                      <minimumSize width="20" height="20"/>
+                      <preferredSize width="20" height="10"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <grid id="1f6d9" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="40" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <maximumSize width="20" height="20"/>
+                      <minimumSize width="20" height="20"/>
+                      <preferredSize width="20" height="10"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <grid id="99a2b" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="43" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <maximumSize width="20" height="20"/>
+                      <minimumSize width="20" height="20"/>
+                      <preferredSize width="20" height="10"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <grid id="7d982" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="46" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <maximumSize width="20" height="20"/>
+                      <minimumSize width="20" height="20"/>
+                      <preferredSize width="20" height="10"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <grid id="b205b" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="51" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <maximumSize width="20" height="20"/>
+                      <minimumSize width="20" height="20"/>
+                      <preferredSize width="20" height="10"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <grid id="e9eea" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="56" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <maximumSize width="20" height="20"/>
+                      <minimumSize width="20" height="20"/>
+                      <preferredSize width="20" height="10"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <grid id="82633" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="61" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13353669"/>
+                      <maximumSize width="20" height="20"/>
+                      <minimumSize width="20" height="20"/>
+                      <preferredSize width="20" height="10"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
                 </children>
               </grid>
             </children>

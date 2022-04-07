@@ -1,4 +1,10 @@
 # Devlog
+_2022-04-07:_
+- bug fixing
+- making main window not resizeable or full screen
+- writing information about Patch 1.01 in Patch Notes
+- beginning with FAQ in README.md 
+> 
 
 _2022-03-30:_
 >- moving .jar file to root folder, to get better accessibility to application

@@ -71,3 +71,29 @@ Also I will change the readability of the information files.
 >Mac OS X, Windows 11, Windows 10, windows 7, Windows 8, Windows Vista, Windows XP, Linux
 
 Due to the fact that Java is a multiplatform programming languague, which means that after creating the final .jar file, it should be possible to run the application on Windows, Linux and Mac.
+
+<br>
+
+## FAQ
+> **Q:** Why can't I resize or toggle to fullscreen?
+> <br>
+> **A:** At the beginning of the project, liquid design 
+> patterns were out of my knowledge and I tried to implement
+> a fixed and solid design pattern.
+> <br>
+> <br>
+> The idea behind the sizing of the
+> item tracker was to keep it as small as possible in width and size. The 
+> main focus on your screen should be the game itself, not the tracker.
+> <br>
+> Most of today's standard screen size is at least 1920x1080 pixels, so I 
+> designed the item tracker to a minimal screen resolution of 1280x1024 to
+> make sure, most users won't have any issues with size and width.
+> <br>
+> <br>
+> The main reason why I disabled a resizeable window is, that the containers
+> of together belonging items stay together, and you don't need much time
+> to search for an item, so it makes you use the item tracker
+> more intuitive.
+> 
+> 
