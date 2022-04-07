@@ -7,7 +7,7 @@
 ## Version 1.0.1
 #### Releasedate: 2022-04-07
 
-###Added features: 
+### Added features: 
 > - none
 
 ### Added background functions:
@@ -18,4 +18,4 @@
 ### Solved issues: 
 > - Spacer within Grotto scroll panel are shown.
 > <br>
-> -  Known issue where Weird Egg Panel is not working 
+> - Known issue where Weird Egg Panel is not working 
