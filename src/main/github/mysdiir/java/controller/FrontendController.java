@@ -19,7 +19,6 @@ public class FrontendController {
     static int maxTriforceValue;
 
 
-
     public static void setItemToggle(JPanel PanelName) {
         PanelName = PanelName;
         JPanel finalPanelName = PanelName;
